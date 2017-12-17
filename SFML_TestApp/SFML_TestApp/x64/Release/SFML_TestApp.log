@@ -1,0 +1,5 @@
+﻿  sfml_testapp.cpp
+d:\projects\sfml_testapp\sfml_testapp\GraphMap.h(50): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+d:\projects\sfml_testapp\sfml_testapp\GraphMap.h(51): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+sfml_testapp.cpp(68): warning C4244: 'initializing': conversion from 'sf::Int64' to 'float', possible loss of data
+sfml_testapp.cpp(84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
