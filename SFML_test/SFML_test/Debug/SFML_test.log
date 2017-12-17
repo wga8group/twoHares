@@ -1,6 +1,0 @@
-﻿sfml-window-s-d.lib(JoystickImpl.cpp.obj) : error LNK2019: unresolved external symbol __imp__joyGetPosEx@8 referenced in function "public: static bool __cdecl sf::priv::JoystickImpl::isConnected(unsigned int)" (?isConnected@JoystickImpl@priv@sf@@SA_NI@Z)
-sfml-window-s-d.lib(JoystickImpl.cpp.obj) : error LNK2019: unresolved external symbol __imp__joyGetDevCapsW@12 referenced in function "public: bool __thiscall sf::priv::JoystickImpl::open(unsigned int)" (?open@JoystickImpl@priv@sf@@QAE_NI@Z)
-sfml-system-s-d.lib(SleepImpl.cpp.obj) : error LNK2019: unresolved external symbol __imp__timeGetDevCaps@8 referenced in function "void __cdecl sf::priv::sleepImpl(class sf::Time)" (?sleepImpl@priv@sf@@YAXVTime@2@@Z)
-sfml-system-s-d.lib(SleepImpl.cpp.obj) : error LNK2019: unresolved external symbol __imp__timeBeginPeriod@4 referenced in function "void __cdecl sf::priv::sleepImpl(class sf::Time)" (?sleepImpl@priv@sf@@YAXVTime@2@@Z)
-sfml-system-s-d.lib(SleepImpl.cpp.obj) : error LNK2019: unresolved external symbol __imp__timeEndPeriod@4 referenced in function "void __cdecl sf::priv::sleepImpl(class sf::Time)" (?sleepImpl@priv@sf@@YAXVTime@2@@Z)
-D:\Projects\SFML_test\Debug\SFML_test.exe : fatal error LNK1120: 5 unresolved externals
