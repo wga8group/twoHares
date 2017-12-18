@@ -15,11 +15,14 @@ public:
 	void MouseMove(float, float, float);
 
 	float x, y, w, h, dx, dy, speed, currentFrame, tempX, tempY;
-	int dir;
+	int dir, iSprWidth, iSprHeight;
 	String file;
 	Image image;
 	Texture texture;
 	Sprite sprite;
 	bool isMove;
 
+private:
+	void DoStepOnX(float time);
+	void DoStepOnY(float time);
 };

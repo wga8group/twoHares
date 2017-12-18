@@ -65,7 +65,7 @@ int main()
 				window.close();
 		}
 		
-		float time = clock.getElapsedTime().asMicroseconds();
+		float time = static_cast<float>(clock.getElapsedTime().asMicroseconds());
 		clock.restart();
 		time = time / 600;
 		//std::cout<<time<<"\n";

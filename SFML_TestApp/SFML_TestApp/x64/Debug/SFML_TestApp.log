@@ -1,1 +1,3 @@
-﻿  SFML_TestApp.vcxproj -> D:\Projects\SFML_TestApp\x64\Debug\SFML_TestApp.exe
+﻿  sfml_testapp.cpp
+d:\projects\sfml_testapp\sfml_testapp\sfml_testapp.cpp(84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SFML_TestApp.vcxproj -> D:\Projects\SFML_TestApp\x64\Debug\SFML_TestApp.exe

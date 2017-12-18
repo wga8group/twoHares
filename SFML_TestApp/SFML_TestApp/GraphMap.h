@@ -47,7 +47,7 @@ void move(CharacterMan player, float time, int tempX, int tempY) {
 	float distance = 0;
 	distance = sqrt((tempX - player.x)*(tempX - player.x) + (tempY - player.y)*(tempY - player.y));//считаем дистанцию (длину от точки А до точки Б). формула длины вектора
 	if (distance > 2) {//этим условием убираем дергание во время конечной позиции спрайта
-		player.x += 0.1*time*(tempX - player.x) / distance;//идем по иксу с помощью вектора нормали
-		player.y += 0.1*time*(tempY - player.y) / distance;//идем по игреку так же
+		player.x += static_cast<float>(0.1*time*(tempX - player.x) / distance);//идем по иксу с помощью вектора нормали
+		player.y += static_cast<float>(0.1*time*(tempY - player.y) / distance);//идем по игреку так же
 	}
 }
