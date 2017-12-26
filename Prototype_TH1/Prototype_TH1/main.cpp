@@ -4,8 +4,8 @@
 #include "Furniture.h"
 
 //внизу будет понятно, зачем эти две функции
-void MainDraw(RenderWindow &Window, Furniture Furn); 
-void MainDraw(RenderWindow &Window, Hero hero, float time);
+void MainDraw(RenderWindow &Window, Furniture &Furn); 
+void MainDraw(RenderWindow &Window, Hero &hero, float time);
 
 int main()
 {
@@ -29,8 +29,8 @@ int main()
 	Furniture BarBar("BarBar.png", 138, 227, 147.0, 37.0);
 	Furniture BarLamps("BarLamps.png", 93, 57, 158.0, 61.0);
 	
-	//Hero Player("all.png", 100, 200, 20.0, 60.0);  //одетый Денис
-	Hero Player("ProtagonistWalkNaked.png", 100, 200, 22.0, 60.0);  //раздетый Денис
+	//Hero Player("all.png", 100, 200, 20.0, 60.0);  //одетый Крэнк
+	Hero Player("ProtagonistWalkNaked.png", 100, 200, 22.0, 60.0);  //раздетый Крэнк
 
 	while (window.isOpen())
 	{
@@ -75,22 +75,21 @@ int main()
 		MainDraw(window, BarFrontDoor);
 		MainDraw(window, BarBar);
 		MainDraw(window, BarLamps);
-		Player.update(time); //почему-то не пашет update у Player в MainDraw
-		MainDraw(window, Player, time); //думаю дело в time
+		MainDraw(window, Player, time);
 
 		window.display();
 	}
 	return 0;
 }
 
-void MainDraw(RenderWindow &Window, Furniture Furn) {
+void MainDraw(RenderWindow &Window, Furniture &Furn) {
 	Furn.sprite.setScale(3, 3);
 	Furn.update();
 	Window.draw(Furn.sprite);
 }
 
-void MainDraw(RenderWindow &Window, Hero hero, float time) {
+void MainDraw(RenderWindow &Window, Hero &hero, float time) {
 	hero.sprite.setScale(3, 3);
-	//hero.update(time);
+	hero.update(time);
 	Window.draw(hero.sprite);
 }
