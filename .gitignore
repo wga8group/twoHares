@@ -1,37 +1,10 @@
 #Folder
 .vs
-
-# Prerequisites
-#*.d
-
-# Compiled Object files
-#*.slo
-#*.lo
-#*.o
-#*.obj
-
-# Precompiled Headers
-#*.gch
-#*.pch
-
-# Compiled Dynamic libraries
-#*.so
-#*.dylib
-#*.dll
-
-# Fortran module files
-#*.mod
-#*.smod
-
-# Compiled Static libraries
-#*.lai
-#*.la
-#*.a
-#*.lib
-
-# Executables
-#*.exe
-#*.out
-#*.app
 Prototype_TH2/Library/CurrentLayout.dwlt
 Prototype_TH2/Library/metadata/52/52a206b72a8f4f749c28d8b18b42dd19
+Prototype_TH2/Library/metadata/
+Prototype_TH2/Prototype_TH2.csproj
+Prototype_TH2/Library/shadercompiler-UnityShaderCompiler.exe0.log
+Prototype_TH2/Library/expandedItems
+Prototype_TH2/Library/assetDatabase3
+Prototype_TH2/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
