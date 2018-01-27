@@ -29,7 +29,7 @@ public class ChoiceMenu : MonoBehaviour {
 
     public void PlayAnt()
     {
-        SceneManager.LoadScene("Scenes/ANT/ANT");
+        SceneManager.LoadScene("Scenes/ANT/cutsceneTest");
     }
 
     public void PlayKris()
