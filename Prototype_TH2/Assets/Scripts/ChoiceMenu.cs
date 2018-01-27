@@ -37,9 +37,9 @@ public class ChoiceMenu : MonoBehaviour {
         SceneManager.LoadScene("Scenes/KRIS/KRIS");
     }
 
-    public void PlayAnn()
+    public void PlayMain()
     {
-        SceneManager.LoadScene("Scenes/ANN/ANN");
+        SceneManager.LoadScene("Scenes/MAIN/cut_scene_1");
     }
 
     public void PlayIlia () {
