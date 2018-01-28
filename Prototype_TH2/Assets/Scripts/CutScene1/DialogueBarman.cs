@@ -10,7 +10,8 @@ public class DialogueBarman : MonoBehaviour {
     private Text textComponent;
 
     public string[] DialogueStrings;
-    public float SecondsBetweenCharacters = 0.15f;
+    public float SecBetChar = 0.15f;
+    public float SecBetPhrase = 1.0f;
 
     // Use this for initialization
     void Start () {
@@ -23,7 +24,7 @@ public class DialogueBarman : MonoBehaviour {
         //if (Input.GetKeyDown(KeyCode.Return))
         if (Input.GetMouseButton(0))
         {
-
+            StopAllCoroutines();
             StartCoroutine(DisplayString(DialogueStrings[0]));
 
         }
@@ -44,11 +45,12 @@ public class DialogueBarman : MonoBehaviour {
             if (currentCharacterIndex < stringLength)
             {
 
-               yield return new WaitForSeconds(SecondsBetweenCharacters);
+               yield return new WaitForSeconds(SecBetChar);
 
             }
             else
             {
+                yield return new WaitForSeconds(SecBetPhrase);
                 break;
             }
         }

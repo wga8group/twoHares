@@ -7,7 +7,7 @@ public class PlayerWalk : MonoBehaviour {
     [SerializeField]
     private float speed = 10.0F;
 
-    new private Rigidbody2D rigidbody;
+    //new private Rigidbody2D rigidbody;
     private Animator animator;
     private SpriteRenderer sprite;
 
@@ -20,7 +20,7 @@ public class PlayerWalk : MonoBehaviour {
 
     private void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        //rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
 
