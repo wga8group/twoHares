@@ -30,5 +30,5 @@ EditorBuildSettings:
     path: Assets/Scenes/ILIA/ILIA.unity
     guid: 7417bcc8fa4c9af468e40bc72b6df931
   - enabled: 1
-    path: Assets/Scenes/MAIN/cut_scene_1.unity
-    guid: 2dcbf20347b04de41bcc81a8fe40a696
+    path: Assets/Scenes/MAIN/CutScene1.unity
+    guid: ed840b780184afd479fa5ba761355771

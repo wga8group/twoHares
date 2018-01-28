@@ -7,7 +7,6 @@ public class PlayerWalk : MonoBehaviour {
     [SerializeField]
     private float speed = 10.0F;
 
-    //new private Rigidbody2D rigidbody;
     private Animator animator;
     private SpriteRenderer sprite;
 
@@ -20,10 +19,8 @@ public class PlayerWalk : MonoBehaviour {
 
     private void Awake()
     {
-        //rigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sprite = GetComponentInChildren<SpriteRenderer>();
-
     }
 
     private void Update()
@@ -32,8 +29,7 @@ public class PlayerWalk : MonoBehaviour {
 
         if (Input.GetButton("Horizontal")) {
             Walk();
-        }
-           
+        }    
     }
 
     private void Walk()
@@ -45,8 +41,6 @@ public class PlayerWalk : MonoBehaviour {
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
         sprite.flipX = direction.x < 0.0F;
     }
-
-
 }
 
 

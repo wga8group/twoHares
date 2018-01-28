@@ -3,14 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+// Скрипт диалогового окна
+// Содержит поле имени, поле фразы, задержку между буквами
 public class DialogWindowScript : MonoBehaviour {
 
     public Text SpeakerName, SpeakerPhrase;
-    int MessageCooldown, currentMessageNum;
+    int MessageCooldown; 
+    int currentMessageNum;
+    private bool DiaologPause = false;
+
+    public Image black;
+    public Animator anim;
 
     Dialog CurrentDialog;
 
+    // Функция старта диалога
     public void StartDialog(Dialog.DialogType type)
     {
         currentMessageNum = 0;
@@ -19,6 +26,23 @@ public class DialogWindowScript : MonoBehaviour {
         ShowMessage();
     }
 
+    public void Pause()
+    {
+        DiaologPause = true;
+    }
+
+    public void Continue()
+    {
+        DiaologPause = false;
+    }
+
+    public bool DiologInPause()
+    {
+        return DiaologPause;
+    }
+
+
+    // Функция выводит сообщение
     void ShowMessage()
     {
         StopCoroutine("PrintMessage");
@@ -36,13 +60,14 @@ public class DialogWindowScript : MonoBehaviour {
         SpeakerName.text = currentPhrase.Speaker.Name;
 
         SpeakerPhrase.text = "";
+
         StopAllCoroutines();
         StartCoroutine(PrintMessage(currentPhrase.Message));
 
         currentMessageNum++;
     }
 
-
+    // Функция печатает сообщение по букввам
     IEnumerator PrintMessage(string message)
     {
         for(int i = 0; i < message.Length; i++)
@@ -52,23 +77,30 @@ public class DialogWindowScript : MonoBehaviour {
             if (i == message.Length - 1)
             {
                 StopAllCoroutines();
+                Pause();
                 StartCoroutine(NextMessage());
             }
             yield return new WaitForSeconds(.0001f);
-            
-           
         }
 
     }
 
-
+    // Функция выводит новое сообщение после кулдауна
     IEnumerator NextMessage()
     {
-        while(MessageCooldown > 0)
+
+        while (DiologInPause())
+        {
+            yield return null;
+        }
+
+        anim.SetBool("Fade", true);
+        while (MessageCooldown > 0)
         {
             MessageCooldown--;
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(0.5f);
         }
+        anim.SetBool("Fade", false);
 
         ShowMessage();
     }
@@ -77,6 +109,4 @@ public class DialogWindowScript : MonoBehaviour {
     {
 
     }
-
-
 }

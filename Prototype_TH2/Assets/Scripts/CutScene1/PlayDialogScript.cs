@@ -2,20 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class PlayDialogScript : MonoBehaviour {
 
     public Dialog.DialogType DialogType;
     public DialogWindowScript Dialog;
-
+    private bool IsStartDialog = true;
 
     void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Return))
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
-            Dialog.StartDialog(DialogType);
+            switch (IsStartDialog)
+            {
+                case true:
+                    Dialog.StartDialog(DialogType);
+                    IsStartDialog = false;
+                    break;
+                default:
+                    Dialog.Continue();
+                    break;
+            }
         }
+
     }
+
 }

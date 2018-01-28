@@ -39,7 +39,7 @@ public class ChoiceMenu : MonoBehaviour {
 
     public void PlayMain()
     {
-        SceneManager.LoadScene("Scenes/MAIN/cut_scene_1");
+        SceneManager.LoadScene("Scenes/MAIN/CutScene1");
     }
 
     public void PlayIlia () {
