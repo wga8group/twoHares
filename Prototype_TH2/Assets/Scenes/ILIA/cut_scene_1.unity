@@ -249,7 +249,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -260,7 +260,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.67777
+  orthographic size: 0.6733333
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -951,7 +951,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4797861415954358, guid: 1ee3ae629c0c67c408648f5613792cd1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.3622
+      value: -0.37
       objectReference: {fileID: 0}
     - target: {fileID: 4797861415954358, guid: 1ee3ae629c0c67c408648f5613792cd1, type: 2}
       propertyPath: m_LocalPosition.y
