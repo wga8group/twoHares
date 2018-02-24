@@ -5,14 +5,14 @@ using UnityEngine;
 public class PlayerWalk : MonoBehaviour {
 
     [SerializeField]
-    private float speed = 1.0F;
-
-    public float moveTime = 0.1F;
+    private float speed = 5.0F;
 
     private Animator animator;
     private SpriteRenderer sprite;
     private Vector3 mousePosition;
     private bool move;
+    private Vector3 topRightCorner;
+    private Vector3 lowerLeftCorner;
 
     private PlayerState State
     {
@@ -27,6 +27,8 @@ public class PlayerWalk : MonoBehaviour {
         sprite = GetComponentInChildren<SpriteRenderer>();
         mousePosition = transform.position;
         move = false;
+        topRightCorner = Camera.main.ScreenToWorldPoint(new Vector3(Camera.main.pixelWidth, Camera.main.pixelHeight, Camera.main.nearClipPlane));
+        lowerLeftCorner = Camera.main.ScreenToWorldPoint(new Vector3(0, 0, Camera.main.nearClipPlane));
     }
 
     private void Update()
@@ -34,28 +36,27 @@ public class PlayerWalk : MonoBehaviour {
         
         State = PlayerState.Idle;
 
-        if (Input.GetButton("Horizontal")) {
+        if (Input.GetButton("Horizontal")){
             Walk();
         }
 
-
-        /*Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 500000))
-        {
-
-        }*/
-        if (move == true)
-        {
+        if (move == true){
+            State = PlayerState.Walk;
             MouseWalk();
         }
 
-        
-        if (Input.GetMouseButtonDown(0))
-        {
+        if (Input.GetMouseButtonDown(0)){
+            State = PlayerState.Walk;
             SetMousePosition();
             move = true;
         }
+
+        /*Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, 500000)){
+
+        }*/
+
     }
 
     private void Walk()
@@ -77,32 +78,44 @@ public class PlayerWalk : MonoBehaviour {
 
     private void MouseWalk()
     {
-        State = PlayerState.Walk;
-        //Vector2 mousePos = new Vector2();
-        // Get the mouse position from Event.
-        // Note that the y position from Event is inverted.
-        // mousePos.x = Input.mousePosition.x;
-        //mousePos.y = c.pixelHeight - Input.mousePosition.y;
-        //Debug.Log("Screen pixels: " + c.pixelWidth + ":" + c.pixelHeight);
-        //Debug.Log("Mouse position: " + mousePos);
-        //Debug.Log("World position: " + mousePosition.ToString("F3"));
-        //Debug.Log("Transform position: " + transform.position.ToString("F3"));
+        //левая граница окна игры
+        if (mousePosition.x <= (lowerLeftCorner.x + 0.150F))
+        {
+            mousePosition.x = lowerLeftCorner.x + 0.150F;
+        }
+        //правая граница окна игры
+        if (mousePosition.x >= topRightCorner.x - 0.150F)
+        {
+            mousePosition.x = topRightCorner.x - 0.150F;
+        }
 
+        //диапазон точки назначния (близость к ней)
+        if (transform.position.x >= mousePosition.x - 0.02F && transform.position.x <= mousePosition.x + 0.02F){
+            move = false;
+            return;
+        }
+
+        //направление движения
         Vector3 direction = new Vector3(1, 0, 0);
+        sprite.flipX = false; //инвертация спарйта
         if (mousePosition.x < transform.position.x)
         {
-            direction.x = direction.x*(-1);
+            direction.x = direction.x * (-1);
+            sprite.flipX = true;
         }
 
-
+        //само смещение (движение)
         transform.position = Vector3.MoveTowards(transform.position, transform.position + direction, speed * Time.deltaTime);
 
-        if (transform.position.x >= mousePosition.x - 0.02F && transform.position.x <= mousePosition.x + 0.02F) 
-        {
-            move = false;
-        }
-      
-
+        //sprite.flipX = direction.x < 0.0F; //можно одной строчкой
+        //Vector2 mousePos = new Vector2(); //на будущее
+        // mousePos.x = Input.mousePosition.x;
+        // Note that the y position from Event is inverted.
+        //mousePos.y = c.pixelHeight - Input.mousePosition.y;
+        //Debug.Log("Screen pixels: " + Camera.main.pixelWidth + ":" + Camera.main.pixelHeight);
+        //Debug.Log("Mouse position: " + mousePos);
+        //Debug.Log("World mouse position: " + mousePosition.ToString("F3"));
+        //Debug.Log("Worldd object (Transform) position: " + transform.position.ToString("F3"));
     }
 
 
@@ -112,5 +125,5 @@ public class PlayerWalk : MonoBehaviour {
 public enum PlayerState
 {
     Idle,
-    Walk,
+    Walk
 }
