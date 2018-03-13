@@ -304,6 +304,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 50535220872567290, guid: 3e11722f560fd37498b30b8f266fb433,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3e11722f560fd37498b30b8f266fb433, type: 2}
   m_IsPrefabParent: 0
@@ -382,7 +387,7 @@ GameObject:
   - component: {fileID: 1990265224}
   m_Layer: 0
   m_Name: MainCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

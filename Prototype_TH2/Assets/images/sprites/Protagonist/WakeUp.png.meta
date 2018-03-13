@@ -1,17 +1,22 @@
 fileFormatVersion: 2
-guid: 80e30bbbac82a8041805beaecefa2aa3
-timeCreated: 1515751458
+guid: 112fbe35e6a84c841a0ccac0f011f6f4
+timeCreated: 1519381520
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ProtagonistWalk_0
-    21300002: ProtagonistWalk_1
-    21300004: ProtagonistWalk_2
-    21300006: ProtagonistWalk_3
-    21300008: ProtagonistWalk_4
-    21300010: ProtagonistWalk_5
-    21300012: ProtagonistWalk_6
-    21300014: ProtagonistWalk_7
+    21300000: WakeUp_0
+    21300002: WakeUp_1
+    21300004: WakeUp_2
+    21300006: WakeUp_3
+    21300008: WakeUp_4
+    21300010: WakeUp_5
+    21300012: WakeUp_6
+    21300014: WakeUp_7
+    21300016: WakeUp_8
+    21300018: WakeUp_9
+    21300020: WakeUp_10
+    21300022: WakeUp_11
+    21300024: WakeUp_12
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -84,68 +89,16 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ProtagonistWalk_0
+      name: WakeUp_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 6
-        width: 18
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ProtagonistWalk_1
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 6
-        width: 19
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ProtagonistWalk_2
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 6
-        width: 14
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: ProtagonistWalk_3
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 5
-        width: 15
+        x: 0
+        y: 0
+        width: 49
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -154,13 +107,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ProtagonistWalk_4
+      name: WakeUp_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 6
-        width: 17
-        height: 49
+        x: 49
+        y: 0
+        width: 49
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,13 +121,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ProtagonistWalk_5
+      name: WakeUp_2
       rect:
         serializedVersion: 2
-        x: 102
-        y: 6
-        width: 16
-        height: 48
+        x: 98
+        y: 0
+        width: 49
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,13 +135,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ProtagonistWalk_6
+      name: WakeUp_3
       rect:
         serializedVersion: 2
-        x: 123
-        y: 6
-        width: 14
-        height: 49
+        x: 147
+        y: 0
+        width: 49
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,12 +149,124 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: ProtagonistWalk_7
+      name: WakeUp_4
       rect:
         serializedVersion: 2
-        x: 142
-        y: 5
-        width: 15
+        x: 196
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_7
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_9
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_11
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WakeUp_12
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 49
         height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
