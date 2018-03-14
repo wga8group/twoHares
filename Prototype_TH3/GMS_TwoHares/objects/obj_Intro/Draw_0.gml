@@ -1,0 +1,1 @@
+draw_sprite(spr_Dialogue,0,0,135);
