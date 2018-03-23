@@ -1,3 +1,6 @@
+script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
+
+/*
 depth = -1*y;
 
 with (obj_Prot)

@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 if (blackoutEnable == false){
 	draw_set_color(c_white);
 	draw_set_halign(fa_left);
@@ -8,7 +9,8 @@ if (blackoutEnable == false){
 	draw_set_font(font0);
 	//show_debug_message(window_get_width());
 	//show_debug_message(window_get_height());
-	
+	//show_debug_message(message);
+
 	if window_get_width() == 1920 && window_get_height() >= 1060 {
 		//draw_set_font(font0);
 		draw_text_ext(window_get_width()*1/30,window_get_height()*24/30, message, 20, window_get_width()*27/30);
@@ -16,7 +18,7 @@ if (blackoutEnable == false){
 	}
 	
 	if window_get_width() == 1366 && window_get_height() >= 700 && window_get_height() < 880 {
-		draw_text_ext(window_get_width()*1/30,window_get_height()*22/30, message, 20, window_get_width()*27/30);
+		draw_text_ext(window_get_width()*1/30,window_get_height()*24/30, message, 20, window_get_width()*27/30);
 	return undefined;
 	}
 
@@ -44,6 +46,7 @@ if (blackoutEnable == false){
 		draw_text_ext(window_get_width()*1/30,window_get_height()*18/30, message, 20, window_get_width()*27/30);
 	return undefined;
 	}
-	
+
 	draw_text_ext(window_get_width()*1/30,window_get_height()*21/30, message, 20, window_get_width()*27/30);
 }
+

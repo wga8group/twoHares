@@ -51,21 +51,7 @@ if (blackoutEnable == true)
 			argument0.image_alpha = clamp(argument0.image_alpha - 0.1, 0, 1)
 		}
 	}
-	
-	/*if (ChangeAnimation == true) && (blackoutTime <= blackoutDuration/2){
-		argument1.sprite_index = spriteIndex;
-		argument1.image_index = 0.5;
-		bartenderImageNumber = sprite_get_number(argument1.sprite_index)
-		if (argument1.image_speed <= 0) {		
-			argument1.image_speed = 1;
-		}
-		argument2.image_index = 0.5;
-		argument2.image_speed = 1;
-			
-			
-		ChangeAnimation = false;
-	}*/
-	
+
 	blackoutTime -= 1;
 }
 
