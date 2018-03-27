@@ -20,8 +20,7 @@ if mouse_check_button_pressed(mb_left) {
 			break;
 			
 			case cutSceneStates.Four:
-				show_message("Скажите, что я лучший!");
-				room_goto(room_MainMenu);
+				room_goto(global.rmHomeFirstLevel);
 			break;
 
 		}

@@ -2,7 +2,7 @@
 {
     "name": "room_BarCutScene1",
     "id": "22d9580c-dc75-45a1-a553-33747210b937",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -16,7 +16,7 @@
         "27ea2af8-b846-4643-9b4b-abb38c28b4f2",
         "5b6004fb-ca67-4603-bc7a-20123ddfce39"
     ],
-    "IsDnD": true,
+    "IsDnD": false,
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",

@@ -4,7 +4,10 @@ visible = false;
 depth = -1*y;
 
 
-firstClick = true;
+clickCount = 0;
+messageCount = 1;
 charactersNumber = 0;
 printText = "";
-message = "Ммм, ништячок";
+message[1] = "Ммм, ништячок";
+message[2] = "Ммм, ништячок";
+

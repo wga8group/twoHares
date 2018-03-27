@@ -42,7 +42,7 @@
             "Key": "0412d7c3-b9d1-4774-adf3-cdcbfa26c2ba",
             "Value": {
                 "id": "369688fb-11be-4dd9-ab90-a38684291ec8",
-                "resourcePath": "objects\\obj_Door\\obj_Door.yy",
+                "resourcePath": "objects\\obj_DoorHome1\\obj_DoorHome1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "2e5a04d4-9569-40ac-8d67-d5fd63f39048",
             "Value": {
                 "id": "4513b90f-b536-4d54-b9a9-3ba0b7a5d84f",
-                "resourcePath": "rooms\\room_Home1\\room_Home1.yy",
+                "resourcePath": "rooms\\room_HomeFirstLevel\\room_HomeFirstLevel.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -458,7 +458,7 @@
             "Key": "90b155ca-b840-447d-81d9-718e6f3b77ec",
             "Value": {
                 "id": "a9e82294-2d61-4e31-80d8-fd2898e6fdeb",
-                "resourcePath": "objects\\obj_DialogueTest\\obj_DialogueTest.yy",
+                "resourcePath": "objects\\obj_Dialogue\\obj_Dialogue.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -583,14 +583,6 @@
             }
         },
         {
-            "Key": "b9084748-ab63-4d01-9e02-dc5a9f66a4cf",
-            "Value": {
-                "id": "6b7de16e-3f96-415d-a8b0-3ccd612f32e3",
-                "resourcePath": "objects\\obj_Dialogue\\obj_Dialogue.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bca23580-4086-4a14-8591-48df3b41427f",
             "Value": {
                 "id": "e3a830aa-0a41-40af-8cd6-e3a6a550f60a",
@@ -652,6 +644,14 @@
                 "id": "8becbd96-c502-4ade-bb44-857078eb93a6",
                 "resourcePath": "sounds\\WipeGlass\\WipeGlass.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d1ee7a10-9900-4884-a427-57400d4f4f52",
+            "Value": {
+                "id": "247517ea-120e-49f1-b86b-64fc0ed800b1",
+                "resourcePath": "scripts\\ScriptCanBeTake\\ScriptCanBeTake.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -832,7 +832,8 @@
         "faebcaa9-6c3a-4500-958b-c0c08462b899",
         "98817d68-837d-4743-ab68-8c536d519286",
         "a937c5c6-2357-450f-9381-92db3c78ff81",
-        "416b6820-951b-4ecd-961d-a581a8d47608"
+        "416b6820-951b-4ecd-961d-a581a8d47608",
+        "d1ee7a10-9900-4884-a427-57400d4f4f52"
     ],
     "tutorial": ""
 }
