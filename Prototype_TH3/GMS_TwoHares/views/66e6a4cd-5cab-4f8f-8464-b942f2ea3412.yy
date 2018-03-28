@@ -10,7 +10,8 @@
         "e310c3f8-2378-4f88-977f-76e53e2920f3",
         "e3cfacd9-ce89-4802-9e39-cbce37371c72",
         "d71f25ef-288b-4524-be77-f3864a9840c9",
-        "528d92ba-e736-4857-b59e-7ec1c7b3acbd"
+        "528d92ba-e736-4857-b59e-7ec1c7b3acbd",
+        "9e02d8a8-c2e2-47ac-b886-6ec763bc7432"
     ],
     "filterType": "GMSprite",
     "folderName": "sprProtagonist",

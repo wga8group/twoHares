@@ -7,15 +7,15 @@ if (ScriptCanBeTake(self,global.objProtagonist) == true){
 	global.objDialogue.printText = "";
 	switch(irandom(2)){
 		case 0:
-			global.objDialogue.message[1] = "Не скучай Борысс.";
+			global.objDialogue.message[1] = "ТОМ: \nНе скучай Борысс.";
 			break;
 		case 1:
-			global.objDialogue.message[1] = "Мой кот Борысс, люблю его.";
+			global.objDialogue.message[1] = "ТОМ: \nМой кот Борысс, люблю его.";
 			break;
 		case 2:
-			global.objDialogue.message[1] = "Подъем, Борысс!";
+			global.objDialogue.message[1] = "ТОМ: \nПодъем, Борысс!";
 			break;
 		default:
-			global.objDialogue.message[1] = "Не скучай Борысс.";
+			global.objDialogue.message[1] = "ТОМ: \nНе скучай Борысс.";
 	}
 }

@@ -6,6 +6,6 @@ if (ScriptCanBeTake(self,global.objProtagonist) == true){
 	global.objDialogue.visible = true;
 	global.objDialogue.messageCount = 1;
 	global.objDialogue.printText = "";
-	global.objDialogue.message[1] = "Ммм, ништячок";
+	global.objDialogue.message[1] = "ТОМ: \nМмм, ништячок";
 	instance_destroy(self,true);
 }
