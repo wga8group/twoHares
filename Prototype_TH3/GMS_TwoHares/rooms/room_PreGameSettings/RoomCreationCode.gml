@@ -11,9 +11,14 @@ global.rmHomeFirstLevel = room_HomeFirstLevel;
 //Название объектов
 global.objProtagonist = obj_Prot;
 global.objDialogue = obj_Dialogue;
+global.objFirstLevelLogic = obj_FirstLevelLogic;
+
+//Название стилей текста
+global.fontStyle1 = font0;
 
 //Названия спрайтов
 global.sprDialogue = spr_Dialogue;
-
+global.sprProtWakeUp = spr_ProtWakeUp;
+global.sprProtDressIdleRight = spr_ProtIdleRight;
 
 room_goto(room_MainMenu);

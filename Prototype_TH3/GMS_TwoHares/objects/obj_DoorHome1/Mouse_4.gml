@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-show_debug_message(global.itemsPickUpCount);
-if (ScriptCanBeTake(obj_DoorHome1,global.objProtagonist) == true){
-	if global.itemsPickUpCount >= 3 {
+
+if (ScriptCanBeTake(self,global.objProtagonist) == true){
+	if global.objFirstLevelLogic.itemsPickUpCount >= 3 {
 		room_goto(global.rmMainMenu);
 	}
 	else{
