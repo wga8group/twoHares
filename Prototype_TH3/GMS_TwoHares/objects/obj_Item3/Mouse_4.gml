@@ -5,6 +5,6 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.visible = true;
 		global.objDialogue.messageCount = 1;
 		global.objDialogue.printText = "";
-		global.objDialogue.message[1] = "ТОМ: \nЯ и батя. Золотые времена. Помню, как однажды на рыбалке, он сказал: “ЯЯЯЯЯЗЬ, ЗДОРОВЕННЫЙ ЯЗЬ!";
+		global.objDialogue.message[1] = "ТОМ: \nЯ и отец. Золотые времена. Помню, как однажды на рыбалке, он сказал: ''Плохо сожалеть о том, что не так жил. Живи сразу как надо.''  Эх, сложно это все...";
 	}
 }

@@ -5,6 +5,6 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.visible = true;
 		global.objDialogue.messageCount = 1;
 		global.objDialogue.printText = "";
-		global.objDialogue.message[1] = "ТОМ: \nНаграда за первое место в мотокроссе ….И ведь тогда моя жизнь имела смысл.";
+		global.objDialogue.message[1] = "ТОМ: \nНаграда за первое место в мотокроссе. И ведь тогда моя жизнь имела смысл...";
 	}
 }

@@ -6,7 +6,8 @@ draw_set_font(global.fontStyle1);
 
 if window_get_width() == 1920 && window_get_height() >= 1060 {
 	//draw_set_font(font0);
-	draw_text_ext(window_get_width()*3/60,window_get_height()*48/60, argument0, 20, window_get_width()*54/60);
+	//draw_text_ext(window_get_width()*3/60,window_get_height()*48/60, argument0, 20, window_get_width()*54/60);
+	draw_text_ext_transformed(window_get_width()*2/60,window_get_height()*47/60, argument0, 20, window_get_width()*22/60,2.5,2.5,0);
 return undefined;
 }
 	

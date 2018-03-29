@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "2d276c87-5fff-4d7b-a248-697dc8afa25d",
+            "Value": {
+                "id": "476d6e8a-db88-43b1-87c7-d84560a39933",
+                "resourcePath": "sprites\\spr_ProtWalkNakedLeft\\spr_ProtWalkNakedLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e5a04d4-9569-40ac-8d67-d5fd63f39048",
             "Value": {
                 "id": "4513b90f-b536-4d54-b9a9-3ba0b7a5d84f",
@@ -644,14 +652,6 @@
                 "id": "843c013b-d5b1-493d-85a1-cdaaf4409e58",
                 "resourcePath": "datafiles_yy\\D-determination.otf.yy",
                 "resourceType": "GMIncludedFile"
-            }
-        },
-        {
-            "Key": "9e02d8a8-c2e2-47ac-b886-6ec763bc7432",
-            "Value": {
-                "id": "46cda39e-0697-4c79-b1dc-dac1dd2dba99",
-                "resourcePath": "sprites\\spr_ProtWalkNakedLeft\\spr_ProtWalkNakedLeft.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

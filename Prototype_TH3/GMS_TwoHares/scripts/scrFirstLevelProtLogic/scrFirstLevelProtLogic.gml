@@ -10,10 +10,11 @@ switch(currentState)
 		if (argument0.image_index >= sprite_get_number(argument0.sprite_index)-1){
 			argument0.sprite_index = global.sprProtNakedIdleRight;
 			global.objDialogue.visible = true;
-			global.objDialogue.messageCount = 1;
+			global.objDialogue.messageCount = 2;
 			global.objDialogue.printText = "";
 			global.objDialogue.clickCount += 1;
-			global.objDialogue.message[1] = "Оох, моя голова.. Так, нужно быстрее собраться на работу, главное ничего не забыть.";
+			global.objDialogue.message[1] = "ТОМ: \nОох, моя голова...";
+			global.objDialogue.message[2] = "ТОМ: \nТак, нужно быстрее собраться на работу, главное ничего не забыть.";
 			currentState = characterStates.NakedWalk;
 		}			
 	break;
