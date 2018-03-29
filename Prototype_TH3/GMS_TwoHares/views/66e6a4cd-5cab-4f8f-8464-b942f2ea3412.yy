@@ -11,7 +11,9 @@
         "e3cfacd9-ce89-4802-9e39-cbce37371c72",
         "d71f25ef-288b-4524-be77-f3864a9840c9",
         "528d92ba-e736-4857-b59e-7ec1c7b3acbd",
-        "9e02d8a8-c2e2-47ac-b886-6ec763bc7432"
+        "9e02d8a8-c2e2-47ac-b886-6ec763bc7432",
+        "1a4a70e8-1f0f-4332-abd5-17f3cf510aa1",
+        "2a0aad89-3cfb-4dcb-8f3b-7522be9568fd"
     ],
     "filterType": "GMSprite",
     "folderName": "sprProtagonist",

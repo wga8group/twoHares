@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1a4a70e8-1f0f-4332-abd5-17f3cf510aa1",
+            "Value": {
+                "id": "18fdce30-3331-42d4-a515-da1e22ece9f7",
+                "resourcePath": "sprites\\spr_ProtIdleNakedLeft\\spr_ProtIdleNakedLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bb07cdf-8365-49ea-b8d6-593d43a5fce7",
             "Value": {
                 "id": "311b7a24-c19c-4b38-a474-46970a32e916",
@@ -163,6 +171,14 @@
             "Value": {
                 "id": "f3046e26-01f8-4d38-82ed-381743b5d5ab",
                 "resourcePath": "sprites\\spr_RoomCup\\spr_RoomCup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2a0aad89-3cfb-4dcb-8f3b-7522be9568fd",
+            "Value": {
+                "id": "b197f219-efd7-435d-87fc-765f3d7fd1a2",
+                "resourcePath": "sprites\\spr_ProtIdleNakedRight\\spr_ProtIdleNakedRight.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -981,12 +997,12 @@
         "f25581d1-e291-4a0a-95ab-57eeaefd7bf6",
         "5da21f7f-ab6b-4dcd-9ff0-ee5b2331183e",
         "a9b21a01-d101-4888-93d4-2d90af7d967b",
-        "faebcaa9-6c3a-4500-958b-c0c08462b899",
-        "98817d68-837d-4743-ab68-8c536d519286",
-        "a937c5c6-2357-450f-9381-92db3c78ff81",
         "416b6820-951b-4ecd-961d-a581a8d47608",
         "d1ee7a10-9900-4884-a427-57400d4f4f52",
         "415cbb15-0c52-46b1-8774-05683fd62d0c",
+        "faebcaa9-6c3a-4500-958b-c0c08462b899",
+        "98817d68-837d-4743-ab68-8c536d519286",
+        "a937c5c6-2357-450f-9381-92db3c78ff81",
         "300b2654-dc24-4622-be97-e1190e755ab5",
         "1f8b8050-6e1e-4739-b158-e2be616b5d70"
     ],
