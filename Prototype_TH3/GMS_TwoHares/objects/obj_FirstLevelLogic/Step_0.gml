@@ -3,4 +3,5 @@
 
 //Переключение в полный экран
 script_execute(ToggleFullscreen);
-script_execute(ProtLogicFirstLevel,global.objProtagonist);
+script_execute(scrFirstLevelProtLogic,global.objProtagonist);
+script_execute(scrFirstLevelBlackoutLogic,global.objBlackout);

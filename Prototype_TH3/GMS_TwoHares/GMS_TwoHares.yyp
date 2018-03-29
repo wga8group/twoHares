@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1f8b8050-6e1e-4739-b158-e2be616b5d70",
+            "Value": {
+                "id": "79acfbd8-c6a2-4732-a2de-ece78f1f2777",
+                "resourcePath": "scripts\\scrFirstLevelBlackoutLogic\\scrFirstLevelBlackoutLogic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22d9580c-dc75-45a1-a553-33747210b937",
             "Value": {
                 "id": "63f335f1-2e43-4c43-af6c-e88e38696e94",
@@ -186,7 +194,7 @@
             "Key": "300b2654-dc24-4622-be97-e1190e755ab5",
             "Value": {
                 "id": "3526d1e1-3610-48e2-a69e-b02cb0bea5c2",
-                "resourcePath": "scripts\\ProtLogicFirstLevel\\ProtLogicFirstLevel.yy",
+                "resourcePath": "scripts\\scrFirstLevelProtLogic\\scrFirstLevelProtLogic.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -979,7 +987,8 @@
         "416b6820-951b-4ecd-961d-a581a8d47608",
         "d1ee7a10-9900-4884-a427-57400d4f4f52",
         "415cbb15-0c52-46b1-8774-05683fd62d0c",
-        "300b2654-dc24-4622-be97-e1190e755ab5"
+        "300b2654-dc24-4622-be97-e1190e755ab5",
+        "1f8b8050-6e1e-4739-b158-e2be616b5d70"
     ],
     "tutorial": ""
 }

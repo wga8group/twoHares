@@ -12,6 +12,7 @@ global.rmHomeFirstLevel = room_HomeFirstLevel;
 global.objProtagonist = obj_Prot;
 global.objDialogue = obj_Dialogue;
 global.objFirstLevelLogic = obj_FirstLevelLogic;
+global.objBlackout = obj_Blackout;
 
 //Название стилей текста
 global.fontStyle1 = font0;
@@ -20,5 +21,8 @@ global.fontStyle1 = font0;
 global.sprDialogue = spr_Dialogue;
 global.sprProtWakeUp = spr_ProtWakeUp;
 global.sprProtDressIdleRight = spr_ProtIdleRight;
+
+//глобальные переменные логики
+global.StateBlockHeroAction = true;
 
 room_goto(room_MainMenu);

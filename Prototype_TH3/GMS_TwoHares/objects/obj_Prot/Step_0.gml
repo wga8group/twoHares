@@ -1,6 +1,43 @@
-if global.objFirstLevelLogic.currentState != characterStates.WakeUp {
-	script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
+switch(global.objFirstLevelLogic.currentState) 
+{
+	case characterStates.NakedWalk:
+		if not global.StateBlockHeroAction {
+			script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkNakedLeft, spr_ProtWalkNakedRight);
+		}
+		else{
+	        if (direction >= 90 && direction < 270)
+	        {
+	            sprite_index = spr_ProtIdleLeft;
+	        }
+	        else
+	        {
+	            sprite_index = spr_ProtIdleRight;
+	        }		
+		}
+	break;	
+
+	case characterStates.DressedWalk:
+		if not global.StateBlockHeroAction {
+			script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
+		}
+		else{
+	        if (direction >= 90 && direction < 270)
+	        {
+	            sprite_index = spr_ProtIdleLeft;
+	        }
+	        else
+	        {
+	            sprite_index = spr_ProtIdleRight;
+	        }
+		}
+	break;
+	
+	default:
+	
+	break;			
 }
+	
+	
 /*
 depth = -1*y;
 
