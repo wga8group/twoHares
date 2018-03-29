@@ -21,6 +21,7 @@ global.fontStyle1 = font0;
 global.sprDialogue = spr_Dialogue;
 global.sprProtWakeUp = spr_ProtWakeUp;
 global.sprProtDressIdleRight = spr_ProtIdleRight;
+global.sprProtNakedIdleRight = spr_ProtIdleNakedRight;
 
 //глобальные переменные логики
 global.StateBlockHeroAction = true;

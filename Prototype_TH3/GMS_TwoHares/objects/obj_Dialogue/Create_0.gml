@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 visible = false;
-depth = -1*y;
+depth = -1000;
 
 
 clickCount = 0;

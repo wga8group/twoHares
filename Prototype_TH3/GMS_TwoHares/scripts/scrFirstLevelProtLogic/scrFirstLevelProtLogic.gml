@@ -8,7 +8,7 @@ switch(currentState)
 		argument0.image_speed = 1;
 		OnePlayAnimation(argument0);
 		if (argument0.image_index >= sprite_get_number(argument0.sprite_index)-1){
-			argument0.sprite_index = global.sprProtDressIdleRight;
+			argument0.sprite_index = global.sprProtNakedIdleRight;
 			global.objDialogue.visible = true;
 			global.objDialogue.messageCount = 1;
 			global.objDialogue.printText = "";
@@ -19,6 +19,10 @@ switch(currentState)
 	break;
 	
 	case characterStates.NakedWalk:
+
+	break;	
+
+	case characterStates.DressingUp:
 
 	break;	
 

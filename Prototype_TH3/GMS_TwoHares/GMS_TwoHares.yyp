@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "5cd42f15-b947-43dc-b797-313ecbed28f7",
+            "Value": {
+                "id": "3b2f8592-74d9-454b-972e-3dc6ce07af53",
+                "resourcePath": "sprites\\spr_Empty3\\spr_Empty3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5cf36c5a-bcc5-43f0-8461-b8910432cd66",
             "Value": {
                 "id": "7b30e885-a295-4cb3-85a3-aa70190b6dba",
@@ -532,6 +540,14 @@
                 "id": "b7eb087c-9438-4492-956f-301ffaa8e015",
                 "resourcePath": "sprites\\spr_BarDeck\\spr_BarDeck.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7cfa702c-8cd6-482f-a91b-be92b264de6e",
+            "Value": {
+                "id": "ef523c77-28fd-43fb-b664-7d7808bb1911",
+                "resourcePath": "objects\\obj_FirstNews\\obj_FirstNews.yy",
+                "resourceType": "GMObject"
             }
         },
         {

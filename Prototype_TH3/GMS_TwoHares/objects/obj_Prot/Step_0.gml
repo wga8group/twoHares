@@ -2,16 +2,16 @@ switch(global.objFirstLevelLogic.currentState)
 {
 	case characterStates.NakedWalk:
 		if not global.StateBlockHeroAction {
-			script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkNakedLeft, spr_ProtWalkNakedRight);
+			script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleNakedLeft, spr_ProtIdleNakedRight, spr_ProtWalkNakedLeft, spr_ProtWalkNakedRight);
 		}
 		else{
 	        if (direction >= 90 && direction < 270)
 	        {
-	            sprite_index = spr_ProtIdleLeft;
+	            sprite_index = spr_ProtIdleNakedLeft;
 	        }
 	        else
 	        {
-	            sprite_index = spr_ProtIdleRight;
+	            sprite_index = spr_ProtIdleNakedRight;
 	        }		
 		}
 	break;	
