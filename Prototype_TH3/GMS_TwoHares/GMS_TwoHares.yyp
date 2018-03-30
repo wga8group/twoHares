@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "28af079b-a49e-49a3-9f8b-5e5eedee9fdc",
+            "Value": {
+                "id": "2e2bf3b3-4ead-4edf-a320-317839f20a47",
+                "resourcePath": "sprites\\spr_CursorClick\\spr_CursorClick.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29d82513-3c8a-4e7f-8338-fe09cc63c386",
             "Value": {
                 "id": "f3046e26-01f8-4d38-82ed-381743b5d5ab",
@@ -363,6 +371,14 @@
             "Value": {
                 "id": "6e560cf9-1693-4ec7-be6e-addc0e073732",
                 "resourcePath": "sprites\\spr_ProtWalkNakedRight\\spr_ProtWalkNakedRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "52c9ca5f-c286-4c8e-8b37-42b0f78d23c9",
+            "Value": {
+                "id": "f7b50f43-32a7-4ff3-a9d4-381e53ca6596",
+                "resourcePath": "sprites\\spr_CursorObjectClick\\spr_CursorObjectClick.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -564,6 +580,14 @@
                 "id": "4e6d4fce-94e5-4467-93e3-327776d345fb",
                 "resourcePath": "objects\\obj_barFrontDoor\\obj_barFrontDoor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7f581914-946b-4132-ae68-f98b08c78433",
+            "Value": {
+                "id": "8d848fea-4aa2-4e4e-b573-a86f39b508ac",
+                "resourcePath": "sprites\\spr_CursorMain\\spr_CursorMain.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -788,6 +812,14 @@
                 "id": "ba1b0c82-ef4a-40a5-8ffc-9f52ba49f439",
                 "resourcePath": "views\\c97bd6d2-07c9-4feb-ab9c-1951d9c86186.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc0cbb8f-c5f3-41be-9941-d8a480ad1b9e",
+            "Value": {
+                "id": "f8bb4fbe-9f3f-43df-babc-f1c7ecb04bda",
+                "resourcePath": "sprites\\spr_CursorObjectMain\\spr_CursorObjectMain.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
