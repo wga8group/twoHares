@@ -6,7 +6,8 @@
     "children": [
         "4dc797cd-ead7-498c-9b6e-33763af7dfec",
         "9c97ef69-7900-4d59-9645-8ff765e11fd5",
-        "8312b76d-8e6e-4033-a230-a4e8f63b5042"
+        "8312b76d-8e6e-4033-a230-a4e8f63b5042",
+        "461eba54-4d45-4043-87c1-47d12ff122c8"
     ],
     "filterType": "GMObject",
     "folderName": "Inventory",

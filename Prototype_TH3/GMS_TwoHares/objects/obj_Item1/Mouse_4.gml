@@ -11,5 +11,6 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.message[3] =	"ТОМ: \nИ как это понимать? Что найти?...Черт, говорили же мне переходить на Ubuntu..."
 
 		instance_destroy(self,true);
+		//show_debug_message(global.objFirstLevelLogic.phonePickUp);   //для дебага
 	}
 }

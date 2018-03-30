@@ -16,7 +16,9 @@ global.objBlackout = obj_Blackout;
 global.objInventoryTable = obj_InventoryTable;
 global.objInventoryButtonOpen = obj_InventoryButton_open;
 global.objInventorryButtonClose = obj_InventorryButton_close;
- 
+global.objInventoryPhone = obj_InventoryPhone;
+
+
 //Название стилей текста
 global.fontStyle1 = font0;
 
@@ -27,6 +29,7 @@ global.sprProtDressIdleRight = spr_ProtIdleRight;
 global.sprProtNakedIdleRight = spr_ProtIdleNakedRight;
 global.sprInventoryTable = spr_InventoryTable;
 global.sprInventoryButton = spr_InventoryButton;
+global.sprInventoryPhone = spr_InventoryPhone;
 
 //глобальные переменные логики
 global.StateBlockHeroAction = true;
