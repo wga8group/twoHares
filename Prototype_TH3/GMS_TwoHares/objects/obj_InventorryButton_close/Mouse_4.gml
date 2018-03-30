@@ -5,4 +5,5 @@ if(global.objInventoryTable.visible)
 	global.objInventoryTable.visible=false;
 	global.objInventoryButtonOpen.visible = true;
 	global.objInventorryButtonClose.visible = false;
+	global.objInventoryPhone.visible = false;
 }
