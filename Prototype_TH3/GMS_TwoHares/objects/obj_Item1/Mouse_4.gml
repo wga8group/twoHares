@@ -6,9 +6,9 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.visible = true;
 		global.objDialogue.messageCount = 3;
 		global.objDialogue.printText = "";
-		global.objDialogue.message[1] = "НЕИЗВЕСТНЫЙ АБОНЕНТ:\nИсследовав Ваши Google-запросы, мы вычислили Вас и назвали нашим соратником. Мы - Организация. Но также мы - никто. Мы полностью анонимное сообщество, подготавливающее общество к тому, чтобы оно могло сбросить свои рабские оковы.";
-		global.objDialogue.message[2] = "НЕИЗВЕСТНЫЙ АБОНЕНТ:\nМы знаем кто Вы, Томас Фишер и как вы можете послужить нашему благому делу. Думаю, вы в курсе последних событий. Если нет, подойдите к компьютеру и освежите память. Мы думаем, что Ваш босс может быть к этому причастен. Найдите...";
-		global.objDialogue.message[3] =	"ТОМ: \nИ как это понимать? Что найти?...Черт, говорили же мне переходить на Ubuntu..."
+		global.objDialogue.message[1] = global.textFirstLevelItem1_1;
+		global.objDialogue.message[2] = global.textFirstLevelItem1_2;
+		global.objDialogue.message[3] =	global.textFirstLevelItem1_3;
 
 		instance_destroy(self,true);
 		//show_debug_message(global.objFirstLevelLogic.phonePickUp);   //для дебага

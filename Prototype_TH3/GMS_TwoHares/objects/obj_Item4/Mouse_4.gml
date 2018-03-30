@@ -7,16 +7,17 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.printText = "";
 		switch(irandom(2)){
 			case 0:
-				global.objDialogue.message[1] = "ТОМ: \nНе скучай, Борысс.";
+				global.objDialogue.message[1] = global.textFirstLevelItem4_1;
 				break;
 			case 1:
-				global.objDialogue.message[1] = "ТОМ: \nМой кот Борысс, люблю его.";
+				global.objDialogue.message[1] = global.textFirstLevelItem4_2;
 				break;
 			case 2:
-				global.objDialogue.message[1] = "ТОМ: \nПодъем, Борысс!";
+				global.objDialogue.message[1] = global.textFirstLevelItem4_3;
 				break;
 			default:
-				global.objDialogue.message[1] = "ТОМ: \nБорысс, голос!";
+				global.objDialogue.message[1] = global.textFirstLevelItem4_4;
+				break;
 		}
 	}
 }

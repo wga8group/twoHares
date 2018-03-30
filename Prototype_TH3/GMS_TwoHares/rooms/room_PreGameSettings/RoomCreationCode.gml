@@ -34,4 +34,8 @@ global.sprInventoryPhone = spr_InventoryPhone;
 //глобальные переменные логики
 global.StateBlockHeroAction = true;
 
+
+//Тексты
+scrAllTextMessagesSettings();
+
 room_goto(room_MainMenu);

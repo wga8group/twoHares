@@ -9,13 +9,13 @@ if not global.StateBlockHeroAction {
 					global.objDialogue.visible = true;
 					global.objDialogue.messageCount = 1;
 					global.objDialogue.printText = "";
-					global.objDialogue.message[1] = "ТОМ:\nНе могу же я выйти на улицу в чем мать родила!";
+					global.objDialogue.message[1] = global.textFirstLevelDoor1;
 					return 0;
 				}
 				global.objDialogue.visible = true;
 				global.objDialogue.messageCount = 1;
 				global.objDialogue.printText = "";
-				global.objDialogue.message[1] = "ТОМ:\nИ куда я собрался в таком виде, да еще и без телефона? От безделья напрочь бестолковый стал. ";					
+				global.objDialogue.message[1] = global.textFirstLevelDoor2;
 			break;
 	
 			case characterStates.DressedWalk:
@@ -27,13 +27,13 @@ if not global.StateBlockHeroAction {
 					global.objDialogue.visible = true;
 					global.objDialogue.messageCount = 1;
 					global.objDialogue.printText = "";
-					global.objDialogue.message[1] = "ТОМ:\nТо сообщение от Организации: ''Думаю, Вы в курсе о последних событиях...'' О чём это? Думаю, в интернете есть информация. Нужно проверить.";
+					global.objDialogue.message[1] = global.textFirstLevelDoor3;
 					return 0;
 				}
 				global.objDialogue.visible = true;
 				global.objDialogue.messageCount = 1;
 				global.objDialogue.printText = "";
-				global.objDialogue.message[1] = "ТОМ:\nБез телефона я просто умру от скуки, пока буду ехать до работы...";					
+				global.objDialogue.message[1] = global.textFirstLevelDoor4;					
 
 			break;
 	
@@ -41,7 +41,7 @@ if not global.StateBlockHeroAction {
 				global.objDialogue.visible = true;
 				global.objDialogue.messageCount = 1;
 				global.objDialogue.printText = "";
-				global.objDialogue.message[1] = "ТОМ:\nНу и как ты, бля, умудрился так сделать? Все! Сломал игру!";		
+				global.objDialogue.message[1] = global.textFirstLevelDoor5;
 			break;	
 		}
 	}

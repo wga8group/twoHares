@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
+            "Value": {
+                "id": "efac3723-9645-4d4a-b9c1-6b0d8cdb904e",
+                "resourcePath": "scripts\\scrAllTextMessagesSettings\\scrAllTextMessagesSettings.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c4a4e7de-4d69-4a74-9ac9-b5ee34982e70",
             "Value": {
                 "id": "ff4a328b-444d-4788-9f90-05bcdf2e8246",
@@ -1120,6 +1128,7 @@
         "416b6820-951b-4ecd-961d-a581a8d47608",
         "d1ee7a10-9900-4884-a427-57400d4f4f52",
         "415cbb15-0c52-46b1-8774-05683fd62d0c",
+        "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
         "faebcaa9-6c3a-4500-958b-c0c08462b899",
         "98817d68-837d-4743-ab68-8c536d519286",
         "a937c5c6-2357-450f-9381-92db3c78ff81",
