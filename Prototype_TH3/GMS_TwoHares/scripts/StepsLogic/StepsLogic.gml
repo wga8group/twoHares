@@ -20,6 +20,7 @@ if mouse_check_button_pressed(mb_left) {
 			break;
 			
 			case cutSceneStates.Four:
+				cursor_sprite = spr_CursorMain;
 				room_goto(global.rmHomeFirstLevel);
 			break;
 

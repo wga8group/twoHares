@@ -21,6 +21,7 @@ if not global.StateBlockHeroAction {
 			case characterStates.DressedWalk:
 				if global.objFirstLevelLogic.phonePickUp {
 					if global.objFirstLevelLogic.computerPickUp {
+						cursor_sprite = spr_CursorMain;
 						room_goto(global.rmMainMenu);
 						return 0;
 					}

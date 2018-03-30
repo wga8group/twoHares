@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Смена курсора. Необходимо для его нормальной отработки.
+cursor_sprite = spr_CursorMain;
+
 //название анимаций бармена с первой по третью стадию
 bartenderAnimationFirst = spr_BartenderClean;
 bartenderAnimationSecond = spr_BartenderLook;

@@ -18,9 +18,11 @@ global.objInventoryButtonOpen = obj_InventoryButton_open;
 global.objInventorryButtonClose = obj_InventorryButton_close;
 global.objInventoryPhone = obj_InventoryPhone;
 
-
 //Название стилей текста
 global.fontStyle1 = font0;
+
+//Сами тексты
+scrAllTextMessagesSettings();
 
 //Названия спрайтов
 global.sprDialogue = spr_Dialogue;
@@ -34,8 +36,11 @@ global.sprInventoryPhone = spr_InventoryPhone;
 //глобальные переменные логики
 global.StateBlockHeroAction = true;
 
-
-//Тексты
-scrAllTextMessagesSettings();
+//Настройки курсора
+cursor_sprite = spr_CursorMain;
+window_set_cursor(cr_none);
+global.ChangeCursor = false;
+global.ChangeCursorThink = 0;
+global.BlockFirstStep = true;
 
 room_goto(room_MainMenu);

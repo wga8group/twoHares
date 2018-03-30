@@ -11,5 +11,6 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.message[1] = global.textFirstLevelItem2_1;
 		global.objDialogue.message[2] = global.textFirstLevelItem2_2;
 		global.objDialogue.message[3] =	global.textFirstLevelItem2_3;
+		
 	}
 }

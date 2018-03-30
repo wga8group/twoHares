@@ -13,8 +13,8 @@ switch(currentState)
 			global.objDialogue.messageCount = 2;
 			global.objDialogue.printText = "";
 			global.objDialogue.clickCount += 1;
-			global.objDialogue.message[1] = "ТОМ: \nОох, моя голова...";
-			global.objDialogue.message[2] = "ТОМ: \nТак, нужно быстрее собраться на работу, главное ничего не забыть.";
+			global.objDialogue.message[1] = global.textFirstLevelWakeUp1;
+			global.objDialogue.message[2] = global.textFirstLevelWakeUp2;
 			currentState = characterStates.NakedWalk;
 		}			
 	break;

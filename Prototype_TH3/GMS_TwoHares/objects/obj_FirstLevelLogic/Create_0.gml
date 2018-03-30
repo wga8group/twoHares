@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+//Смена курсора. Необходимо для его нормальной отработки.
+scrToggleCursor();
+cursor_sprite = spr_CursorMain;
+
 phonePickUp = false;
 computerPickUp = false;
 objFirstNews = obj_FirstNews;

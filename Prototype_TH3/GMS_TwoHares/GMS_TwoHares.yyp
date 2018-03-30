@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "2f3d6a23-479c-42ff-a0f4-7d33bce214e7",
+            "Value": {
+                "id": "7cc7b7bc-59e1-4940-911c-7050a85952d5",
+                "resourcePath": "scripts\\scrToggleCursor\\scrToggleCursor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "300b2654-dc24-4622-be97-e1190e755ab5",
             "Value": {
                 "id": "3526d1e1-3610-48e2-a69e-b02cb0bea5c2",
@@ -695,6 +703,14 @@
             }
         },
         {
+            "Key": "929d88d6-b00c-46b8-8a5c-5868eb514c90",
+            "Value": {
+                "id": "4bb81eac-01bb-40f6-85a9-461f909008a2",
+                "resourcePath": "sprites\\spr_CursorFuck\\spr_CursorFuck.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98817d68-837d-4743-ab68-8c536d519286",
             "Value": {
                 "id": "d44f2fa0-ea62-4800-9d5f-75b8bc396f79",
@@ -1128,6 +1144,7 @@
         "416b6820-951b-4ecd-961d-a581a8d47608",
         "d1ee7a10-9900-4884-a427-57400d4f4f52",
         "415cbb15-0c52-46b1-8774-05683fd62d0c",
+        "2f3d6a23-479c-42ff-a0f4-7d33bce214e7",
         "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
         "faebcaa9-6c3a-4500-958b-c0c08462b899",
         "98817d68-837d-4743-ab68-8c536d519286",

@@ -6,5 +6,6 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.messageCount = 1;
 		global.objDialogue.printText = "";
 		global.objDialogue.message[1] = global.textFirstLevelItem3;
+		
 	}
 }
