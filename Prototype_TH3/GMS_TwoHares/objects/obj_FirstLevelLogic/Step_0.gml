@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//Переключение в полный экран
-script_execute(ToggleFullscreen);
+//Горячие клавиши (полный экран, меню и т.д.)
+script_execute(scrHotKeysWork);
+
+//логика объектов
 script_execute(scrFirstLevelProtLogic,global.objProtagonist);
 script_execute(scrFirstLevelBlackoutLogic,global.objBlackout);

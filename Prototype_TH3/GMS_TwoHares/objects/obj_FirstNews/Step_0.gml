@@ -5,7 +5,7 @@ if (visible == true) {
 		clickCount += 1;
 	}
 	
-	if clickCount >= 5 {
+	if clickCount >= 4 {
 		clickCount = 0;
 		visible = false;
 	}

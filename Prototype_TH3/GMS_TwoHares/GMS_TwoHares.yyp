@@ -786,7 +786,7 @@
             "Key": "a9b21a01-d101-4888-93d4-2d90af7d967b",
             "Value": {
                 "id": "844454f6-6ea0-43ec-bd18-08428ae7ebf3",
-                "resourcePath": "scripts\\ToggleFullscreen\\ToggleFullscreen.yy",
+                "resourcePath": "scripts\\scrHotKeysWork\\scrHotKeysWork.yy",
                 "resourceType": "GMScript"
             }
         },

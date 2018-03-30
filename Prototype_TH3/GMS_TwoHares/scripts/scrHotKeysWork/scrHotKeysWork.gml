@@ -7,3 +7,8 @@ if keyboard_check_direct(vk_alt) && keyboard_check_pressed(vk_enter){
 		window_set_fullscreen(true)
 	}
 }
+
+//Выход в главное меню
+if keyboard_check_direct(vk_escape){
+	room_goto(global.rmMainMenu);
+}

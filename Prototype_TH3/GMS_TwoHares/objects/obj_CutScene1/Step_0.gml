@@ -10,5 +10,5 @@ script_execute(BartenderLogic,obj_Bartender);
 charactersNumber += 1;
 message = string_copy(strings[currentState], 1, charactersNumber);
 
-//Переключение в полный экран
-script_execute(ToggleFullscreen);
+//Горячие клавиши (полный экран, меню и т.д.)
+script_execute(scrHotKeysWork);

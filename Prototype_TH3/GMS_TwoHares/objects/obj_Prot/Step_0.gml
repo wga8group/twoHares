@@ -16,6 +16,19 @@ switch(global.objFirstLevelLogic.currentState)
 		}
 	break;	
 
+	case characterStates.DressingUp:
+		if global.StateBlockHeroAction {
+	        if (direction >= 90 && direction < 270)
+	        {
+	            sprite_index = spr_ProtIdleNakedLeft;
+	        }
+	        else
+	        {
+	            sprite_index = spr_ProtIdleNakedRight;
+	        }		
+		}
+	break;	
+
 	case characterStates.DressedWalk:
 		if not global.StateBlockHeroAction {
 			script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
