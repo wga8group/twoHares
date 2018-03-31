@@ -24,6 +24,7 @@ if mouse_check_button_pressed(mb_left) {
 					global.CurrentCheckpointsAvailable += 1;
 				}
 				cursor_sprite = spr_CursorMain;
+				audio_stop_all();
 				room_goto(global.rmHomeFirstLevel);
 			break;
 
@@ -71,7 +72,9 @@ if (blackoutTime <= 0){
 //фоновый звук
 if (currentState != cutSceneStates.Four){
 	if not barBackgroundSoundID {
-		barBackgroundSoundID = audio_play_sound_at(soundBarBackgroundNoise, argument1.x, argument1.y, 0, 100, 300, 1, false, 1);
+		barBackgroundSoundID = audio_play_sound(soundBarBackgroundNoise, 1, false);
+		//barBackgroundSoundID = audio_play_sound_at(soundBarBackgroundNoise, room_width/2, room_height/2, 0, 100, 300, 1, false, 1);
+		audio_sound_gain(barBackgroundSoundID, global.VolumeSound, 0);
 	}
 }
 

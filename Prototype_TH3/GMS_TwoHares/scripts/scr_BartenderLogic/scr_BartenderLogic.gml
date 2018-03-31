@@ -5,6 +5,7 @@ if (blackoutEnable == false){
 			scr_PingPongAnimation(argument0);
 			if not bartenderSoundID {
 				bartenderSoundID = audio_play_sound_at(soundWipeGlass, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
+				audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
 			}
 		break;
 	
@@ -21,6 +22,7 @@ if (blackoutEnable == false){
 				scr_PingPongAnimation(argument0);
 				if not bartenderSoundID {
 					bartenderSoundID = audio_play_sound_at(soundWipeGlass, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
+					audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
 				}
 			}
 		break;	
@@ -30,6 +32,7 @@ if (blackoutEnable == false){
 			if (argument0.image_index >= sprite_get_number(argument0.sprite_index) - 2){
 				if not bartenderSoundID {
 					bartenderSoundID = audio_play_sound_at(soundBottleTable, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+					audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
 				}
 			}			
 		break;
@@ -37,6 +40,7 @@ if (blackoutEnable == false){
 		case cutSceneStates.Four:
 			if not bartenderSoundID {
 				bartenderSoundID = audio_play_sound_at(soundBreakingGlass, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+				audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
 			}
 		break;
 	}

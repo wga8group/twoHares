@@ -5,12 +5,14 @@ if (blackoutEnable == false){
 			scr_PingPongOnePlayAnim(argument0);
 			if (argument0.image_index >= sprite_get_number(argument0.sprite_index) - 0.3){ 
 				protagonistLogicState = 1;
-				audio_play_sound_at(soundGulp, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+				protagonistSoundID = audio_play_sound_at(soundGulp, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+				audio_sound_gain(protagonistSoundID, global.VolumeSound, 0);
 			}
 			if (argument0.image_index <= 2){
 				if (protagonistLogicState == 1){
 					protagonistLogicState = 0;
-					audio_play_sound_at(soundGlassTable, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+					protagonistSoundID = audio_play_sound_at(soundGlassTable, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+					audio_sound_gain(protagonistSoundID, global.VolumeSound, 0);
 				}
 			}			
 		break;
@@ -19,12 +21,14 @@ if (blackoutEnable == false){
 			scr_PingPongOnePlayAnim(argument0);
 			if (argument0.image_index >= sprite_get_number(argument0.sprite_index) - 0.3){ 
 				protagonistLogicState = 1;
-				audio_play_sound_at(soundGulp, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+				protagonistSoundID = audio_play_sound_at(soundGulp, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+				audio_sound_gain(protagonistSoundID, global.VolumeSound, 0);
 			}
 			if (argument0.image_index <= 2){
 				if (protagonistLogicState == 1){
 					protagonistLogicState = 0;
-					audio_play_sound_at(soundGlassTable, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+					protagonistSoundID = audio_play_sound_at(soundGlassTable, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+					audio_sound_gain(protagonistSoundID, global.VolumeSound, 0);
 				}
 			}
 		break;	

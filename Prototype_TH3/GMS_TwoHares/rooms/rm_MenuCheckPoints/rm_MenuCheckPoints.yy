@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_MenuCheckPoints",
+    "name": "rm_MenuCheckpoints",
     "id": "7f13a0f2-bbae-4b18-acbd-153b04003e92",
     "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,

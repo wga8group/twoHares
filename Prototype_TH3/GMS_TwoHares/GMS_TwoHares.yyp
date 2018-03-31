@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01353d5f-ca55-4afb-bad9-fd1d524f1022",
+            "Value": {
+                "id": "d2d6de0e-0291-4451-b4eb-ad13b7305b71",
+                "resourcePath": "sprites\\spr_ButtonSoundPassive\\spr_ButtonSoundPassive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "029280b1-ae6f-4b54-8dc6-cb7aac7dd80e",
             "Value": {
                 "id": "56226187-51d9-477b-b649-1b53fa1fbfd0",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "1272cc36-09b0-4a36-8088-d51a419dad0f",
+            "Value": {
+                "id": "661dc844-a56e-4465-8ae3-6a2480d21055",
+                "resourcePath": "sprites\\spr_VolumeSlideBar\\spr_VolumeSlideBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "139f24e4-8d3c-4c4d-a8f3-9e5bdfd27217",
             "Value": {
                 "id": "222ee323-fdf3-4dba-814f-e983f9ba9840",
@@ -108,6 +124,14 @@
                 "id": "84043cf6-3b5c-4839-b016-dbcfa23aa01a",
                 "resourcePath": "sprites\\spr_BarLamps\\spr_BarLamps.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "19ea609f-ee09-4098-8aa0-27a4e727b292",
+            "Value": {
+                "id": "ac5e1566-957d-4242-82d9-115447f63237",
+                "resourcePath": "objects\\obj_VolumeMusicBar\\obj_VolumeMusicBar.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -303,6 +327,14 @@
             }
         },
         {
+            "Key": "3b5e6538-0233-4ed9-9a20-7cef2ff24bfe",
+            "Value": {
+                "id": "c2ba0af8-b6d9-49e0-8029-ad3d2dc39a3d",
+                "resourcePath": "sounds\\musMenuMain\\musMenuMain.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3c20fbc8-d60b-4db9-9518-6a6f47900430",
             "Value": {
                 "id": "c11b982c-840b-499b-94f0-363fdc28a813",
@@ -471,11 +503,27 @@
             }
         },
         {
+            "Key": "563bfcf2-1ae0-43b6-baec-d57d30a2450c",
+            "Value": {
+                "id": "583cdb29-d974-40d3-960f-b9e192221bf6",
+                "resourcePath": "views\\563bfcf2-1ae0-43b6-baec-d57d30a2450c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "587830e0-48b6-41bd-98a9-d38f9109a3cf",
             "Value": {
                 "id": "3ba17f93-487f-4cd4-9c7a-1fcbceef0e2f",
                 "resourcePath": "objects\\obj_BarDeck\\obj_BarDeck.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5996f4d9-a0a3-49a1-b2b4-a642d56d7d38",
+            "Value": {
+                "id": "04bf632f-fc5c-437e-a502-753ad67f38fe",
+                "resourcePath": "sprites\\spr_VolumeSlideButton\\spr_VolumeSlideButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -647,6 +695,14 @@
             }
         },
         {
+            "Key": "7914d8be-e9b4-4c02-95cc-0485587dd8c1",
+            "Value": {
+                "id": "539cc8c5-aabb-493f-8e92-22cc8e1a049c",
+                "resourcePath": "objects\\obj_ButtonVolume\\obj_ButtonVolume.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7932fb05-2185-456f-ab4e-8d5f666c870d",
             "Value": {
                 "id": "1ba0703f-30b9-46fb-9446-772ee34fc11b",
@@ -674,7 +730,7 @@
             "Key": "7f13a0f2-bbae-4b18-acbd-153b04003e92",
             "Value": {
                 "id": "945e7af6-18d4-414b-97c5-52b9b847a846",
-                "resourcePath": "rooms\\rm_MenuCheckPoints\\rm_MenuCheckPoints.yy",
+                "resourcePath": "rooms\\rm_MenuCheckpoints\\rm_MenuCheckpoints.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -691,6 +747,14 @@
             "Value": {
                 "id": "3783f137-4f61-4aef-a370-7b9a6cfd08b9",
                 "resourcePath": "objects\\obj_MenuCheckpointsLogic\\obj_MenuCheckpointsLogic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8293bd79-a5b0-476c-a084-9c2ef84bc440",
+            "Value": {
+                "id": "6da51eae-ad0c-46ae-ae5e-d3235ce8901e",
+                "resourcePath": "objects\\obj_MenuMainLogic\\obj_MenuMainLogic.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -767,6 +831,14 @@
             }
         },
         {
+            "Key": "941fd058-a2a4-41f9-8bc7-5019f68a4f5f",
+            "Value": {
+                "id": "8ecd98ee-eddf-4d82-af1c-c85e4e1fd3ff",
+                "resourcePath": "sprites\\spr_ButtonSoundActive\\spr_ButtonSoundActive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98817d68-837d-4743-ab68-8c536d519286",
             "Value": {
                 "id": "d44f2fa0-ea62-4800-9d5f-75b8bc396f79",
@@ -835,6 +907,14 @@
             "Value": {
                 "id": "66d0e330-4fe9-4219-8c1b-bc7ba65ec4e2",
                 "resourcePath": "sprites\\spr_BartenderLook\\spr_BartenderLook.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a0c9f7be-94c9-4280-921c-0b4648c9a59f",
+            "Value": {
+                "id": "9da9c66d-0b8d-46e8-8c5b-c8642ead517e",
+                "resourcePath": "sprites\\spr_MusicSettings\\spr_MusicSettings.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -959,6 +1039,22 @@
             }
         },
         {
+            "Key": "c0257175-1a7f-4a3d-9977-02fdc1bf9ec3",
+            "Value": {
+                "id": "88793552-c424-4f03-8e21-8c8600505141",
+                "resourcePath": "rooms\\rm_MenuVolume\\rm_MenuVolume.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "c2c5e7d7-3a6a-410f-a4bb-3de8b9213ba3",
+            "Value": {
+                "id": "5baf1518-d5b6-41c7-920c-ec4c8e427263",
+                "resourcePath": "objects\\obj_VolumeSoundBar\\obj_VolumeSoundBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
             "Value": {
                 "id": "efac3723-9645-4d4a-b9c1-6b0d8cdb904e",
@@ -1071,6 +1167,14 @@
             }
         },
         {
+            "Key": "da8252c5-965a-497d-8b07-7240d4e94e9e",
+            "Value": {
+                "id": "97be230d-f38b-47f4-8b0d-c4bd3fbcaa47",
+                "resourcePath": "sprites\\spr_SoundsSettings\\spr_SoundsSettings.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "deff3f38-973a-4ccf-8b7b-722dfd0ad7b3",
             "Value": {
                 "id": "7c8dd9c4-7c46-47ee-bcf8-c2ff4e229082",
@@ -1151,6 +1255,14 @@
             }
         },
         {
+            "Key": "ea9d7647-d62d-48bf-8009-3f872a7724ff",
+            "Value": {
+                "id": "5208dad3-23b9-4c33-8ec0-c8fdf0b72f62",
+                "resourcePath": "views\\ea9d7647-d62d-48bf-8009-3f872a7724ff.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f25581d1-e291-4a0a-95ab-57eeaefd7bf6",
             "Value": {
                 "id": "1b03eb0e-bcec-49a0-ab4b-366f8ea4359d",
@@ -1180,6 +1292,14 @@
                 "id": "83d2295d-7dd9-4cea-b012-6ddfa3f3cb6d",
                 "resourcePath": "sprites\\spr_BarBackground\\spr_BarBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fa438ecd-65b0-4ded-9b54-ee6d34c044a8",
+            "Value": {
+                "id": "8f9622a6-581b-40e8-92ef-3803ff355891",
+                "resourcePath": "objects\\obj_HotKeysWork\\obj_HotKeysWork.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+audio_stop_all();
+
 //Смена курсора. Необходимо для его нормальной отработки.
 cursor_sprite = spr_CursorMain;
 
