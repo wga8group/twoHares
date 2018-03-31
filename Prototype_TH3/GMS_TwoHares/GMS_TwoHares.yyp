@@ -98,7 +98,7 @@
             "Key": "139f24e4-8d3c-4c4d-a8f3-9e5bdfd27217",
             "Value": {
                 "id": "222ee323-fdf3-4dba-814f-e983f9ba9840",
-                "resourcePath": "scripts\\PingPongOnePlayAnim\\PingPongOnePlayAnim.yy",
+                "resourcePath": "scripts\\scr_PingPongOnePlayAnim\\scr_PingPongOnePlayAnim.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -146,7 +146,7 @@
             "Key": "1f8b8050-6e1e-4739-b158-e2be616b5d70",
             "Value": {
                 "id": "79acfbd8-c6a2-4732-a2de-ece78f1f2777",
-                "resourcePath": "scripts\\scrFirstLevelBlackoutLogic\\scrFirstLevelBlackoutLogic.yy",
+                "resourcePath": "scripts\\scr_FirstLevelBlackoutLogic\\scr_FirstLevelBlackoutLogic.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -154,7 +154,7 @@
             "Key": "22d9580c-dc75-45a1-a553-33747210b937",
             "Value": {
                 "id": "63f335f1-2e43-4c43-af6c-e88e38696e94",
-                "resourcePath": "rooms\\room_BarCutScene1\\room_BarCutScene1.yy",
+                "resourcePath": "rooms\\rm_BarCutScene1\\rm_BarCutScene1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -242,7 +242,7 @@
             "Key": "2e5a04d4-9569-40ac-8d67-d5fd63f39048",
             "Value": {
                 "id": "4513b90f-b536-4d54-b9a9-3ba0b7a5d84f",
-                "resourcePath": "rooms\\room_HomeFirstLevel\\room_HomeFirstLevel.yy",
+                "resourcePath": "rooms\\rm_HomeFirstLevel\\rm_HomeFirstLevel.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -250,7 +250,7 @@
             "Key": "2f3d6a23-479c-42ff-a0f4-7d33bce214e7",
             "Value": {
                 "id": "7cc7b7bc-59e1-4940-911c-7050a85952d5",
-                "resourcePath": "scripts\\scrToggleCursor\\scrToggleCursor.yy",
+                "resourcePath": "scripts\\scr_ToggleCursor\\scr_ToggleCursor.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -258,7 +258,7 @@
             "Key": "300b2654-dc24-4622-be97-e1190e755ab5",
             "Value": {
                 "id": "3526d1e1-3610-48e2-a69e-b02cb0bea5c2",
-                "resourcePath": "scripts\\scrFirstLevelProtLogic\\scrFirstLevelProtLogic.yy",
+                "resourcePath": "scripts\\scr_FirstLevelProtLogic\\scr_FirstLevelProtLogic.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -266,7 +266,7 @@
             "Key": "30ea7576-c5c6-434a-83f4-7452e9cff397",
             "Value": {
                 "id": "427bb32f-6beb-4ed3-83dc-108d33d815af",
-                "resourcePath": "scripts\\OnePlayAnimation\\OnePlayAnimation.yy",
+                "resourcePath": "scripts\\scr_OnePlayAnimation\\scr_OnePlayAnimation.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -276,6 +276,14 @@
                 "id": "dcfb8781-6b33-43ca-82b8-f17da1aff7d5",
                 "resourcePath": "objects\\obj_ButtonPlay1\\obj_ButtonPlay1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "33d6739c-3465-4031-a3a1-5b5c126730d0",
+            "Value": {
+                "id": "ee05c0f8-6da1-45f1-a461-b8b2fb94ff34",
+                "resourcePath": "sprites\\spr_MenuCheckpoints\\spr_MenuCheckpoints.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -330,7 +338,7 @@
             "Key": "415cbb15-0c52-46b1-8774-05683fd62d0c",
             "Value": {
                 "id": "f1242de6-186f-4b28-8ca0-665f18ce7f14",
-                "resourcePath": "scripts\\ScriptDrawTextForResolution\\ScriptDrawTextForResolution.yy",
+                "resourcePath": "scripts\\scr_DrawTextForResolution\\scr_DrawTextForResolution.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -338,7 +346,7 @@
             "Key": "416b6820-951b-4ecd-961d-a581a8d47608",
             "Value": {
                 "id": "503dbad4-be98-4bd2-9399-8afb5d470673",
-                "resourcePath": "scripts\\ScriptWalkProt\\ScriptWalkProt.yy",
+                "resourcePath": "scripts\\scr_WalkProt\\scr_WalkProt.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -372,6 +380,14 @@
                 "id": "d1d61653-f246-4c4d-bb03-502467079bcc",
                 "resourcePath": "views\\456c7c8b-5184-44bf-9092-272deb7ef387.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "45b352b5-145d-4a08-b5c7-915e25b96dc3",
+            "Value": {
+                "id": "7327e37f-f7b2-4610-8684-8e12bccee8dc",
+                "resourcePath": "objects\\obj_ButtonCheckpoint1\\obj_ButtonCheckpoint1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -412,6 +428,14 @@
                 "id": "f6e4a59d-d29d-41de-90d7-0cd86eaf1825",
                 "resourcePath": "sprites\\spr_roomSmallTable\\spr_roomSmallTable.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "52100ab2-2f83-4654-ad10-548f1a38c2dd",
+            "Value": {
+                "id": "4417ff10-eca1-4418-9b8d-a2ed66c6b97f",
+                "resourcePath": "views\\52100ab2-2f83-4654-ad10-548f1a38c2dd.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -482,7 +506,7 @@
             "Key": "5da21f7f-ab6b-4dcd-9ff0-ee5b2331183e",
             "Value": {
                 "id": "8987f96a-a8f4-44c5-867c-e123c9f4db44",
-                "resourcePath": "scripts\\SetResolution\\SetResolution.yy",
+                "resourcePath": "scripts\\scr_SetResolution\\scr_SetResolution.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -554,7 +578,7 @@
             "Key": "6b7aa565-5b15-4d42-a9aa-567c8a238514",
             "Value": {
                 "id": "bae2a44e-4b69-4244-96e9-2a1723ca0b10",
-                "resourcePath": "rooms\\room_PreGameSettings\\room_PreGameSettings.yy",
+                "resourcePath": "rooms\\rm_PreeGameSettings\\rm_PreeGameSettings.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -647,11 +671,27 @@
             }
         },
         {
+            "Key": "7f13a0f2-bbae-4b18-acbd-153b04003e92",
+            "Value": {
+                "id": "945e7af6-18d4-414b-97c5-52b9b847a846",
+                "resourcePath": "rooms\\rm_MenuCheckPoints\\rm_MenuCheckPoints.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7f581914-946b-4132-ae68-f98b08c78433",
             "Value": {
                 "id": "8d848fea-4aa2-4e4e-b573-a86f39b508ac",
                 "resourcePath": "sprites\\spr_CursorMain\\spr_CursorMain.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ff807bf-2c71-4e59-8316-46dd46451db8",
+            "Value": {
+                "id": "3783f137-4f61-4aef-a370-7b9a6cfd08b9",
+                "resourcePath": "objects\\obj_MenuCheckpointsLogic\\obj_MenuCheckpointsLogic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -706,7 +746,7 @@
             "Key": "916769dc-b28e-4452-887e-d90e6fcfd4dc",
             "Value": {
                 "id": "a2e7483e-843a-4b87-a8c8-3cd6a846d30f",
-                "resourcePath": "rooms\\room_MainMenu\\room_MainMenu.yy",
+                "resourcePath": "rooms\\rm_MenuMain\\rm_MenuMain.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -730,7 +770,7 @@
             "Key": "98817d68-837d-4743-ab68-8c536d519286",
             "Value": {
                 "id": "d44f2fa0-ea62-4800-9d5f-75b8bc396f79",
-                "resourcePath": "scripts\\BartenderLogic\\BartenderLogic.yy",
+                "resourcePath": "scripts\\scr_BartenderLogic\\scr_BartenderLogic.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -772,6 +812,14 @@
                 "id": "843c013b-d5b1-493d-85a1-cdaaf4409e58",
                 "resourcePath": "datafiles_yy\\D-determination.otf.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "9eb4150a-f768-453b-b12c-8cc5c6cd645d",
+            "Value": {
+                "id": "e5ab325e-6754-4b4c-b6c7-a6672a94b4b2",
+                "resourcePath": "sprites\\spr_Checkpoint1\\spr_Checkpoint1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -826,7 +874,7 @@
             "Key": "a937c5c6-2357-450f-9381-92db3c78ff81",
             "Value": {
                 "id": "79e47a35-26bf-44a0-be53-40085974a110",
-                "resourcePath": "scripts\\ProtagonistLogic\\ProtagonistLogic.yy",
+                "resourcePath": "scripts\\scr_ProtagonistLogic\\scr_ProtagonistLogic.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -834,7 +882,7 @@
             "Key": "a9b21a01-d101-4888-93d4-2d90af7d967b",
             "Value": {
                 "id": "844454f6-6ea0-43ec-bd18-08428ae7ebf3",
-                "resourcePath": "scripts\\scrHotKeysWork\\scrHotKeysWork.yy",
+                "resourcePath": "scripts\\scr_HotKeysWork\\scr_HotKeysWork.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -914,7 +962,7 @@
             "Key": "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
             "Value": {
                 "id": "efac3723-9645-4d4a-b9c1-6b0d8cdb904e",
-                "resourcePath": "scripts\\scrAllTextMessagesSettings\\scrAllTextMessagesSettings.yy",
+                "resourcePath": "scripts\\scr_AllTextMessagesSettings\\scr_AllTextMessagesSettings.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -970,7 +1018,7 @@
             "Key": "d1ee7a10-9900-4884-a427-57400d4f4f52",
             "Value": {
                 "id": "247517ea-120e-49f1-b86b-64fc0ed800b1",
-                "resourcePath": "scripts\\ScriptCanBeTake\\ScriptCanBeTake.yy",
+                "resourcePath": "scripts\\scr_CanBeTake\\scr_CanBeTake.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1095,10 +1143,18 @@
             }
         },
         {
+            "Key": "e8c2d789-454f-4b9e-bce5-29134091fd6f",
+            "Value": {
+                "id": "80aa0fdd-f31a-430c-9bea-380c378ff7f4",
+                "resourcePath": "views\\e8c2d789-454f-4b9e-bce5-29134091fd6f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f25581d1-e291-4a0a-95ab-57eeaefd7bf6",
             "Value": {
                 "id": "1b03eb0e-bcec-49a0-ab4b-366f8ea4359d",
-                "resourcePath": "scripts\\PingPongAnimation\\PingPongAnimation.yy",
+                "resourcePath": "scripts\\scr_PingPongAnimation\\scr_PingPongAnimation.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1130,7 +1186,7 @@
             "Key": "faebcaa9-6c3a-4500-958b-c0c08462b899",
             "Value": {
                 "id": "2d149f71-5052-4076-b72d-bb6fa415bec4",
-                "resourcePath": "scripts\\StepsLogic\\StepsLogic.yy",
+                "resourcePath": "scripts\\scr_StepsLogic\\scr_StepsLogic.yy",
                 "resourceType": "GMScript"
             }
         },

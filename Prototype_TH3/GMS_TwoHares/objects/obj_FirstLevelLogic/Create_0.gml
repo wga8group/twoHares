@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Смена курсора. Необходимо для его нормальной отработки.
-scrToggleCursor();
+scr_ToggleCursor();
 cursor_sprite = spr_CursorMain;
 
 phonePickUp = false;

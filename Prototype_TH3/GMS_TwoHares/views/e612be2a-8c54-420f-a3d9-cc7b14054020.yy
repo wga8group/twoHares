@@ -9,7 +9,7 @@
         "04409168-a028-4040-b516-50c556df1d87"
     ],
     "filterType": "GMObject",
-    "folderName": "MainMenu",
+    "folderName": "MenuMain",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

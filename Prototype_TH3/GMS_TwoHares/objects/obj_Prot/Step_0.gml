@@ -2,7 +2,7 @@ switch(global.objFirstLevelLogic.currentState)
 {
 	case characterStates.NakedWalk:
 		if not global.StateBlockHeroAction {
-			script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleNakedLeft, spr_ProtIdleNakedRight, spr_ProtWalkNakedLeft, spr_ProtWalkNakedRight);
+			script_execute(scr_WalkProt, obj_Prot, spr_ProtIdleNakedLeft, spr_ProtIdleNakedRight, spr_ProtWalkNakedLeft, spr_ProtWalkNakedRight);
 		}
 		else{
 	        if (direction >= 90 && direction < 270)
@@ -31,7 +31,7 @@ switch(global.objFirstLevelLogic.currentState)
 
 	case characterStates.DressedWalk:
 		if not global.StateBlockHeroAction {
-			script_execute(ScriptWalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
+			script_execute(scr_WalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
 		}
 		else{
 	        if (direction >= 90 && direction < 270)

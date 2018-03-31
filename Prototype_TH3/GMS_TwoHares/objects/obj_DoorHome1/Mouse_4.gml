@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if not global.StateBlockHeroAction {
-	if (ScriptCanBeTake(self,global.objProtagonist) == true){
+	if (scr_CanBeTake(self,global.objProtagonist) == true){
 		switch(global.objFirstLevelLogic.currentState) 
 		{
 			case characterStates.NakedWalk:
