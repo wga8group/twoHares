@@ -5,6 +5,11 @@ with (argument0)
     // handle pathfinding
     if mouse_check_button_pressed(mb_left)
     {
+		//if instance_nearest(mouse_x, mouse_y, obj_Item1) != noone {
+		//	global.IsClickOnObject = true;
+		//	show_debug_message("true");
+		//}		
+		
         path = path_add();
         if mp_grid_path(grid, path, x, y, mouse_x, mouse_y, 1)
         {

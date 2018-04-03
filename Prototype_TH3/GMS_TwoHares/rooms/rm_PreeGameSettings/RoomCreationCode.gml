@@ -37,6 +37,7 @@ global.sprInventoryPhone = spr_InventoryPhone;
 
 //глобальные переменные логики
 global.StateBlockHeroAction = true;
+global.IsClickOnObject = false;
 
 //Настройки курсора
 cursor_sprite = spr_CursorMain;

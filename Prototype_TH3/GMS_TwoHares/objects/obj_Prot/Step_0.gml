@@ -49,8 +49,8 @@ switch(global.objFirstLevelLogic.currentState)
 	
 	break;			
 }
-	
-	
+
+
 /*
 depth = -1*y;
 

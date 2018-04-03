@@ -13,4 +13,5 @@ if not global.StateBlockHeroAction {
 		instance_destroy(self,true);
 		//show_debug_message(global.objFirstLevelLogic.phonePickUp);   //для дебага
 	}
+	show_debug_message("true");
 }

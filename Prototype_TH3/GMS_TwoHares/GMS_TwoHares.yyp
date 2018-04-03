@@ -66,7 +66,7 @@
             "Key": "04409168-a028-4040-b516-50c556df1d87",
             "Value": {
                 "id": "1c6e433b-195e-4e21-90ee-82bb8cf310f4",
-                "resourcePath": "objects\\obj_ButtonPlay2\\obj_ButtonPlay2.yy",
+                "resourcePath": "objects\\obj_ButtonCheckpoints\\obj_ButtonCheckpoints.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2358a6e7-ba74-4c64-a055-b8797b84ccc7",
+            "Value": {
+                "id": "7ec6b44f-d3bb-47ee-8269-6f94942c8685",
+                "resourcePath": "sprites\\spr_ButtonCheckpointsActive\\spr_ButtonCheckpointsActive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "23f380e9-b9f9-4eee-862b-1a452eb21eb1",
             "Value": {
                 "id": "a9c1d121-9280-458e-9df0-ac0c96c8784e",
@@ -236,6 +244,14 @@
                 "id": "49551ee9-fa2a-46ab-88dc-f2e3a627a94c",
                 "resourcePath": "sounds\\Gulp\\Gulp.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "2cf3fc2c-c04c-448a-bdf1-1cd22ff68fcb",
+            "Value": {
+                "id": "00801337-70f6-4394-8ef3-e9dd800882a4",
+                "resourcePath": "sprites\\spr_ButtonCheckpointsPassive\\spr_ButtonCheckpointsPassive.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -298,7 +314,7 @@
             "Key": "33a0b189-5e89-4085-bddd-2d17735cffc3",
             "Value": {
                 "id": "dcfb8781-6b33-43ca-82b8-f17da1aff7d5",
-                "resourcePath": "objects\\obj_ButtonPlay1\\obj_ButtonPlay1.yy",
+                "resourcePath": "objects\\obj_ButtonPlay\\obj_ButtonPlay.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -967,6 +983,14 @@
             }
         },
         {
+            "Key": "ab012c88-89dd-42f2-b4a9-3c72ddf1b197",
+            "Value": {
+                "id": "73b894b3-d1d7-4386-a58a-8b5502f7dc72",
+                "resourcePath": "sprites\\spr_ButtonEscapePassive\\spr_ButtonEscapePassive.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aca5c74a-f4f4-4a81-a275-186a9242d034",
             "Value": {
                 "id": "66aee810-7401-47b5-97ee-eec3439fefe4",
@@ -987,6 +1011,14 @@
             "Value": {
                 "id": "81f52f3b-0c5d-4127-846a-31ab15bdf011",
                 "resourcePath": "sprites\\spr_wallTransparent1\\spr_wallTransparent1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6d0c436-f994-4602-9eb1-e0cb86718ec5",
+            "Value": {
+                "id": "146eace6-b49e-474a-8dbc-3d0a2c92d310",
+                "resourcePath": "sprites\\spr_ButtonEscapeActive\\spr_ButtonEscapeActive.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1172,6 +1204,14 @@
                 "id": "97be230d-f38b-47f4-8b0d-c4bd3fbcaa47",
                 "resourcePath": "sprites\\spr_SoundsSettings\\spr_SoundsSettings.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dab8c83e-5a0c-4c18-bb8b-7ebaf1fbb2af",
+            "Value": {
+                "id": "4c7d5f94-f422-489c-8367-0e5c2c84a6c7",
+                "resourcePath": "objects\\obj_ButtonEscape\\obj_ButtonEscape.yy",
+                "resourceType": "GMObject"
             }
         },
         {
