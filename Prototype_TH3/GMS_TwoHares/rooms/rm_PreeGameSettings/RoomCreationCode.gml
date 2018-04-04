@@ -1,7 +1,9 @@
 
 //Начальное разрешение
 scr_SetResolution(800,600);
-//SetResolution(1366,768);
+//scr_SetResolution(1280,600);
+//scr_SetResolution(2560,1080);
+
 
 //Название уровней
 global.rmMainMenu = rm_MenuMain;
