@@ -6,6 +6,7 @@ scr_SetResolution(800,600);
 
 
 //Название уровней
+global.rmPreeGameSettings  = rm_PreeGameSettings;
 global.rmMainMenu = rm_MenuMain;
 global.rmCutScene1 = rm_BarCutScene1;
 global.rmHomeFirstLevel = rm_HomeFirstLevel;
@@ -56,4 +57,4 @@ global.VolumeSound = 0.5;
 global.VolumeMusic = 0.5;
 
 //Запуск меню
-room_goto(global.rmMainMenu);
+//room_goto(global.rmMainMenu);

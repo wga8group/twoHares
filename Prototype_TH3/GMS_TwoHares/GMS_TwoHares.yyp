@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0ffc25b6-f3c6-440c-b242-e244b528a5c1",
+            "Value": {
+                "id": "546af7f3-0bac-48a7-9d5a-e34b028f2428",
+                "resourcePath": "sprites\\spr_splash_screen\\spr_splash_screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11f660bd-8dea-4122-8e4b-a1a3f3f2d0de",
             "Value": {
                 "id": "e9c2c02f-dcd7-4512-b5df-fa8bec2cea10",
@@ -612,6 +620,14 @@
                 "id": "2fc9a85c-4d4b-4e93-a1cf-c361fcc279e3",
                 "resourcePath": "sprites\\spr_ProtIdleRight\\spr_ProtIdleRight.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66cc668c-8c5a-4749-b432-95999fc65ebd",
+            "Value": {
+                "id": "ac3feaed-d779-4200-84fc-c7f74b45e017",
+                "resourcePath": "objects\\obj_PreeGameScreenLogic\\obj_PreeGameScreenLogic.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1308,6 +1324,14 @@
                 "id": "1b03eb0e-bcec-49a0-ab4b-366f8ea4359d",
                 "resourcePath": "scripts\\scr_PingPongAnimation\\scr_PingPongAnimation.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f2b4bc8c-ebcb-4908-967c-5d06c74355c7",
+            "Value": {
+                "id": "02b1abc5-3d14-4622-9059-43d3325109b4",
+                "resourcePath": "views\\f2b4bc8c-ebcb-4908-967c-5d06c74355c7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
