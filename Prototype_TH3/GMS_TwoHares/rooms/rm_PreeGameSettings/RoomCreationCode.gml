@@ -56,5 +56,6 @@ global.CurrentCheckpointsAvailable = 0;
 global.VolumeSound = 0.5;
 global.VolumeMusic = 0.5;
 
+
 //Запуск меню
 //room_goto(global.rmMainMenu);
