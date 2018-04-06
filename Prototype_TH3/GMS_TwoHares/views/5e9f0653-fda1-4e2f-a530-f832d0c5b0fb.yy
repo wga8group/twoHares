@@ -8,7 +8,7 @@
         "1f8b8050-6e1e-4739-b158-e2be616b5d70"
     ],
     "filterType": "GMScript",
-    "folderName": "FirstLevel",
+    "folderName": "GameLevel1",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

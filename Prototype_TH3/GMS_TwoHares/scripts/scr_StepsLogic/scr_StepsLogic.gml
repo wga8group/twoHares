@@ -25,7 +25,7 @@ if mouse_check_button_pressed(mb_left) {
 				}
 				cursor_sprite = spr_CursorMain;
 				audio_stop_all();
-				room_goto(global.rmHomeFirstLevel);
+				room_goto(global.rmHomeLevel1);
 			break;
 
 		}

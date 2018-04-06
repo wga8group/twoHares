@@ -8,10 +8,12 @@ scr_SetResolution(800,600);
 //Название уровней
 global.rmPreeGameSettings  = rm_PreeGameSettings;
 global.rmMainMenu = rm_MenuMain;
-global.rmCutScene1 = rm_BarCutScene1;
-global.rmHomeFirstLevel = rm_HomeFirstLevel;
 global.rmMenuChekpoints = rm_MenuCheckpoints;
 global.rmMenuVolume = rm_MenuVolume;
+global.rmCutScene1 = rm_BarCutScene1;
+global.rmHomeLevel1 = rm_HomeLevel1;
+global.rmOfficeLevel2 = rm_OfficeLevel2;
+
 
 //Название объектов
 global.objProtagonist = obj_Prot;
@@ -39,7 +41,7 @@ global.sprInventoryButton = spr_InventoryButton;
 global.sprInventoryPhone = spr_InventoryPhone;
 
 //глобальные переменные логики
-global.StateBlockHeroAction = true;
+global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
 
 //Настройки курсора
@@ -58,4 +60,4 @@ global.VolumeMusic = 0.5;
 
 
 //Запуск меню
-//room_goto(global.rmMainMenu);
+room_goto(global.rmMainMenu);
