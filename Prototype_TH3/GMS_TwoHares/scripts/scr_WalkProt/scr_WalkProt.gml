@@ -1,4 +1,4 @@
-depth = -1*y;
+argument0.depth = -1*y;
 
 with (argument0)
 {
