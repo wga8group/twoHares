@@ -11,6 +11,7 @@ phonePickUp = false;
 computerPickUp = false;
 objFirstNews = obj_FirstNews;
 global.StateBlockHeroAction  = true;
+global.objProtagonist = obj_Prot;
 global.objProtagonist.sprite_index = global.sprProtWakeUp;
 global.objBlackout.visible = true;
 global.objBlackout.image_alpha = 1;

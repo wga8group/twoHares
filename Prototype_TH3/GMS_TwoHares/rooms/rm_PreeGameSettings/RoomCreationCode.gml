@@ -18,7 +18,12 @@ global.rmOfficeLevel2 = rm_OfficeLevel2;
 //Название объектов
 global.objProtagonist = obj_Prot;
 global.objDialogue = obj_Dialogue;
+global.objDialogueChoice = obj_DialogueChoice;
+global.objButtonChoice1 = obj_ButtonChoice1;
+global.objButtonChoice2 = obj_ButtonChoice2;
+global.objButtonChoice3 = obj_ButtonChoice3;
 global.objFirstLevelLogic = obj_FirstLevelLogic;
+global.objLogicLevel2 = obj_LogicLevel2;
 global.objBlackout = obj_Blackout;
 global.objInventoryTable = obj_InventoryTable;
 global.objInventoryButtonOpen = obj_InventoryButton_open;
@@ -33,6 +38,7 @@ scr_AllTextMessagesSettings();
 
 //Названия спрайтов
 global.sprDialogue = spr_Dialogue;
+global.sprButtonChoice = spr_ButtonChoice;
 global.sprProtWakeUp = spr_ProtWakeUp;
 global.sprProtDressIdleRight = spr_ProtIdleRight;
 global.sprProtNakedIdleRight = spr_ProtIdleNakedRight;
@@ -60,4 +66,4 @@ global.VolumeMusic = 0.5;
 
 
 //Запуск меню
-room_goto(global.rmMainMenu);
+//room_goto(global.rmMainMenu);

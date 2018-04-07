@@ -1,3 +1,4 @@
+/// @description Insert description here
 if not global.StateBlockHeroAction {
 	script_execute(scr_WalkProt, obj_ProtDressed, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
 }

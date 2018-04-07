@@ -7,16 +7,18 @@ audio_stop_all();
 scr_ToggleCursor();
 cursor_sprite = spr_CursorMain;
 
-global.StateBlockHeroAction  = false;
+global.StateBlockHeroAction  = true;
+global.objProtagonist = obj_ProtDressed;
+global.objBlackout.visible = true;
+global.objBlackout.image_alpha = 1;
 
-/*
 //переменные стадий
-enum characterStates{
+enum OfficeStatesLevel2{
 	startRoom,
-	WakeUp,
-	NakedWalk,
-	DressingUp,
-	DressedWalk,
+	Walk,
+	GirlDialogue,
 }
 
 currentState = characterStates.startRoom;
+wasDialogueWithGirl = false;
+dialogueState = 0;
