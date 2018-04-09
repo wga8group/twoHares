@@ -10,6 +10,7 @@ global.rmPreeGameSettings  = rm_PreeGameSettings;
 global.rmMainMenu = rm_MenuMain;
 global.rmMenuChekpoints = rm_MenuCheckpoints;
 global.rmMenuVolume = rm_MenuVolume;
+global.rmTransition = rm_TransitionLevel;
 global.rmCutScene1 = rm_BarCutScene1;
 global.rmHomeLevel1 = rm_HomeLevel1;
 global.rmOfficeLevel2 = rm_OfficeLevel2;
@@ -49,6 +50,17 @@ global.sprInventoryPhone = spr_InventoryPhone;
 //глобальные переменные логики
 global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
+global.TransitionDuration = 240;
+
+enum GameLevels{
+	CutScene_1,
+	Level_1,
+	Level_2,
+	Level_3
+}
+
+global.CurrentLevel = GameLevels.CutScene_1;
+
 
 //Настройки курсора
 cursor_sprite = spr_CursorMain;
@@ -66,4 +78,4 @@ global.VolumeMusic = 0.5;
 
 
 //Запуск меню
-//room_goto(global.rmMainMenu);
+room_goto(global.rmMainMenu);

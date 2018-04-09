@@ -22,7 +22,8 @@ if not global.StateBlockHeroAction {
 				if global.objFirstLevelLogic.phonePickUp {
 					if global.objFirstLevelLogic.computerPickUp {
 						cursor_sprite = spr_CursorMain;
-						room_goto(global.rmOfficeLevel2);
+						global.CurrentLevel = GameLevels.Level_2;
+						room_goto(global.rmTransition);
 						return 0;
 					}
 					global.objDialogue.visible = true;

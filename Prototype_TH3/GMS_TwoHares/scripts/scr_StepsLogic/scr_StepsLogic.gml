@@ -23,9 +23,8 @@ if mouse_check_button_pressed(mb_left) {
 				if global.CurrentCheckpointsAvailable <= 0 {
 					global.CurrentCheckpointsAvailable += 1;
 				}
-				cursor_sprite = spr_CursorMain;
-				audio_stop_all();
-				room_goto(global.rmHomeLevel1);
+				global.CurrentLevel = GameLevels.Level_1;
+				room_goto(global.rmTransition);
 			break;
 
 		}
