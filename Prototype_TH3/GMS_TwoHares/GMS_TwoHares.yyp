@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "2d749e82-1e0d-45d1-af61-340d2a292a43",
+            "Value": {
+                "id": "3527c7be-f3a7-4232-95e1-223827d82bb5",
+                "resourcePath": "objects\\obj_Item6\\obj_Item6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2da14894-5da7-43e5-9635-931e24832f58",
             "Value": {
                 "id": "f8cb4769-abb0-4533-850f-1c7084fe1e4f",
@@ -511,6 +519,14 @@
             }
         },
         {
+            "Key": "4d2f71ae-250f-41c8-924c-1954d3de40fc",
+            "Value": {
+                "id": "b13a9fbd-ef87-4fc6-9381-d2dc2e0d292c",
+                "resourcePath": "sprites\\spr_roomPicture1\\spr_roomPicture1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d4ad15d-9df4-4f8f-9fad-b64eb84025d0",
             "Value": {
                 "id": "557f5ec3-94c9-4e81-846f-67cf26b21655",
@@ -575,6 +591,14 @@
             }
         },
         {
+            "Key": "55a3561f-e1a4-4ec7-bed9-9b4c32e8e143",
+            "Value": {
+                "id": "ba288482-4f53-49c2-a15b-b8623526c79c",
+                "resourcePath": "objects\\obj_OfficeDoor\\obj_OfficeDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "55d1c1f5-faf0-4864-af5e-01c316a5d700",
             "Value": {
                 "id": "9d0f3598-cc39-4250-8970-db6546335d86",
@@ -628,6 +652,14 @@
                 "id": "7b30e885-a295-4cb3-85a3-aa70190b6dba",
                 "resourcePath": "objects\\obj_CutScene1\\obj_CutScene1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5d99777c-91e7-44a6-bac8-c60fea58c2e7",
+            "Value": {
+                "id": "8d7ba27d-b9c9-4093-83d0-102cae7f8a60",
+                "resourcePath": "sprites\\spr_roomPicture2\\spr_roomPicture2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -815,6 +847,14 @@
             }
         },
         {
+            "Key": "7b4fca21-c926-4f16-88c0-d960a8d4f191",
+            "Value": {
+                "id": "536fea90-a41e-4830-a68b-bf3a7adb9f43",
+                "resourcePath": "objects\\obj_Item7\\obj_Item7.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7cfa702c-8cd6-482f-a91b-be92b264de6e",
             "Value": {
                 "id": "ef523c77-28fd-43fb-b664-7d7808bb1911",
@@ -828,6 +868,14 @@
                 "id": "4e6d4fce-94e5-4467-93e3-327776d345fb",
                 "resourcePath": "objects\\obj_barFrontDoor\\obj_barFrontDoor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7e92e69b-c129-4552-86fe-35eaff8d9fc4",
+            "Value": {
+                "id": "00f40faf-3ae8-4bc1-bcba-01fc7a8f6a3d",
+                "resourcePath": "sprites\\spr_roomPicture3\\spr_roomPicture3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1011,6 +1059,14 @@
             "Value": {
                 "id": "e5ab325e-6754-4b4c-b6c7-a6672a94b4b2",
                 "resourcePath": "sprites\\spr_Checkpoint1\\spr_Checkpoint1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9ee5f093-ba24-4a39-a615-24a9c8d1942f",
+            "Value": {
+                "id": "3d15188d-d7ad-47e3-8510-e8f7bf602eaa",
+                "resourcePath": "sprites\\spr_roomWindow\\spr_roomWindow.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1247,6 +1303,14 @@
             }
         },
         {
+            "Key": "c489a9ce-dd7d-47e9-b292-db8e9dea53f5",
+            "Value": {
+                "id": "f717e1f5-25fb-4a98-b288-3846a1dfa32f",
+                "resourcePath": "sprites\\spr_OfficeDoor\\spr_OfficeDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c4a4e7de-4d69-4a74-9ac9-b5ee34982e70",
             "Value": {
                 "id": "ff4a328b-444d-4788-9f90-05bcdf2e8246",
@@ -1276,6 +1340,14 @@
                 "id": "ba1b0c82-ef4a-40a5-8ffc-9f52ba49f439",
                 "resourcePath": "views\\c97bd6d2-07c9-4feb-ab9c-1951d9c86186.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cb8bd830-c3f1-40b6-af39-11ba64aeb5bb",
+            "Value": {
+                "id": "7238822c-060a-4bb4-8cdb-a01c0bad21e4",
+                "resourcePath": "objects\\obj_Item9\\obj_Item9.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1332,6 +1404,14 @@
                 "id": "aca0cc4f-73ac-4597-8637-88f4269ed490",
                 "resourcePath": "views\\d29a203b-bbe4-437d-9aac-82d095fb2bb1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d50d76c9-5809-414b-9424-99c5eff66c4c",
+            "Value": {
+                "id": "9404a055-28e3-4140-8132-b26fc099d807",
+                "resourcePath": "objects\\obj_Item11\\obj_Item11.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1500,6 +1580,22 @@
                 "id": "5208dad3-23b9-4c33-8ec0-c8fdf0b72f62",
                 "resourcePath": "views\\ea9d7647-d62d-48bf-8009-3f872a7724ff.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ee63dfca-fa6e-4f37-a06d-876669e30fa4",
+            "Value": {
+                "id": "3c51b560-f7e0-40a5-a421-099c336d47fe",
+                "resourcePath": "objects\\obj_Item8\\obj_Item8.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f0a81020-ba57-4708-9763-ec749f101876",
+            "Value": {
+                "id": "4b6e0e9e-1fe0-4143-adbe-cd445943c3ca",
+                "resourcePath": "objects\\obj_Item10\\obj_Item10.yy",
+                "resourceType": "GMObject"
             }
         },
         {

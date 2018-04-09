@@ -23,7 +23,7 @@ if window_get_width() >= 2560 {
 if window_get_width() >= 1920 {
 	//draw_set_font(font0);
 	//draw_text_ext(window_get_width()*3/60,window_get_height()*48/60, argument0, 20, window_get_width()*54/60);
-	draw_text_transformed_colour(window_get_width()*(3+xOffset)/60,window_get_height()*(47+yOffset)/60, argument0, 2.5,2.5, 0, c_white,c_white,c_white,c_white,alpha);
+	draw_text_transformed_colour(window_get_width()*(3+xOffset)/60,window_get_height()*(48+yOffset)/60, argument0, 2.5,2.5, 0, c_white,c_white,c_white,c_white,alpha);
 	exit;
 }
 	

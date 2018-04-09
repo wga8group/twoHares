@@ -23,7 +23,17 @@ global.textFirstLevelItem4_2 = "ТОМ: \nМой кот Борысс, люблю
 global.textFirstLevelItem4_3 = "ТОМ: \nПодъем, Борысс!";
 global.textFirstLevelItem4_4 = "ТОМ: \nБорысс, голос!";
 
-global.textFirstLevelItem5 = "ТОМ: \nНаграда за первое место в мотокроссе. И ведь тогда моя жизнь имела смысл...";
+global.textFirstLevelItem5 = "ТОМ: \nНаграда Борысса. Мой кот - первый среди мужчин, не то что я...";
+
+global.textFirstLevelItem6 = "ТОМ: \nРазруха. Капитализм себя изживает. Интересно, что к этому привело?";
+
+global.textFirstLevelItem7 = "ТОМ: \nТак не хватает солнца в этом сером городе... Пусть хоть на стене побудет.";
+
+global.textFirstLevelItem8 = "ТОМ: \nИстукан с острова Пасхи. Обменял на бутылку у бродяги.";
+
+global.textFirstLevelItem9 = "ТОМ: \nЛуна - символ истины, «глаз, светящий во мгле»... Ладно, не время философствовать.";
+
+global.textFirstLevelItem10 = "ТОМ: \nПервое место среди проектов по разработке игр. Давно я не занимался ничем подобным. Хороший был опыт.";
 
 global.textFirstLevelDoor1 = "ТОМ:\nНе могу же я выйти на улицу в чем мать родила!";
 global.textFirstLevelDoor2 = "ТОМ:\nИ куда я собрался в таком виде, да еще и без телефона? От безделья напрочь бестолковый стал. ";					
@@ -44,3 +54,5 @@ global.textSecondLevelProtAnswer1[2] = "- Ну спасибо. Доброе ут
 global.textSecondLevelProtAnswer1[3] = "- Да ты тоже не красотка. На тебе самой лица то нет.";
 
 global.textSecondLevelProt_1 = "ТОМ:\nКаков привет, таков и ответ...";
+
+global.textFirstLevelItem11 = "ТОМ: \nЯ не хочу пить.";

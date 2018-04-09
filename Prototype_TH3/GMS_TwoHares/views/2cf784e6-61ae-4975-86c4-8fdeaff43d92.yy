@@ -18,7 +18,11 @@
         "a590a5e4-4412-4d17-a353-7632a274fa02",
         "2dd63783-2d65-43bb-9f5e-9426f00621d4",
         "27d455c1-6d0d-4702-b9be-dda8a1fbe84f",
-        "bb47ac13-3140-44d2-9ce3-4bed5e4914ff"
+        "bb47ac13-3140-44d2-9ce3-4bed5e4914ff",
+        "9ee5f093-ba24-4a39-a615-24a9c8d1942f",
+        "4d2f71ae-250f-41c8-924c-1954d3de40fc",
+        "5d99777c-91e7-44a6-bac8-c60fea58c2e7",
+        "7e92e69b-c129-4552-86fe-35eaff8d9fc4"
     ],
     "filterType": "GMSprite",
     "folderName": "RoomBackground",
