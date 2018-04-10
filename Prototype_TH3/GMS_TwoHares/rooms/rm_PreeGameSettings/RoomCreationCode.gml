@@ -70,7 +70,7 @@ global.ChangeCursorThink = 0;
 global.BlockFirstStep = true;
 
 //чек-поинты
-global.CurrentCheckpointsAvailable = 0;
+global.CurrentCheckpointsAvailable = 3;
 
 //Звук
 global.VolumeSound = 0.5;

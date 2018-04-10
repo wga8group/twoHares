@@ -20,9 +20,6 @@ if mouse_check_button_pressed(mb_left) {
 			break;
 			
 			case cutSceneStates.Four:
-				if global.CurrentCheckpointsAvailable <= 0 {
-					global.CurrentCheckpointsAvailable += 1;
-				}
 				global.CurrentLevel = GameLevels.Level_1;
 				room_goto(global.rmTransition);
 			break;

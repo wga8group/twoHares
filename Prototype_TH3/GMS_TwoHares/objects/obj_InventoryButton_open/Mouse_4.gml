@@ -4,6 +4,7 @@
 //visible =true;
 global.objInventoryTable.visible = true;
 global.objInventorryButtonClose.visible = true;
+global.StateBlockHeroAction = true;
 
 //global.objInventoryButtonClose.visible=true;
 	

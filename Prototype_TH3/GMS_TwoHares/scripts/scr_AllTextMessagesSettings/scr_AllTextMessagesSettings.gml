@@ -1,4 +1,3 @@
-global.TransitionMessage = "";
 global.TransitionMessage1 = "БАР. 22:00";
 global.TransitionMessage2 = "ДОМ. 07:00";
 global.TransitionMessage3 = "РАБОТА. 08:00";

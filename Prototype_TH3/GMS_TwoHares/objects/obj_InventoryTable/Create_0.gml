@@ -3,4 +3,4 @@
 
 //InventoryTable = instance_create(x,y,obj_InventoryTable);
 visible = false;
-depth = -1*y;
+depth = -800;

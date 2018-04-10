@@ -6,4 +6,5 @@ if(global.objInventoryTable.visible)
 	global.objInventoryButtonOpen.visible = true;
 	global.objInventorryButtonClose.visible = false;
 	global.objInventoryPhone.visible = false;
+	global.StateBlockHeroAction = false;
 }

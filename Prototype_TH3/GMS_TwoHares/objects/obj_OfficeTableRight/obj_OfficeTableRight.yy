@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_OfficeTableRight",
     "eventList": [
-        {
-            "id": "0f5623dd-3afe-404b-8da6-153728c48154",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "bced0142-5fe6-41ca-a8f7-6f5793d0941a"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
