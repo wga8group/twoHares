@@ -31,7 +31,7 @@ if window_get_width() >= 1360 {
 }
 
 if window_get_width() >= 1280 && window_get_height() >= 700 {
-	draw_text_transformed_colour(window_get_width()/2, window_get_height()*22/60, argument0, 7,7, 0, c_white,c_white,c_white,c_white,alpha);
+	draw_text_transformed_colour(window_get_width()/2, window_get_height()*23/60, argument0, 7,7, 0, c_white,c_white,c_white,c_white,alpha);
 	exit;
 }
 
