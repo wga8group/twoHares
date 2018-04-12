@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if not global.StateBlockHeroAction {
 	if (scr_CanBeTake(self,global.objProtagonist) == true){
-		global.objFirstLevelLogic.phonePickUp = true;
+		global.PhoneInInventory = true;
 		global.objDialogue.visible = true;
 		global.objDialogue.messageCount = 3;
 		global.objDialogue.printText = "";

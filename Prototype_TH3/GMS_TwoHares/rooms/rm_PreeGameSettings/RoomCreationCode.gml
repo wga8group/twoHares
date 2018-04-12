@@ -1,7 +1,12 @@
 
 //Начальное разрешение
-scr_SetResolution(800,600);
+//scr_SetResolution(800,600);
+//scr_SetResolution(1024,768);
 //scr_SetResolution(1280,600);
+scr_SetResolution(1280,720);
+//scr_SetResolution(1280,768);
+//scr_SetResolution(1360,768);
+//scr_SetResolution(1366,768);
 //scr_SetResolution(2560,1080);
 
 
@@ -51,7 +56,7 @@ global.sprInventoryPhone = spr_InventoryPhone;
 global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
 global.TransitionDuration = 240;
-
+global.PhoneInInventory = false;
 enum GameLevels{
 	CutScene_1,
 	Level_1,

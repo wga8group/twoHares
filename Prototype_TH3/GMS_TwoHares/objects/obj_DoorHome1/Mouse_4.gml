@@ -5,7 +5,7 @@ if not global.StateBlockHeroAction {
 		switch(global.objFirstLevelLogic.currentState) 
 		{
 			case characterStates.NakedWalk:
-				if global.objFirstLevelLogic.phonePickUp {
+				if global.PhoneInInventory {
 					global.objDialogue.visible = true;
 					global.objDialogue.messageCount = 1;
 					global.objDialogue.printText = "";
@@ -19,7 +19,7 @@ if not global.StateBlockHeroAction {
 			break;
 	
 			case characterStates.DressedWalk:
-				if global.objFirstLevelLogic.phonePickUp {
+				if global.PhoneInInventory {
 					if global.objFirstLevelLogic.computerPickUp {
 						cursor_sprite = spr_CursorMain;
 						global.CurrentLevel = GameLevels.Level_2;
