@@ -13,12 +13,12 @@ switch(argument0.dialogueState){
 			argument0.dialogueState = 2;
 			global.objDialogueChoice.visible = true;
 			global.objDialogueChoice.ChoiceSelected = 0;
-			global.objButtonChoice1.visible = true;
 			global.objButtonChoice1.messageChoice = global.textSecondLevelProtAnswer1[1];
+			global.objButtonChoice2.messageChoice = global.textSecondLevelProtAnswer1[2];			
+			global.objButtonChoice3.messageChoice = global.textSecondLevelProtAnswer1[3];			
+			global.objButtonChoice1.visible = true;
 			global.objButtonChoice2.visible = true;
-			global.objButtonChoice2.messageChoice = global.textSecondLevelProtAnswer1[2];
 			global.objButtonChoice3.visible = true;
-			global.objButtonChoice3.messageChoice = global.textSecondLevelProtAnswer1[3];
 		}
 	break;	
 	
@@ -36,5 +36,6 @@ switch(argument0.dialogueState){
 	default:
 		argument0.wasDialogueWithGirl = true;
 		argument0.currentState = OfficeStatesLevel2.Walk;	
+		argument0.dialogueState = 0;
 	break;	
 }

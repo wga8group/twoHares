@@ -1,9 +1,9 @@
 
 //Начальное разрешение
-//scr_SetResolution(800,600);
+scr_SetResolution(800,600);
 //scr_SetResolution(1024,768);
 //scr_SetResolution(1280,600);
-scr_SetResolution(1280,720);
+//scr_SetResolution(1280,720);
 //scr_SetResolution(1280,768);
 //scr_SetResolution(1360,768);
 //scr_SetResolution(1366,768);

@@ -18,8 +18,12 @@ enum OfficeStatesLevel2{
 	startRoom,
 	Walk,
 	GirlDialogue,
+	BossDialogue
 }
 
 currentState = characterStates.startRoom;
 wasDialogueWithGirl = false;
+chosenAnswerWithBoss_1 = false;
+chosenAnswerWithBoss_2 = false;
+
 dialogueState = 0;

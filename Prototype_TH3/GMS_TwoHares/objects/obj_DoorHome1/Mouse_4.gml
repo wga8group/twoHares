@@ -10,7 +10,7 @@ if not global.StateBlockHeroAction {
 					global.objDialogue.messageCount = 1;
 					global.objDialogue.printText = "";
 					global.objDialogue.message[1] = global.textFirstLevelDoor1;
-					return 0;
+					exit;
 				}
 				global.objDialogue.visible = true;
 				global.objDialogue.messageCount = 1;
@@ -24,13 +24,13 @@ if not global.StateBlockHeroAction {
 						cursor_sprite = spr_CursorMain;
 						global.CurrentLevel = GameLevels.Level_2;
 						room_goto(global.rmTransition);
-						return 0;
+						exit;
 					}
 					global.objDialogue.visible = true;
 					global.objDialogue.messageCount = 1;
 					global.objDialogue.printText = "";
 					global.objDialogue.message[1] = global.textFirstLevelDoor3;
-					return 0;
+					exit;
 				}
 				global.objDialogue.visible = true;
 				global.objDialogue.messageCount = 1;
@@ -43,7 +43,7 @@ if not global.StateBlockHeroAction {
 				global.objDialogue.visible = true;
 				global.objDialogue.messageCount = 1;
 				global.objDialogue.printText = "";
-				global.objDialogue.message[1] = global.textFirstLevelDoor5;
+				global.objDialogue.message[1] = global.textDefaultMessage;
 			break;	
 		}
 	}
