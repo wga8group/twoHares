@@ -1,4 +1,4 @@
 /// @description Insert description here
-if not global.StateBlockHeroAction {
+if global.objSafeCode.visible {
 	cursor_sprite = spr_CursorObjectMain;
 }

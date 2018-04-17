@@ -16,7 +16,8 @@
         "7dcd1060-c5a4-48c5-90d5-26f88c6de893",
         "3ed47850-b78f-422a-9056-38b8a11e192d",
         "79b1e00f-ed5d-4e82-b379-e70a48abd3eb",
-        "329659db-f3f0-48a3-a093-2abde5ff4991"
+        "329659db-f3f0-48a3-a093-2abde5ff4991",
+        "6cc97ac8-9380-4a1c-b57a-853d11356382"
     ],
     "filterType": "GMObject",
     "folderName": "OfficeLevel2",

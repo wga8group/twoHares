@@ -27,3 +27,4 @@ chosenAnswerWithBoss_1 = false;
 chosenAnswerWithBoss_2 = false;
 
 dialogueState = 0;
+clickCount = 0;

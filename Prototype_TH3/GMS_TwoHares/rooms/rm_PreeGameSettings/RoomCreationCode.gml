@@ -35,6 +35,7 @@ global.objInventoryTable = obj_InventoryTable;
 global.objInventoryButtonOpen = obj_InventoryButton_open;
 global.objInventorryButtonClose = obj_InventorryButton_close;
 global.objInventoryPhone = obj_InventoryPhone;
+global.objSafeCode = obj_SafeCode;
 
 //Название стилей текста
 global.fontStyle1 = font0;

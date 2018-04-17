@@ -77,9 +77,13 @@ global.textSecondLevelProt_1 = "ТОМ:\nКаков привет, таков и 
 global.textSecondLevelBoss_1 = "БОСС:\nНу, шо расскажешь?"
 global.textSecondLevelBoss_2 = "БОСС:\nШо уставился? Бегом за выпивкой. Нужно это дело хорошенько обмыть."
 
-global.textSecondLevelBossChoice[1] = "БОСС:\nХа-ха, а ты знаешь, шо такое естественный отбор? Хотя ладно, не бери в голову. А ну-ка метнись за бутылкой красненького. От этих разговоров в горле пересохло, да и повод есть.";
-global.textSecondLevelBossChoice[2] = "БОСС:\nНе смеши, у меня целый департамент занимается этой проблемой. Они нам больше не угроза. Все на мази.";
-global.textSecondLevelBossChoice[3] = "БОСС:\n...";
+global.textSecondLevelBossChoice[1] = "ТОМ:\nЕсть отличная новость. Наша газировка Кока Рока вышла на первое место по потреблению среди людей. Она почти заменила воду.. Заметили, как много стало толстяков?";
+global.textSecondLevelBossChoice[4] = "БОСС:\nХа-ха, а ты знаешь, шо такое естественный отбор? Хотя ладно, не бери в голову. А ну-ка метнись за бутылкой красненького. От этих разговоров в горле пересохло, да и повод есть.";
+global.textSecondLevelBossChoice[2] = "ТОМ:\nла-ла-ла";
+global.textSecondLevelBossChoice[5] = "БОСС:\nНе смеши, у меня целый департамент занимается этой проблемой. Они нам больше не угроза. Все на мази.";
+global.textSecondLevelBossChoice[3] = "ТОМ:\n...";
+global.textSecondLevelBossChoice[6] = "БОСС:\n...";
+
 
 global.textSecondLevelProtAnswer2[1] = "- Сообщить об успехе продаж газировки";
 global.textSecondLevelProtAnswer2[2] = "- Рассказать об атмосферном электричестве";
