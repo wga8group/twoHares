@@ -6,4 +6,5 @@ if global.objSafeCode.visible {
 	obj_SafeStar4.visible = false;
 	obj_SafeStar5.visible = false;
 	obj_SafeStar6.visible = false;
+	global.objSafeCode.currentPass = "";
 }

@@ -35,6 +35,7 @@ global.objInventoryTable = obj_InventoryTable;
 global.objInventoryButtonOpen = obj_InventoryButton_open;
 global.objInventorryButtonClose = obj_InventorryButton_close;
 global.objInventoryPhone = obj_InventoryPhone;
+global.objInventoryAlcohol = obj_InventoryAlcohol;
 global.objSafeCode = obj_SafeCode;
 
 //Название стилей текста
@@ -58,6 +59,10 @@ global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
 global.TransitionDuration = 240;
 global.PhoneInInventory = false;
+global.BossSafePass = "260686";
+global.AlcoholInNventory = false;
+global.OfficeSafeOpen = false;
+
 enum GameLevels{
 	CutScene_1,
 	Level_1,

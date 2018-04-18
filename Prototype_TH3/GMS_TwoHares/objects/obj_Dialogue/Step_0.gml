@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (visible == true) {
+if visible {
 	global.StateBlockHeroAction = true;
 	
 	//курсор
@@ -17,12 +17,17 @@ if (visible == true) {
 			charactersNumber = 0;
 			global.StateBlockHeroAction = false;
 			global.BlockFirstStep = true;
-			return 0;
+			exit;
 		}
 		clickCount += 1;
 		charactersNumber = 0;
 	}	
-	//Обработка текста
+
+	if clickCount <= 0 {
+		clickCount = 1;
+	}
+	
+	//Обработка текста	
 	charactersNumber += 1;
 	printText = string_copy(message[clickCount], 1, charactersNumber);	
 }

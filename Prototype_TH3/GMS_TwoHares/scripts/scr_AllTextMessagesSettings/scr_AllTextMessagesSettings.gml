@@ -88,3 +88,12 @@ global.textSecondLevelBossChoice[6] = "БОСС:\n...";
 global.textSecondLevelProtAnswer2[1] = "- Сообщить об успехе продаж газировки";
 global.textSecondLevelProtAnswer2[2] = "- Рассказать об атмосферном электричестве";
 global.textSecondLevelProtAnswer2[3] = "- Закончить диалог";
+
+global.textOfficeSafeError_1 = "ТОМ:\nНе подошло. Давай, напряги свои извилины.";
+global.textOfficeSafeError_2 = "ТОМ:\nНе подошло. Вибрации в штанах? Ах да, это же мой телефон.";
+global.textOfficeSafeError_3 = "ТОМ:\nНе подошло. Да кто там такой настойчивый: все звонит и звонит. Достал уже.";
+
+global.textOfficeSafeSuccess_1 = "ТОМ:\nФух, кажется я справился. Сейчас я наконец узнаю, какие скелеты в шкафу у Виктора.";
+global.textOfficeSafeSuccess_2 = "ТОМ:\n\"Акт регулирования использования технологий обществом\", \"Список опасных ученых\", \"....";
+global.textOfficeSafeSuccess_3 = "ТОМ:\nХмм, звучит крайне подозрительно. Пожалуй, сфотографирую их.";
+global.textOfficeSafeEnd = "ТОМ:\nКогда-нибудь сюда что-нибудь придумают, а пока решите загадку: как далеко в лес может убежать заяц?";

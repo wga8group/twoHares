@@ -7,7 +7,9 @@ audio_stop_all();
 scr_ToggleCursor();
 cursor_sprite = spr_CursorMain;
 
+global.OfficeSafeOpen = false;
 global.PhoneInInventory = true;
+global.AlcoholInNventory = false;
 global.StateBlockHeroAction  = true;
 global.objProtagonist = obj_ProtDressed;
 global.objBlackout.visible = true;

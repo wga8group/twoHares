@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0354be1b-dc79-4bb4-b8e7-6f3336f7e83e",
+            "Value": {
+                "id": "4a9b3f93-b7dd-402d-b734-d8974298d25e",
+                "resourcePath": "objects\\obj_SafeButton9\\obj_SafeButton9.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "03a012ff-21ce-461a-a94d-20beb19817cf",
             "Value": {
                 "id": "e1b169f6-8797-4b50-9acb-c39a06e2489a",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "1d577db8-d260-4478-87ad-4ebaf7359581",
+            "Value": {
+                "id": "bc6ba17a-0936-4632-9d34-5136a13362b1",
+                "resourcePath": "sprites\\spr_InventoryAlcohol\\spr_InventoryAlcohol.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1edff11d-3d48-41dd-87ac-29c05a7cdb8f",
             "Value": {
                 "id": "a795ff44-4b4f-4c3a-bbda-7c9d0dcda6d8",
@@ -204,6 +220,14 @@
                 "id": "63f335f1-2e43-4c43-af6c-e88e38696e94",
                 "resourcePath": "rooms\\rm_BarCutScene1\\rm_BarCutScene1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "2327bda1-7120-4fee-b735-743c491a7ce8",
+            "Value": {
+                "id": "507659ac-e278-4c5c-bd45-ded4867afe83",
+                "resourcePath": "objects\\obj_SafeButton7\\obj_SafeButton7.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1079,6 +1103,14 @@
             }
         },
         {
+            "Key": "8ae20e94-6a3c-456b-98da-a077dd8ab3f5",
+            "Value": {
+                "id": "5007f767-2347-4943-94a1-2a78a7cc0a4c",
+                "resourcePath": "objects\\obj_SafeButton6\\obj_SafeButton6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8bff3a4b-46c8-482f-a281-743da297d90f",
             "Value": {
                 "id": "5320ae8c-93af-4e32-b3f6-003916ad299b",
@@ -1099,6 +1131,14 @@
             "Value": {
                 "id": "118a1c09-fe1e-4552-97d8-32cc8561abd1",
                 "resourcePath": "objects\\obj_barToilet\\obj_barToilet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90484a1b-d6a6-4fa7-b6a5-af7f749a45b9",
+            "Value": {
+                "id": "88bd0e75-764e-4731-83f8-7996d25f706f",
+                "resourcePath": "objects\\obj_SafeButton2\\obj_SafeButton2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1172,6 +1212,14 @@
                 "id": "b18143c0-b1fe-4430-a604-098d3d462882",
                 "resourcePath": "sprites\\spr_ProtWalkLeft\\spr_ProtWalkLeft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b5cdbc2-e14c-424d-bec0-5d8356b0ce0e",
+            "Value": {
+                "id": "77f47676-cf44-4c2f-9f13-c4aa14d75079",
+                "resourcePath": "objects\\obj_SafeButton3\\obj_SafeButton3.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1327,6 +1375,14 @@
             }
         },
         {
+            "Key": "ace4ba07-cf79-455a-8327-f43cbdff786b",
+            "Value": {
+                "id": "f5bc05e0-d86c-4511-89e8-d4d8d9ed02ee",
+                "resourcePath": "objects\\obj_SafeButton5\\obj_SafeButton5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ad0a78ed-3f51-477b-89f0-48daf52c5671",
             "Value": {
                 "id": "8d2ed5f2-28ee-4e46-8d20-57e704abdbf7",
@@ -1355,6 +1411,14 @@
             "Value": {
                 "id": "c10849bc-d197-4483-ba19-c35d78768598",
                 "resourcePath": "objects\\obj_DialogueChoice\\obj_DialogueChoice.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b2be2ce1-0ac5-4270-845e-bbd28ad36c25",
+            "Value": {
+                "id": "73df08b1-c6f2-45e4-9c5e-0f0a35878730",
+                "resourcePath": "objects\\obj_SafeButton0\\obj_SafeButton0.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1420,6 +1484,14 @@
                 "id": "c87fa62e-1641-487c-aa51-4f93c538cd80",
                 "resourcePath": "sprites\\spr_roomDiploma\\spr_roomDiploma.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbbdb08f-ec85-4816-910d-5e43d67d6169",
+            "Value": {
+                "id": "1ba20759-4e46-4044-b180-53e969b26583",
+                "resourcePath": "objects\\obj_SafeButton8\\obj_SafeButton8.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1695,6 +1767,14 @@
             }
         },
         {
+            "Key": "df740b4a-4af6-47fa-9407-d4eb851bcc72",
+            "Value": {
+                "id": "9089bdd6-5750-45f5-b890-7f118ac37bab",
+                "resourcePath": "objects\\obj_SafeButton4\\obj_SafeButton4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dfb6a722-7955-41a1-9d6e-e85879493542",
             "Value": {
                 "id": "dd91abd3-922f-4dc3-97e8-b658420a1a40",
@@ -1772,6 +1852,14 @@
                 "id": "06561d78-8fbc-45fe-a84f-832ebc01b17c",
                 "resourcePath": "sprites\\spr_safeStar\\spr_safeStar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e88f938b-0608-475f-b1a3-543fd16447d3",
+            "Value": {
+                "id": "8d4e8c9e-f014-4b6c-89f3-bab8d9a08c1c",
+                "resourcePath": "objects\\obj_InventoryAlcohol\\obj_InventoryAlcohol.yy",
+                "resourceType": "GMObject"
             }
         },
         {
