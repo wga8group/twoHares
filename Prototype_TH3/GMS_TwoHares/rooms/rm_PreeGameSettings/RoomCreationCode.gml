@@ -1,7 +1,12 @@
 
 //Начальное разрешение
 scr_SetResolution(800,600);
+//scr_SetResolution(1024,768);
 //scr_SetResolution(1280,600);
+//scr_SetResolution(1280,720);
+//scr_SetResolution(1280,768);
+//scr_SetResolution(1360,768);
+//scr_SetResolution(1366,768);
 //scr_SetResolution(2560,1080);
 
 
@@ -30,6 +35,8 @@ global.objInventoryTable = obj_InventoryTable;
 global.objInventoryButtonOpen = obj_InventoryButton_open;
 global.objInventorryButtonClose = obj_InventorryButton_close;
 global.objInventoryPhone = obj_InventoryPhone;
+global.objInventoryAlcohol = obj_InventoryAlcohol;
+global.objSafeCode = obj_SafeCode;
 
 //Название стилей текста
 global.fontStyle1 = font0;
@@ -51,6 +58,10 @@ global.sprInventoryPhone = spr_InventoryPhone;
 global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
 global.TransitionDuration = 240;
+global.PhoneInInventory = false;
+global.BossSafePass = "260686";
+global.AlcoholInNventory = false;
+global.OfficeSafeOpen = false;
 
 enum GameLevels{
 	CutScene_1,

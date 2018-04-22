@@ -4,6 +4,7 @@
 if(visible&& global.objDialogue.visible==false){
 	global.objInventoryButtonOpen.visible=false;
 	draw_sprite_ext(global.sprInventoryTable,0,0,100,1,1,0,c_white,1);
-	if(global.objFirstLevelLogic.phonePickUp == true)
+	if global.PhoneInInventory {
 		global.objInventoryPhone.visible=true;
+	}
 }

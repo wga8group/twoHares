@@ -23,9 +23,13 @@ switch(currentState){
 	break;
 	
 	case OfficeStatesLevel2.GirlDialogue:
-		scr_StepLogicLevel2(self);
+		scr_GirlLogicLevel2(self);
 	break;	
-	
+
+	case OfficeStatesLevel2.BossDialogue:
+		scr_BossLogicLevel2(self);
+	break;
+
 	default:
 	break;
 }

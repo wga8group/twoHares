@@ -10,4 +10,5 @@ charactersNumber = 0;
 printText = "";
 message[1] = "Ммм, ништячок";
 message[2] = "Ммм, ништячок";
+message[3] = "Ммм, ништячок";
 

@@ -7,9 +7,9 @@ audio_stop_all();
 scr_ToggleCursor();
 cursor_sprite = spr_CursorMain;
 
-phonePickUp = false;
 computerPickUp = false;
 objFirstNews = obj_FirstNews;
+global.PhoneInInventory = false;
 global.StateBlockHeroAction  = true;
 global.objProtagonist = obj_Prot;
 global.objProtagonist.sprite_index = global.sprProtWakeUp;

@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "obj_OfficeDoor",
     "eventList": [
-        
+        {
+            "id": "8a6c7414-b103-43f5-991b-05d05e0632f2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "55a3561f-e1a4-4ec7-bed9-9b4c32e8e143"
+        },
+        {
+            "id": "804374f8-3811-4338-b246-6c17051c57c6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "55a3561f-e1a4-4ec7-bed9-9b4c32e8e143"
+        },
+        {
+            "id": "0e769273-cca9-46a1-9164-1ba62f1a1a7a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "55a3561f-e1a4-4ec7-bed9-9b4c32e8e143"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

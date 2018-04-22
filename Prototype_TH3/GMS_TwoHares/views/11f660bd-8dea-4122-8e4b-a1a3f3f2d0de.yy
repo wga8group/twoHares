@@ -6,7 +6,8 @@
     "children": [
         "7932fb05-2185-456f-ab4e-8d5f666c870d",
         "82c0140d-258b-408a-9ce8-ece5dfceb545",
-        "6304d1c4-9cb1-4dff-beae-87b3471d1916"
+        "6304d1c4-9cb1-4dff-beae-87b3471d1916",
+        "1d577db8-d260-4478-87ad-4ebaf7359581"
     ],
     "filterType": "GMSprite",
     "folderName": "Inventory",
