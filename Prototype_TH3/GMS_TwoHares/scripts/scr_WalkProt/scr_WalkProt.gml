@@ -1,4 +1,4 @@
-argument0.depth = -1*y;
+argument0.depth = -1*argument0.y;
 
 with (argument0)
 {
@@ -11,7 +11,7 @@ with (argument0)
 		//}		
 		
         path = path_add();
-        if mp_grid_path(grid, path, x, y, mouse_x, mouse_y, 1)
+        if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, mouse_y, 1)
         {
             path_start(path, 0.7, path_action_stop, 1);
         }
@@ -20,7 +20,7 @@ with (argument0)
             var i;
             for (i = mouse_y; i <= 135; i += 1)
             {
-                if mp_grid_path(grid, path, x, y, mouse_x, 0+i, 1)
+                if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, 0+i, 1)
                 {
                     path_start(path, 0.7, path_action_stop, 1);
                     break;
@@ -28,7 +28,7 @@ with (argument0)
             }
             for (i = mouse_y; i > 0; i -= 1)
             {
-                if mp_grid_path(grid, path, x, y, mouse_x, 0+i, 1)
+                if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, 0+i, 1)
                 {
                     path_start(path, 0.7, path_action_stop, 1);
                     break;
@@ -43,19 +43,19 @@ with (argument0)
 		var targetx, targety;
         targetx = path_get_x(path, 1);
         targety = path_get_y(path, 1);
-        if (x == targetx && y == targety)
+        if (argument0.x == targetx && argument0.y == targety)
         {
 			if argument0.WalkSoundID {
 				audio_stop_sound(argument0.WalkSoundID);
 				argument0.WalkSoundID = undefined;
 			}
-            if (direction >= 90 && direction < 270)
+            if (argument0.direction >= 90 && argument0.direction < 270)
             {
-                sprite_index = argument1;
+                argument0.sprite_index = argument1;
             }
             else
             {
-                sprite_index = argument2;
+                argument0.sprite_index = argument2;
             }
         }
         else
@@ -64,14 +64,14 @@ with (argument0)
 				argument0.WalkSoundID = audio_play_sound_at(argument5, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
 				audio_sound_gain(argument0.WalkSoundID, global.VolumeSound, 0);
 			}
-            direction = point_direction(xprevious, yprevious, targetx, targety);
-            if (direction >= 90 && direction < 270)
+            argument0.direction = point_direction(argument0.xprevious, argument0.yprevious, targetx, targety);
+            if (argument0.direction >= 90 && argument0.direction < 270)
             {
-                sprite_index = argument3;
+                argument0.sprite_index = argument3;
             }
             else
             {
-                sprite_index = argument4;
+                argument0.sprite_index = argument4;
             }
         }
     }
