@@ -1,8 +1,8 @@
 {
-    "id": "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
+    "id": "8880403c-5544-426f-86f8-6b9c8539b093",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_AllTextMessagesSettings",
+    "name": "scr_SetAllTextMessagesEn",
     "IsCompatibility": false,
     "IsDnD": false
 }

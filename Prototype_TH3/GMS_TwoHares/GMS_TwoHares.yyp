@@ -1151,6 +1151,14 @@
             }
         },
         {
+            "Key": "8880403c-5544-426f-86f8-6b9c8539b093",
+            "Value": {
+                "id": "a40126b8-b808-4283-a9f6-5558476fefbd",
+                "resourcePath": "scripts\\scr_SetAllTextMessagesEn\\scr_SetAllTextMessagesEn.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8ae20e94-6a3c-456b-98da-a077dd8ab3f5",
             "Value": {
                 "id": "5007f767-2347-4943-94a1-2a78a7cc0a4c",
@@ -1610,7 +1618,7 @@
             "Key": "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
             "Value": {
                 "id": "efac3723-9645-4d4a-b9c1-6b0d8cdb904e",
-                "resourcePath": "scripts\\scr_AllTextMessagesSettings\\scr_AllTextMessagesSettings.yy",
+                "resourcePath": "scripts\\scr_SetAllTextMessagesRuss\\scr_SetAllTextMessagesRuss.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1951,6 +1959,14 @@
             }
         },
         {
+            "Key": "f19b4ec1-8c96-4675-9185-1efa9e5ef6b6",
+            "Value": {
+                "id": "a177092f-70bc-475e-a6f0-dc1ed268cd92",
+                "resourcePath": "objects\\obj_ButtonChangeLang\\obj_ButtonChangeLang.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f1de7327-f27d-4c35-8c6f-8a9dce322e2e",
             "Value": {
                 "id": "818bf112-5b79-4a66-b060-eb4a16439054",
@@ -2060,6 +2076,7 @@
         "7a773adb-5ace-45c3-9079-b07935018d46",
         "2f3d6a23-479c-42ff-a0f4-7d33bce214e7",
         "c30934f2-7d28-46dc-b6cd-f9cbcbd908b1",
+        "8880403c-5544-426f-86f8-6b9c8539b093",
         "faebcaa9-6c3a-4500-958b-c0c08462b899",
         "98817d68-837d-4743-ab68-8c536d519286",
         "a937c5c6-2357-450f-9381-92db3c78ff81",

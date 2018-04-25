@@ -42,7 +42,7 @@ global.objSafeCode = obj_SafeCode;
 global.fontStyle1 = font0;
 
 //Сами тексты
-scr_AllTextMessagesSettings();
+scr_SetAllTextMessagesRuss();
 
 //Названия спрайтов
 global.sprDialogue = spr_Dialogue;
@@ -62,6 +62,7 @@ global.PhoneInInventory = false;
 global.BossSafePass = "260686";
 global.AlcoholInNventory = false;
 global.OfficeSafeOpen = false;
+global.IsRussLang = true;
 
 enum GameLevels{
 	CutScene_1,
