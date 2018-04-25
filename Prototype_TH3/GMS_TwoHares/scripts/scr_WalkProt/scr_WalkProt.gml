@@ -40,11 +40,15 @@ with (argument0)
      // handle animation
     if (path_exists(path))
     {
-        var targetx, targety;
+		var targetx, targety;
         targetx = path_get_x(path, 1);
         targety = path_get_y(path, 1);
         if (x == targetx && y == targety)
         {
+			if argument0.WalkSoundID {
+				audio_stop_sound(argument0.WalkSoundID);
+				argument0.WalkSoundID = undefined;
+			}
             if (direction >= 90 && direction < 270)
             {
                 sprite_index = argument1;
@@ -56,6 +60,10 @@ with (argument0)
         }
         else
         {
+			if not argument0.WalkSoundID {
+				argument0.WalkSoundID = audio_play_sound_at(argument5, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
+				audio_sound_gain(argument0.WalkSoundID, global.VolumeSound, 0);
+			}
             direction = point_direction(xprevious, yprevious, targetx, targety);
             if (direction >= 90 && direction < 270)
             {

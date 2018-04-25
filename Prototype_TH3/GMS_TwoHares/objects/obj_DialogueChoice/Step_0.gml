@@ -17,7 +17,7 @@ if (visible == true) {
 			global.objButtonChoice1.visible = false;
 			global.objButtonChoice2.visible = false;
 			global.objButtonChoice3.visible = false;
-			global.StateBlockHeroAction = false;
+			//global.StateBlockHeroAction = false;
 			global.BlockFirstStep = true;
 			return 0;
 		}

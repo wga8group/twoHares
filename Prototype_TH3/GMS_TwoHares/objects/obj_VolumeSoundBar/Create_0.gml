@@ -1,8 +1,8 @@
-/// @description Insert description here
+/// @description Настройка параметров
 
 //Название спарйта кнопки
-sprVolumeSlideButton = spr_VolumeSlideButton;
+sprVolumeSliderButton = spr_VolumeSliderButton;
 
 //Переменные
-currentVolume = global.VolumeSound;
 buttonPress = false;
+ChangeCursor = false;

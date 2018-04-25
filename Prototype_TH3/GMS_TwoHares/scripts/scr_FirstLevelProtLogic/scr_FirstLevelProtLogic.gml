@@ -2,6 +2,10 @@ switch(currentState)
 {
 	case characterStates.startRoom:
 		argument0.image_speed = 0;
+		if not ProtoWakeUpSoundID {
+			ProtoWakeUpSoundID = audio_play_sound_at(soundOutOfBed, argument0.x, argument0.y, 0, 100, 300, 1, false, 1);
+			audio_sound_gain(ProtoWakeUpSoundID, global.VolumeSound, 0);
+		}		
 	break;	
 	
 	case characterStates.WakeUp:

@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0e56bbe3-5e69-4a44-a54d-63f16cb60eec",
+            "Value": {
+                "id": "9f4c14da-aa20-44e4-8abf-91c85f213975",
+                "resourcePath": "scripts\\scr_SliderButton\\scr_SliderButton.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "11f660bd-8dea-4122-8e4b-a1a3f3f2d0de",
             "Value": {
                 "id": "e9c2c02f-dcd7-4512-b5df-fa8bec2cea10",
@@ -138,7 +146,7 @@
             "Key": "1272cc36-09b0-4a36-8088-d51a419dad0f",
             "Value": {
                 "id": "661dc844-a56e-4465-8ae3-6a2480d21055",
-                "resourcePath": "sprites\\spr_VolumeSlideBar\\spr_VolumeSlideBar.yy",
+                "resourcePath": "sprites\\spr_VolumeSlider\\spr_VolumeSlider.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -199,6 +207,14 @@
             }
         },
         {
+            "Key": "1e3b7917-b156-4e00-94ce-a1900dd99c37",
+            "Value": {
+                "id": "4eb09f54-8e06-404f-8837-fa524bf90db3",
+                "resourcePath": "sounds\\VibroAlarmPhone\\VibroAlarmPhone.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1edff11d-3d48-41dd-87ac-29c05a7cdb8f",
             "Value": {
                 "id": "a795ff44-4b4f-4c3a-bbda-7c9d0dcda6d8",
@@ -255,6 +271,14 @@
             }
         },
         {
+            "Key": "25f2da8e-59db-4fde-b706-2f1af93a7543",
+            "Value": {
+                "id": "b67c8e52-8444-411b-a203-830beb8d4607",
+                "resourcePath": "views\\25f2da8e-59db-4fde-b706-2f1af93a7543.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "25f73df7-250b-4aec-ac11-085dbdd53fdb",
             "Value": {
                 "id": "8df4ea0a-7e2c-456f-b9ff-b948e918a061",
@@ -268,6 +292,14 @@
                 "id": "82b8f219-e746-479c-b957-6a033640260a",
                 "resourcePath": "sprites\\spr_roomDoorOpen\\spr_roomDoorOpen.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2814b79d-814a-4d30-bc0f-0c1b91092539",
+            "Value": {
+                "id": "c4a87344-b52f-4857-a631-b5b630035555",
+                "resourcePath": "sounds\\HomeMusic\\HomeMusic.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -738,7 +770,7 @@
             "Key": "5996f4d9-a0a3-49a1-b2b4-a642d56d7d38",
             "Value": {
                 "id": "04bf632f-fc5c-437e-a502-753ad67f38fe",
-                "resourcePath": "sprites\\spr_VolumeSlideButton\\spr_VolumeSlideButton.yy",
+                "resourcePath": "sprites\\spr_VolumeSliderButton\\spr_VolumeSliderButton.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1039,6 +1071,14 @@
             }
         },
         {
+            "Key": "7f1ff4ce-5f24-4549-84de-5e3cd1e013b9",
+            "Value": {
+                "id": "6917062c-b669-4630-a8a8-8bf71fe6c024",
+                "resourcePath": "sounds\\OutOfBed\\OutOfBed.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "7f581914-946b-4132-ae68-f98b08c78433",
             "Value": {
                 "id": "8d848fea-4aa2-4e4e-b573-a86f39b508ac",
@@ -1092,6 +1132,14 @@
                 "id": "10d8ac27-8c3b-46c6-8652-a7e5bb40df32",
                 "resourcePath": "objects\\obj_SafeButton1\\obj_SafeButton1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "856698eb-93d4-456f-a8ea-3a010b640db7",
+            "Value": {
+                "id": "ea000eb8-bd27-4d8c-836e-68aef1c7e7fe",
+                "resourcePath": "sounds\\HomeBack\\HomeBack.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1767,6 +1815,14 @@
             }
         },
         {
+            "Key": "df5ebf97-012e-4f83-b572-701476087363",
+            "Value": {
+                "id": "e4c249be-4d83-4d36-aeef-2be0c33e5515",
+                "resourcePath": "sounds\\RoomSteps\\RoomSteps.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "df740b4a-4af6-47fa-9407-d4eb851bcc72",
             "Value": {
                 "id": "9089bdd6-5750-45f5-b890-7f118ac37bab",
@@ -1954,7 +2010,7 @@
             "Key": "fa438ecd-65b0-4ded-9b54-ee6d34c044a8",
             "Value": {
                 "id": "8f9622a6-581b-40e8-92ef-3803ff355891",
-                "resourcePath": "objects\\obj_HotKeysWork\\obj_HotKeysWork.yy",
+                "resourcePath": "objects\\obj_MenuVolumeLogic\\obj_MenuVolumeLogic.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2010,7 +2066,8 @@
         "300b2654-dc24-4622-be97-e1190e755ab5",
         "1f8b8050-6e1e-4739-b158-e2be616b5d70",
         "c5aa0831-36dc-47fb-9378-36ecb694570d",
-        "86539412-6492-4c00-aea5-be5fc2be5746"
+        "86539412-6492-4c00-aea5-be5fc2be5746",
+        "0e56bbe3-5e69-4a44-a54d-63f16cb60eec"
     ],
     "tutorial": ""
 }

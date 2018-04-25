@@ -9,7 +9,7 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.message[1] = global.textFirstLevelItem1_1;
 		global.objDialogue.message[2] = global.textFirstLevelItem1_2;
 		global.objDialogue.message[3] =	global.textFirstLevelItem1_3;
-
+		audio_stop_sound(PhoneSoundID);
 		instance_destroy(self,true);
 		//show_debug_message(global.objFirstLevelLogic.phonePickUp);   //для дебага
 	}

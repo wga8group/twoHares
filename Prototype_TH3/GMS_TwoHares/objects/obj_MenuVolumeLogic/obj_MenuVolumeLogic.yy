@@ -2,7 +2,7 @@
     "id": "fa438ecd-65b0-4ded-9b54-ee6d34c044a8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_HotKeysWork",
+    "name": "obj_MenuVolumeLogic",
     "eventList": [
         {
             "id": "7964cdee-57d4-44d2-8e44-1f714bab9c37",
