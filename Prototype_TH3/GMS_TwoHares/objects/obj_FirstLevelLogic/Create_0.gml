@@ -19,22 +19,11 @@ computerPickUp = false;
 objFirstNews = obj_FirstNews;
 soundOutOfBed = OutOfBed;
 ProtoWakeUpSoundID = undefined;
+currentState = characterStates.startRoom;
 
 //глобальные установки
 global.PhoneInInventory = false;
-global.StateBlockHeroAction  = true;
 global.objProtagonist = obj_Prot;
 global.objProtagonist.sprite_index = global.sprProtWakeUp;
 global.objBlackout.visible = true;
 global.objBlackout.image_alpha = 1;
-
-//переменные стадий
-enum characterStates{
-	startRoom,
-	WakeUp,
-	NakedWalk,
-	DressingUp,
-	DressedWalk,
-}
-
-currentState = characterStates.startRoom;

@@ -7,6 +7,7 @@ audio_stop_all();
 scr_ToggleCursor();
 cursor_sprite = spr_CursorMain;
 
+//глобальные установки
 global.OfficeSafeOpen = false;
 global.PhoneInInventory = true;
 global.AlcoholInNventory = false;
@@ -15,14 +16,7 @@ global.objProtagonist = obj_ProtDressed;
 global.objBlackout.visible = true;
 global.objBlackout.image_alpha = 1;
 
-//переменные стадий
-enum OfficeStatesLevel2{
-	startRoom,
-	Walk,
-	GirlDialogue,
-	BossDialogue
-}
-
+//переменные уровня
 currentState = characterStates.startRoom;
 wasDialogueWithGirl = false;
 chosenAnswerWithBoss_1 = false;

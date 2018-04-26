@@ -39,7 +39,7 @@ switch(global.objFirstLevelLogic.currentState)
 
 	case characterStates.DressedWalk:
 		if not global.StateBlockHeroAction {
-			script_execute(scr_WalkProt, obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight);
+			scr_WalkProt(obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight, RoomSteps);
 		}
 		else{
 			//отключаем звук ходьбы

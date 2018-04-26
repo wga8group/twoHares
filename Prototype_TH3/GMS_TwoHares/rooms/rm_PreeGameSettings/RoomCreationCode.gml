@@ -71,6 +71,17 @@ enum GameLevels{
 	Level_3
 }
 
+//переменные стадий
+enum characterStates{
+	startRoom,
+	WakeUp,
+	NakedWalk,
+	DressingUp,
+	DressedWalk,
+	GirlDialogue,
+	BossDialogue	
+}
+
 global.CurrentLevel = GameLevels.CutScene_1;
 
 

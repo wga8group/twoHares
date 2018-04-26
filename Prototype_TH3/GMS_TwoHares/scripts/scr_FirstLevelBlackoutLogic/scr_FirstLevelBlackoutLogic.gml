@@ -7,12 +7,10 @@ switch(currentState)
 			argument0.image_alpha = 0;
 			argument0.visible = false; 
 			currentState = characterStates.WakeUp;
-			global.StateBlockHeroAction = false;
 		}
 	break;	
 	
 	case characterStates.DressingUp:
-		global.StateBlockHeroAction = true;
 		argument0.visible = true;
 		argument0.image_alpha = clamp(argument0.image_alpha + 0.03, 0, 1);
 		if argument0.image_alpha >= 1 {
@@ -26,7 +24,6 @@ switch(currentState)
 			if argument0.image_alpha <= 0 {
 				argument0.image_alpha = 0;
 				argument0.visible = false;
-				global.StateBlockHeroAction = false;
 			}		
 		}
 	break;

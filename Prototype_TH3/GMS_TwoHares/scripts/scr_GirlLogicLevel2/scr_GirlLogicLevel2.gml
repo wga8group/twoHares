@@ -35,7 +35,7 @@ switch(argument0.dialogueState){
 
 	default:
 		argument0.wasDialogueWithGirl = true;
-		argument0.currentState = OfficeStatesLevel2.Walk;	
+		argument0.currentState = characterStates.DressedWalk;	
 		argument0.dialogueState = 0;
 	break;	
 }

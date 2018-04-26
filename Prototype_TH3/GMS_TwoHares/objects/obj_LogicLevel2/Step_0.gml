@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//Горячие клавиши (полный экран, меню и т.д.)
-script_execute(scr_HotKeysWork);
+//Скрипты для отработки горячих клавиш, блокировок, курсора и т.п.
+scr_WorkHotKeys();
+scr_WorkCursorClickAnim();
+scr_WorkBlockHeroAction(currentState);
 
 //Логика уровня
 switch(currentState){
@@ -13,20 +15,19 @@ switch(currentState){
 		if global.objBlackout.image_alpha <= 0 {
 			global.objBlackout.image_alpha = 0;
 			global.objBlackout.visible = false; 
-			global.StateBlockHeroAction = false;
-			currentState = OfficeStatesLevel2.Walk;
+			currentState = characterStates.DressedWalk;
 		}
 	break;	
 	
-	case OfficeStatesLevel2.Walk:
+	case characterStates.DressedWalk:
 		
 	break;
 	
-	case OfficeStatesLevel2.GirlDialogue:
+	case characterStates.GirlDialogue:
 		scr_GirlLogicLevel2(self);
 	break;	
 
-	case OfficeStatesLevel2.BossDialogue:
+	case characterStates.BossDialogue:
 		scr_BossLogicLevel2(self);
 	break;
 

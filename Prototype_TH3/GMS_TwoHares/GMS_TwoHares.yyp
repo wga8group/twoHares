@@ -1402,7 +1402,7 @@
             "Key": "a9b21a01-d101-4888-93d4-2d90af7d967b",
             "Value": {
                 "id": "844454f6-6ea0-43ec-bd18-08428ae7ebf3",
-                "resourcePath": "scripts\\scr_HotKeysWork\\scr_HotKeysWork.yy",
+                "resourcePath": "scripts\\scr_WorkHotKeys\\scr_WorkHotKeys.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1476,6 +1476,14 @@
                 "id": "73df08b1-c6f2-45e4-9c5e-0f0a35878730",
                 "resourcePath": "objects\\obj_SafeButton0\\obj_SafeButton0.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b345656c-51a1-4a77-bdea-733d15f43e96",
+            "Value": {
+                "id": "87cc0e79-c770-42da-a963-a85f7ceaa9e2",
+                "resourcePath": "scripts\\scr_WorkCursorClickAnim\\scr_WorkCursorClickAnim.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1556,6 +1564,14 @@
                 "id": "5dda4eb7-a2a7-4f1d-ad15-eff86b1eac9c",
                 "resourcePath": "objects\\obj_Item5\\obj_Item5.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bc56e212-817e-47b7-a835-a71d65922372",
+            "Value": {
+                "id": "02386a4d-c5ba-4759-a3ea-c7daacc9fdf4",
+                "resourcePath": "scripts\\scr_WorkBlockHeroAction\\scr_WorkBlockHeroAction.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2069,6 +2085,8 @@
         "f25581d1-e291-4a0a-95ab-57eeaefd7bf6",
         "5da21f7f-ab6b-4dcd-9ff0-ee5b2331183e",
         "a9b21a01-d101-4888-93d4-2d90af7d967b",
+        "b345656c-51a1-4a77-bdea-733d15f43e96",
+        "bc56e212-817e-47b7-a835-a71d65922372",
         "416b6820-951b-4ecd-961d-a581a8d47608",
         "d1ee7a10-9900-4884-a427-57400d4f4f52",
         "415cbb15-0c52-46b1-8774-05683fd62d0c",

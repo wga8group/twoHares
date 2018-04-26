@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 if visible {
-	global.StateBlockHeroAction = true;
 	
 	//курсор
 	if global.BlockFirstStep {
@@ -15,7 +14,6 @@ if visible {
 			visible = false;
 			clickCount = 0;
 			charactersNumber = 0;
-			global.StateBlockHeroAction = false;
 			global.BlockFirstStep = true;
 			exit;
 		}

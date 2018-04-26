@@ -1,8 +1,8 @@
 {
-    "id": "a9b21a01-d101-4888-93d4-2d90af7d967b",
+    "id": "bc56e212-817e-47b7-a835-a71d65922372",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_HotKeysWork",
+    "name": "scr_WorkBlockHeroAction",
     "IsCompatibility": false,
     "IsDnD": false
 }

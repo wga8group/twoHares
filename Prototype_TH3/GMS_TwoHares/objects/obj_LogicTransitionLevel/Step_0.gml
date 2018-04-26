@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//горячие клавиши
-scr_HotKeysWork()
+//Скрипты для отработки горячих клавиш, блокировок, курсора и т.п.
+scr_WorkHotKeys();
+scr_WorkCursorClickAnim();
 
 //запускаем таймер
 if not timeline_running{

@@ -8,7 +8,6 @@ if not global.StateBlockHeroAction {
 			global.objDialogue.message[1] = global.textOfficeSafeEnd;				
 		}
 		else{
-			global.StateBlockHeroAction = true;
 			global.objSafeCode.errorMessage1 = global.textOfficeSafeError_1;
 			global.objSafeCode.errorMessage2 = global.textOfficeSafeError_2;
 			global.objSafeCode.errorMessage3 = global.textOfficeSafeError_3;

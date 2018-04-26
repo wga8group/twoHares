@@ -9,7 +9,7 @@ if not global.StateBlockHeroAction {
 			global.objDialogue.message[1] = global.textSecondLevelGirl_2;			
 		}
 		else{
-			global.objLogicLevel2.currentState = OfficeStatesLevel2.GirlDialogue;
+			global.objLogicLevel2.currentState = characterStates.GirlDialogue;
 		}
 	}
 }

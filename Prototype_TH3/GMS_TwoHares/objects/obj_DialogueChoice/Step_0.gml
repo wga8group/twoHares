@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (visible == true) {
-	global.StateBlockHeroAction = true;
 	
 	//курсор
 	if global.BlockFirstStep {
@@ -17,7 +16,6 @@ if (visible == true) {
 			global.objButtonChoice1.visible = false;
 			global.objButtonChoice2.visible = false;
 			global.objButtonChoice3.visible = false;
-			//global.StateBlockHeroAction = false;
 			global.BlockFirstStep = true;
 			return 0;
 		}
