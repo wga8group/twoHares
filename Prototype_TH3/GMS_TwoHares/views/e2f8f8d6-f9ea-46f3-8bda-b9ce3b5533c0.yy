@@ -14,7 +14,8 @@
         "e4190e61-b7b4-4471-9580-d5714c806d35",
         "f71e4513-f8ca-40c2-b457-5ffbfff41c1e",
         "2472ffff-3314-4fa0-b469-7673b71cba69",
-        "e71a2863-6c1b-4c9e-a097-30b5221da687"
+        "e71a2863-6c1b-4c9e-a097-30b5221da687",
+        "20e90e48-98dd-4ef5-ac24-d0f81ea605c1"
     ],
     "filterType": "GMSprite",
     "folderName": "OfficeBackground",

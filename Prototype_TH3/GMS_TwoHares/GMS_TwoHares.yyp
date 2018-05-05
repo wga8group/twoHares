@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "20e90e48-98dd-4ef5-ac24-d0f81ea605c1",
+            "Value": {
+                "id": "e5870c85-d68a-4b5d-87b2-2ec20955afde",
+                "resourcePath": "sprites\\spr_BossStatic\\spr_BossStatic.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22d9580c-dc75-45a1-a553-33747210b937",
             "Value": {
                 "id": "63f335f1-2e43-4c43-af6c-e88e38696e94",

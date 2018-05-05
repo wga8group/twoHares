@@ -1,99 +1,99 @@
-global.textDefaultMessage = "ТОМ:\nНу и как ты, бля, умудрился так сделать? Все! Сломал игру!";	
+global.textDefaultMessage = "ТОМ:\nWell, how the fuck have you managed to do this? That's it! You broke the game!";	
 
 global.TransitionMessage1 = "BAR. 22:00";
 global.TransitionMessage2 = "HOME. 07:00";
 global.TransitionMessage3 = "WORK. 08:00";
 
-global.textCutScene1_1 = "БАРМЕН: \nГоворишь, никогда не видел снов? Странный ты тип. Быть такого не может... Наверное, ты просто их не запоминаешь.";
-global.textCutScene1_2 = "БАРМЕН: \nЭх, нашел из-за чего париться... Деньги платят и нормально, главное - остаться на плаву. Лично я всё больше склоняюсь к выводу, что миром правит не тайная ложа, а явная лажа.";
-global.textCutScene1_3 = "БАРМЕН: \nЗнаешь, жизнь очень странно устроена. Чтобы вылезти из колодца, надо в него упасть. Хмм.. Еще пивка?";
-global.textCutScene1_4 = "БАРМЕН: \nЭй! Ты меня слышишь?! Завязывай со всем этим дерьмом, а то доиграешься... ";
+global.textCutScene1_1 = "BARTENDER: \nYou say you've never seen a dream? You're a strange. It can't be ... You probably just don't remember them.";
+global.textCutScene1_2 = "BARTENDER: \nDon't lose your sleep over it. Money is paid and that's it, the main thing - to stay afloat. Personally, I'm tend to the conclusion that the world is ruled not by a secret lodge, but by an obvious crap.";
+global.textCutScene1_3 = "BARTENDER: \nYou know, life is very strange. To get out of the well, you need to fall into it first. Hmm .. Another beer?";
+global.textCutScene1_4 = "BARTENDER: \nHey! Can you hear me?! Stop with all this shit, or you'll come to a head ...";
 
 
-global.textFirstLevelWakeUp1 = "ТОМ: \nОох, моя голова...";
-global.textFirstLevelWakeUp2 = "ТОМ: \nТак, нужно быстрее собраться на работу, главное ничего не забыть.";
+global.textFirstLevelWakeUp1 = "ТОМ: \nOhh,my head hurts.";
+global.textFirstLevelWakeUp2 = "ТОМ: \nSo, I need to get ready for work, the main thing is not to forget anything.";
 
-global.textFirstLevelItem1_1 = "НЕИЗВЕСТНЫЙ АБОНЕНТ:\nИсследовав Ваши Google-запросы, мы вычислили Вас и назвали нашим соратником. Мы - Организация. Но также мы - никто. Мы полностью анонимное сообщество, подготавливающее общество к тому, чтобы оно могло сбросить свои рабские оковы.";
-global.textFirstLevelItem1_2 = "НЕИЗВЕСТНЫЙ АБОНЕНТ:\nМы знаем кто Вы, Томас Фишер и как вы можете послужить нашему благому делу. Думаю, вы в курсе последних событий. Если нет, подойдите к компьютеру и освежите память. Мы думаем, что Ваш босс может быть к этому причастен. Найдите...";
-global.textFirstLevelItem1_3 = "ТОМ: \nИ как это понимать? Что найти?...Черт, говорили же мне переходить на Ubuntu...";
+global.textFirstLevelItem1_1 = "UNINDENTIFIED CALLER:\nAfter examining your Google queries, we've spotted you and called our ally. We are the Organization. But also - we are nobody. We are a completely anonymous community, preparing society to lose its slavery chains.";
+global.textFirstLevelItem1_2 = "UNINDENTIFIED CALLER:\nWe know who you are, Thomas Fisher and how you can serve us. I think you are up to date with the latest news. If not, go to the computer and refresh the memory. We think your boss may be involved. Find ...";
+global.textFirstLevelItem1_3 = "ТОМ: \nWhat is that supposed to mean?? What to find? ... Damn, I should switch to Ubuntu ...";
 
-global.textFirstLevelItem2_1 = "НОВОСТИ:\nИзвестный физик и инженер Михаил Зелиц был найден мертвым в собственном доме. Незадолго до смерти Михаил работал над проектом Перун-1, предполагавшим впоследствии полное избавление от платы за электроэнергию.";
-global.textFirstLevelItem2_2 = "НОВОСТИ:\nВ ходе расследования рабочие документы и личные записи ученого не были обнаружены. По версии следствия Михаил Зелиц совершил самоубийство, путем выстрела в голову из пистолета. ";
-global.textFirstLevelItem2_3 = "НОВОСТИ:\nПравоохранительные органы и ряд специалистов считают данное происшествие тщательно спланированным убийством.";
+global.textFirstLevelItem2_1 = "NEWS:\nThe famous physicist and engineer Mikhail Zelits was found dead in his own house. Shortly before his death, Mikhail worked on the project called Perun-1, which afterwards intends complete disposal of the electricity bill.";
+global.textFirstLevelItem2_2 = "NEWS:\nDuring the investigation, the working papers and personal notes of the scientist were not found. According to the investigation, Mikhail Zelits committed suicide, by shooting in the head with a pistol. ";
+global.textFirstLevelItem2_3 = "NEWS:\nLaw enforcement agencies and a number of specialists consider this incident to be a carefully planned murder.";
 
-global.textFirstLevelItem3 = "ТОМ: \nЯ и отец. Золотые времена. Помню, как однажды на рыбалке, он сказал: ''Плохо сожалеть о том, что не так жил. Живи сразу как надо.''  Эх, сложно это все...";
+global.textFirstLevelItem3 = "ТОМ: \nMe and my father. Golden times. I remember, once fishing, he said: ''It's bad to regret that you lived wrong way. Live right way.'' Eh, it's complicated ...";
 
-global.textFirstLevelItem4_1 = "ТОМ: \nНе скучай, Борысс.";
-global.textFirstLevelItem4_2 = "ТОМ: \nМой кот Борысс, люблю его.";
-global.textFirstLevelItem4_3 = "ТОМ: \nПодъем, Борысс!";
-global.textFirstLevelItem4_4 = "ТОМ: \nБорысс, голос!";
+global.textFirstLevelItem4_1 = "ТОМ: \nDon't get bored, Boris!";
+global.textFirstLevelItem4_2 = "ТОМ: \nMy cat Boris, I love him.";
+global.textFirstLevelItem4_3 = "ТОМ: \nWake up, Boris!";
+global.textFirstLevelItem4_4 = "ТОМ: \nBoris, bark!";
 
-global.textFirstLevelItem5 = "ТОМ: \nНаграда Борысса. Мой кот - первый среди мужчин, не то что я...";
+global.textFirstLevelItem5 = "ТОМ: \nBoris' reward. My cat is the first among the men, not like me ...";
 
-global.textFirstLevelItem6 = "ТОМ: \nРазруха. Капитализм себя изживает. Интересно, что к этому привело?";
+global.textFirstLevelItem6 = "ТОМ: \nThe ruin. Capitalism outlives itself. I wonder what led to this?";
 
-global.textFirstLevelItem7 = "ТОМ: \nТак не хватает солнца в этом сером городе... Пусть хоть на стене побудет.";
+global.textFirstLevelItem7 = "ТОМ: \nSo there is not enough sun in this gray city ... Let it stay on the wall.";
 
-global.textFirstLevelItem8 = "ТОМ: \nИстукан с острова Пасхи. Обменял на бутылку у бродяги.";
+global.textFirstLevelItem8 = "ТОМ: \nThe image from the Easter Island. I exchanged it for a bottle with a bum.";
 
-global.textFirstLevelItem9 = "ТОМ: \nЛуна - символ истины, «глаз, светящий во мгле»... Ладно, не время философствовать.";
+global.textFirstLevelItem9 = "ТОМ: \nThe moon is the symbol of truth, <<the eye that shines in the mist>> ... Okay, do not philosophize.";
 
-global.textFirstLevelItem10 = "ТОМ: \nПервое место среди проектов по разработке игр. Давно я не занимался ничем подобным. Хороший был опыт.";
+global.textFirstLevelItem10 = "ТОМ: \nThe first place among the projects on the development of games. For a long time I did not do anything like that. It was a good experience.";
 
-global.textFirstLevelDoor1 = "ТОМ:\nНе могу же я выйти на улицу в чем мать родила!";
-global.textFirstLevelDoor2 = "ТОМ:\nИ куда я собрался в таком виде, да еще и без телефона? От безделья напрочь бестолковый стал. ";					
-global.textFirstLevelDoor3 = "ТОМ:\nТо сообщение от Организации: ''Думаю, Вы в курсе о последних событиях...'' О чём это? Думаю, в интернете есть информация. Нужно проверить.";
-global.textFirstLevelDoor4 = "ТОМ:\nБез телефона я просто умру от скуки, пока буду ехать до работы...";
+global.textFirstLevelDoor1 = "ТОМ:\nI can not go outside naked!";
+global.textFirstLevelDoor2 = "ТОМ:\nAnd where am I going like this, even without a phone? I became completely stupid. ";					
+global.textFirstLevelDoor3 = "ТОМ:\nThat message from the Organization: '' I think you are aware of the latest news ... '' 'What is this about? I think there is information on the Internet. Need to check.";
+global.textFirstLevelDoor4 = "ТОМ:\nWithout a phone, I'll just die of boredom on my way to work ...";
 	
 
-global.textSecondLevelDoor1 = "ТОМ:\nДохлый номер.";
-global.textSecondLevelDoor2 = "ТОМ:\nКак же не поздороваться с ней?.. Она итак холодная как айсберг в океане… ";
+global.textSecondLevelDoor1 = "ТОМ:\nLost cause.";
+global.textSecondLevelDoor2 = "ТОМ:\nHow can I not say hello to her? .. She's as cold as an iceberg in the ocean ...";
 
 global.textOfficeItem1 = "ТОМ:\nЖамкаю компьютер.";
-global.textOfficeItem2_1 = "ЛАДИСЛАВА:\nЭй! Куда это ты полез?";
-global.textOfficeItem2_2 = "ТОМ:\nДа так... никуда. Тебе показалось...";
+global.textOfficeItem2_1 = "ЛАДИСЛАВА:\nHey! Where are you going?";
+global.textOfficeItem2_2 = "ТОМ:\nNowhere. You have misunderstood me ...";
 global.textOfficeItem3 = "ТОМ:\nЖамкаю график.";
-global.textOfficeItem4_1 = "ТОМ:\nЯ не хочу пить.";
-global.textOfficeItem4_2 = "ТОМ:\nЗараза... Не работает.";
-global.textOfficeItem4_3 = "ТОМ:\nНу давай же...";
-global.textOfficeItem5 = "ТОМ:\nИ зачем люди придумали время? Чтобы постоянно куда-то спешить?";
+global.textOfficeItem4_1 = "ТОМ:\nI don't want to drink.";
+global.textOfficeItem4_2 = "ТОМ:\nShit... Doesn't work.";
+global.textOfficeItem4_3 = "ТОМ:\nC'mon...";
+global.textOfficeItem5 = "ТОМ:\nAnd why did people come up with time? To constantly hurry somewhere?";
 global.textOfficeItem6 = "ТОМ:\nЖамкаю картинку.";
 global.textOfficeItem7 = "ТОМ:\nЖамкаю Записки.";
 
-global.textDialogueChoiceHeader = "ВАШ ОТВЕТ:";
-global.textSecondLevelGirl_1 = "ЛАДИСЛАВА:\nДоброе утро, Том. Выглядишь крайне паршиво, похож на ***** собаку сутулую.";
-global.textSecondLevelGirl_2 = "ЛАДИСЛАВА:\nДавай позже, у меня куча дел.";
+global.textDialogueChoiceHeader = "YOUR ANSWER:";
+global.textSecondLevelGirl_1 = "VLADA:\nGood morning, Tom. You look extremely lousy, like a ***** dog.";
+global.textSecondLevelGirl_2 = "VLADA:\nCome on later, I have a lot to do.";
 
-global.textSecondLevelGirlChoice[1] = "ЛАДИСЛАВА:\nРазмечтался. Приходили рабочие, что-то делали с его картиной змея. Интересно, что...";
-global.textSecondLevelGirlChoice[2] = "ЛАДИСЛАВА:\nОй какие мы нежные сегодня. Приходили рабочие, что-то делали с его картиной змея. Интересно, что...";
-global.textSecondLevelGirlChoice[3] = "ЛАДИСЛАВА:\nКакой ты противный сегодня, иди проспись.. А вообще, сегодня приходили рабочие, что-то делали с его картиной змея. Интересно, что...";
+global.textSecondLevelGirlChoice[1] = "VLADA:\nKeep dreaming! Workers came and did something with his picture of a snake. I'm interested what ...";
+global.textSecondLevelGirlChoice[2] = "VLADA:\nOh, how subtle we are. Workers came and did something with his picture of a snake. I'm interested what ...";
+global.textSecondLevelGirlChoice[3] = "VLADA:\nYou're disguisting today, go get some sleep.. Actually, workers came and did something with his picture of a snake. I'm interested what ...";
 
-global.textSecondLevelProtAnswer1[1] = "- И чувствую себя как... Сейчас бы домой...";
-global.textSecondLevelProtAnswer1[2] = "- Ну спасибо. Доброе утро, называется...";
-global.textSecondLevelProtAnswer1[3] = "- Да ты тоже не красотка. На тебе самой лица то нет.";
+global.textSecondLevelProtAnswer1[1] = "- And I feel like ... I wish I was home ...";
+global.textSecondLevelProtAnswer1[2] = "- Well, thanks... So much for good morning.";
+global.textSecondLevelProtAnswer1[3] = "- You're not pretty, either. You looks awful, truth be told.";
 
-global.textSecondLevelProt_1 = "ТОМ:\nКаков привет, таков и ответ...";
+global.textSecondLevelProt_1 = "ТОМ:\nPeople treat you like you treat them...";
 
-global.textSecondLevelBoss_1 = "БОСС:\nНу, шо расскажешь?"
-global.textSecondLevelBoss_2 = "БОСС:\nШо уставился? Бегом за выпивкой. Нужно это дело хорошенько обмыть."
+global.textSecondLevelBoss_1 = "BOSS:\nWell, gonna tell me something?"
+global.textSecondLevelBoss_2 = "BOSS:\nWhat are you looking at? Go grab some booze. We need to celebrate this."
 
-global.textSecondLevelBossChoice[1] = "ТОМ:\nЕсть отличная новость. Наша газировка Кока Рока вышла на первое место по потреблению среди людей. Она почти заменила воду.. Заметили, как много стало толстяков?";
-global.textSecondLevelBossChoice[4] = "БОСС:\nХа-ха, а ты знаешь, шо такое естественный отбор? Хотя ладно, не бери в голову. А ну-ка метнись за бутылкой красненького. От этих разговоров в горле пересохло, да и повод есть.";
+global.textSecondLevelBossChoice[1] = "ТОМ:\nThere is great news. Our Coca-Rock soda has come out on top in terms of consumption. It almost replaced the water .. Did you notice how fat they became?";
+global.textSecondLevelBossChoice[4] = "BOSS:\nHaha, do you know what a natural selection is? Well, never mind. Ok, go grab a bottle of red wine. My throat went dry.";
 global.textSecondLevelBossChoice[2] = "ТОМ:\nла-ла-ла";
-global.textSecondLevelBossChoice[5] = "БОСС:\nНе смеши, у меня целый департамент занимается этой проблемой. Они нам больше не угроза. Все на мази.";
+global.textSecondLevelBossChoice[5] = "BOSS:\nDon't be ridiculous, I have a whole department dealing with this problem. They are no longer a threat to us. It's all in hand - don't worry.";
 global.textSecondLevelBossChoice[3] = "ТОМ:\n...";
-global.textSecondLevelBossChoice[6] = "БОСС:\n...";
+global.textSecondLevelBossChoice[6] = "BOSS:\n...";
 
 
-global.textSecondLevelProtAnswer2[1] = "- Сообщить об успехе продаж газировки";
-global.textSecondLevelProtAnswer2[2] = "- Рассказать об атмосферном электричестве";
-global.textSecondLevelProtAnswer2[3] = "- Закончить диалог";
+global.textSecondLevelProtAnswer2[1] = "- Report of soda sales success";
+global.textSecondLevelProtAnswer2[2] = "- Tell about atmospheric electricity";
+global.textSecondLevelProtAnswer2[3] = "- End the dialog";
 
-global.textOfficeSafeError_1 = "ТОМ:\nНе подошло. Давай, напряги свои извилины.";
-global.textOfficeSafeError_2 = "ТОМ:\nНе подошло. Вибрации в штанах? Ах да, это же мой телефон.";
-global.textOfficeSafeError_3 = "ТОМ:\nНе подошло. Да кто там такой настойчивый: все звонит и звонит. Достал уже.";
+global.textOfficeSafeError_1 = "ТОМ:\nDoesn't match. С'mon, get smart.";
+global.textOfficeSafeError_2 = "ТОМ:\nDoesn't match. Vibration in my pocket? Oh, yes, that's my phone.";
+global.textOfficeSafeError_3 = "ТОМ:\nDoesn't match. Да кто там такой настойчивый: все звонит и звонит. Достал уже.";
 
-global.textOfficeSafeSuccess_1 = "ТОМ:\nФух, кажется я справился. Сейчас я наконец узнаю, какие скелеты в шкафу у Виктора.";
+global.textOfficeSafeSuccess_1 = "ТОМ:\nHuh, I think I did it. Now I find out which skeletons are in Victor's closet.";
 global.textOfficeSafeSuccess_2 = "ТОМ:\n\"Акт регулирования использования технологий обществом\", \"Список опасных ученых\", \"....";
 global.textOfficeSafeSuccess_3 = "ТОМ:\nХмм, звучит крайне подозрительно. Пожалуй, сфотографирую их.";
-global.textOfficeSafeEnd = "ТОМ:\nКогда-нибудь сюда что-нибудь придумают, а пока решите загадку: как далеко в лес может убежать заяц?";
+global.textOfficeSafeEnd = "ТОМ:\nSomeday somebody will come up with something here, but for now solve the riddle: how far can the hare run into the forest?";
