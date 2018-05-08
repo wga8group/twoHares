@@ -97,3 +97,5 @@ global.textOfficeSafeSuccess_1 = "ТОМ:\nHuh, I think I did it. Now I find out
 global.textOfficeSafeSuccess_2 = "ТОМ:\n\"Акт регулирования использования технологий обществом\", \"Список опасных ученых\", \"....";
 global.textOfficeSafeSuccess_3 = "ТОМ:\nХмм, звучит крайне подозрительно. Пожалуй, сфотографирую их.";
 global.textOfficeSafeEnd = "ТОМ:\nSomeday somebody will come up with something here, but for now solve the riddle: how far can the hare run into the forest?";
+
+global.textOfficePhoneMessage = "НЕИЗВЕСТНЫЙ АБОНЕНТ:\nНам удалось вычислить его пароль от Одноклассников&&&. Это дата свадьбы Виктора. Многие люди используют одинаковые пароли. Возможно, это поможет в поисках.";

@@ -1,5 +1,6 @@
 /// @description Insert description here
-// You can write your code in this editor
-
+//Можно не отрисовывать, а просто расположить, где надо, и играться с видимостью
+//Так проще всего в дальнейшем отловить клик игрока по объекту
+//Но тогда мы не можем раскидывать объекты в случайные места инвенторя
  draw_sprite_ext(global.sprInventoryPhone,0,20,110,1,1,0,c_white,1);
  

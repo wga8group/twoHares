@@ -56,7 +56,8 @@ if visible {
 				global.objDialogue.message[1] = errorMessage2;	
 				global.objDialogue.messageCount = 1;
 				global.objDialogue.printText = "";
-				global.objDialogue.visible = true;			
+				global.objDialogue.visible = true;
+				global.objInventoryPhone.HasMessage = true;
 			break;
 			
 			default:
