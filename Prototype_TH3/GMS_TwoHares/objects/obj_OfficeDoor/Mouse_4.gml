@@ -4,9 +4,8 @@ if not global.StateBlockHeroAction {
 		if global.objLogicLevel2.chosenAnswerWithBoss_1 {
 			if global.objLogicLevel2.wasDialogueWithGirl {
 				cursor_sprite = spr_CursorMain;
-				//global.CurrentLevel = GameLevels.Level_3;
-				//room_goto(global.rmTransition);	
-				room_goto(global.rmMainMenu);
+				global.CurrentLevel = GameLevels.Level_3;
+				room_goto(global.rmTransition);
 			}
 			global.objDialogue.visible = true;
 			global.objDialogue.messageCount = 1;

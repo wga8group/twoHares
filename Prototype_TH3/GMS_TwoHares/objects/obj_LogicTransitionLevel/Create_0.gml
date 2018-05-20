@@ -25,7 +25,15 @@ switch(global.CurrentLevel){
 		transitionToLevel = global.rmOfficeLevel2;
 		transitionMessage = global.TransitionMessage3;
 	break;		
-	
+
+	case GameLevels.Level_3:
+		if global.CurrentCheckpointsAvailable <= 1 {
+			global.CurrentCheckpointsAvailable += 1;
+		}
+		transitionToLevel = global.rmOfficeLevel3;
+		transitionMessage = global.TransitionMessage4;
+	break;	
+
 	default:
 		transitionToLevel = global.rmMainMenu;
 		transitionMessage = "";

@@ -1,4 +1,2 @@
 /// @description Insert description here
-if not global.StateBlockHeroAction {
-	cursor_sprite = spr_CursorMain;
-}
+cursor_sprite = spr_CursorMain;

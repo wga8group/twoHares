@@ -19,7 +19,7 @@ global.rmTransition = rm_TransitionLevel;
 global.rmCutScene1 = rm_BarCutScene1;
 global.rmHomeLevel1 = rm_HomeLevel1;
 global.rmOfficeLevel2 = rm_OfficeLevel2;
-
+global.rmOfficeLevel3 = rm_OfficeCabinetLevel3;
 
 //Название объектов
 global.objProtagonist = obj_Prot;
@@ -57,7 +57,7 @@ global.sprInventoryPhone = spr_InventoryPhone;
 //глобальные переменные логики
 global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
-global.TransitionDuration = 240;
+global.TransitionDuration = 200;
 global.PhoneInInventory = false;
 global.BossSafePass = "260686";
 global.AlcoholInNventory = false;

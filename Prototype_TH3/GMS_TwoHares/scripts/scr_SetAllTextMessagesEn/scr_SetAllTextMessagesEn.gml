@@ -3,6 +3,7 @@ global.textDefaultMessage = "ТОМ:\nWell, how the fuck have you managed to do 
 global.TransitionMessage1 = "BAR. 22:00";
 global.TransitionMessage2 = "HOME. 07:00";
 global.TransitionMessage3 = "WORK. 08:00";
+global.TransitionMessage4 = "КАБИНЕТ БОССА";
 
 global.textCutScene1_1 = "BARTENDER: \nYou say you've never seen a dream? You're a strange. It can't be ... You probably just don't remember them.";
 global.textCutScene1_2 = "BARTENDER: \nDon't lose your sleep over it. Money is paid and that's it, the main thing - to stay afloat. Personally, I'm tend to the conclusion that the world is ruled not by a secret lodge, but by an obvious crap.";
@@ -97,5 +98,8 @@ global.textOfficeSafeSuccess_1 = "ТОМ:\nHuh, I think I did it. Now I find out
 global.textOfficeSafeSuccess_2 = "ТОМ:\n\"Акт регулирования использования технологий обществом\", \"Список опасных ученых\", \"....";
 global.textOfficeSafeSuccess_3 = "ТОМ:\nХмм, звучит крайне подозрительно. Пожалуй, сфотографирую их.";
 global.textOfficeSafeEnd = "ТОМ:\nSomeday somebody will come up with something here, but for now solve the riddle: how far can the hare run into the forest?";
+
+
+global.textThirdLevelItem1 = "ТОМ:\nЧто-то меня воротит. Время изменить отношение к алкоголю ВКонтакте&&& на отрицательное.";
 
 global.textOfficePhoneMessage = "НЕИЗВЕСТНЫЙ АБОНЕНТ:\nНам удалось вычислить его пароль от Одноклассников&&&. Это дата свадьбы Виктора. Многие люди используют одинаковые пароли. Возможно, это поможет в поисках.";
