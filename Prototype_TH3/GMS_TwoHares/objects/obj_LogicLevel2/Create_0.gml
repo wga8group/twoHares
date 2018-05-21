@@ -10,7 +10,7 @@ cursor_sprite = spr_CursorMain;
 //глобальные установки
 global.OfficeSafeOpen = false;
 global.PhoneInInventory = true;
-global.AlcoholInNventory = false;
+global.AlcoholInInventory = false;
 global.StateBlockHeroAction  = true;
 global.objProtagonist = obj_ProtDressed;
 global.objBlackout.visible = true;

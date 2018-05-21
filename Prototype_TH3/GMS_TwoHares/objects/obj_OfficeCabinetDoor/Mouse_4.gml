@@ -1,7 +1,17 @@
 /// @description Insert description here
 if not global.StateBlockHeroAction {
 	if (scr_CanBeTake(self,global.objProtagonist) == true){
-			
+		global.objDialogue.message[1] = global.textThirdLevelDoor_1;
+		if	global.AlcoholInInventory {
+			if global.OfficeSafeOpen {
+				room_goto(global.rmMainMenu);
+				exit;
+			}
+		global.objDialogue.message[1] = global.textThirdLevelDoor_2;			
+		}
+		global.objDialogue.visible = true;
+		global.objDialogue.messageCount = 1;
+		global.objDialogue.printText = "";		
 	}
 }	
 	

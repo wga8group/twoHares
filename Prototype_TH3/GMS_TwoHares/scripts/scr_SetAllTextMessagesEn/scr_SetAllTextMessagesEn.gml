@@ -90,6 +90,10 @@ global.textSecondLevelProtAnswer2[1] = "- Report of soda sales success";
 global.textSecondLevelProtAnswer2[2] = "- Tell about atmospheric electricity";
 global.textSecondLevelProtAnswer2[3] = "- End the dialog";
 
+
+global.textThirdLevelItem1 = "ТОМ:\nЧто-то меня воротит. Время изменить отношение к алкоголю ВКонтакте&&& на отрицательное.";
+global.textOfficeSafeFirstClick = "ТОМ:\nХм, как-то странно она выглядит.";
+
 global.textOfficeSafeError_1 = "ТОМ:\nDoesn't match. С'mon, get smart.";
 global.textOfficeSafeError_2 = "ТОМ:\nDoesn't match. Vibration in my pocket? Oh, yes, that's my phone.";
 global.textOfficeSafeError_3 = "ТОМ:\nDoesn't match. Да кто там такой настойчивый: все звонит и звонит. Достал уже.";
@@ -97,9 +101,9 @@ global.textOfficeSafeError_3 = "ТОМ:\nDoesn't match. Да кто там та�
 global.textOfficeSafeSuccess_1 = "ТОМ:\nHuh, I think I did it. Now I find out which skeletons are in Victor's closet.";
 global.textOfficeSafeSuccess_2 = "ТОМ:\n\"Акт регулирования использования технологий обществом\", \"Список опасных ученых\", \"....";
 global.textOfficeSafeSuccess_3 = "ТОМ:\nХмм, звучит крайне подозрительно. Пожалуй, сфотографирую их.";
-global.textOfficeSafeEnd = "ТОМ:\nSomeday somebody will come up with something here, but for now solve the riddle: how far can the hare run into the forest?";
-
-
-global.textThirdLevelItem1 = "ТОМ:\nЧто-то меня воротит. Время изменить отношение к алкоголю ВКонтакте&&& на отрицательное.";
+global.textOfficeSafeEnd = "ТОМ:\nМне кажется, я итак достаточно времени здесь проторчал...";
 
 global.textOfficePhoneMessage = "НЕИЗВЕСТНЫЙ АБОНЕНТ:\nНам удалось вычислить его пароль от Одноклассников&&&. Это дата свадьбы Виктора. Многие люди используют одинаковые пароли. Возможно, это поможет в поисках.";
+
+global.textThirdLevelDoor_1 = "ТОМ:\nСтоп! Бутылка...";
+global.textThirdLevelDoor_2 = "ТОМ:\nГлупо упускать свой шанс проверить Виктора на причастность к тому убийству.";

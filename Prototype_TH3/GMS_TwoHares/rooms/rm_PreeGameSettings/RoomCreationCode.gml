@@ -53,14 +53,16 @@ global.sprProtNakedIdleRight = spr_ProtIdleNakedRight;
 global.sprInventoryTable = spr_InventoryTable;
 global.sprInventoryButton = spr_InventoryButton;
 global.sprInventoryPhone = spr_InventoryPhone;
+global.sprSafeHidden = spr_OfficeCabinetPicSnake;
+global.sprSafe = spr_Empty;
 
 //глобальные переменные логики
 global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
-global.TransitionDuration = 200;
+global.TransitionDuration = 160;
 global.PhoneInInventory = false;
 global.BossSafePass = "260686";
-global.AlcoholInNventory = false;
+global.AlcoholInInventory = false;
 global.OfficeSafeOpen = false;
 global.IsRussLang = true;
 

@@ -1,5 +1,6 @@
 /// @description Insert description here
 if global.objSafeCode.visible {
+	self.sprite_index = spr_ButtonPressed;
 	obj_SafeStar1.visible = false;
 	obj_SafeStar2.visible = false;
 	obj_SafeStar3.visible = false;
