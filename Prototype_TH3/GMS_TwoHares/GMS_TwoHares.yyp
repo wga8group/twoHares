@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "464d7202-e75e-4846-868a-845cd816bf5b",
+            "Value": {
+                "id": "1dcb7a2a-b61e-4343-8620-67ca2d7db089",
+                "resourcePath": "objects\\obj_OfficeCabinetItem1\\obj_OfficeCabinetItem1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4ab47429-8cc6-4191-bc5c-e37ab9047cc3",
             "Value": {
                 "id": "87bf21c4-f719-451c-9730-2b1143c0b868",
@@ -1039,6 +1047,14 @@
             }
         },
         {
+            "Key": "6cc70219-36f1-4669-843e-33cdb49db522",
+            "Value": {
+                "id": "97936a7a-8cb4-490c-a391-6e8cee303130",
+                "resourcePath": "objects\\obj_InventoryNote1\\obj_InventoryNote1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6cc97ac8-9380-4a1c-b57a-853d11356382",
             "Value": {
                 "id": "733b3e4b-bb99-4f90-93dc-3ea44777c6f0",
@@ -1116,6 +1132,14 @@
                 "id": "1d3b018b-4c8b-42e1-8896-bc5ec47d1d32",
                 "resourcePath": "views\\7542ccf9-5783-4588-bb45-5f5325c4eead.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "761ea3a9-f696-43e9-bcee-c9aaefac88e7",
+            "Value": {
+                "id": "84eec352-a4ea-4521-88c6-2f45aa30e47c",
+                "resourcePath": "objects\\obj_OfficeExit\\obj_OfficeExit.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1295,6 +1319,14 @@
             }
         },
         {
+            "Key": "87135a02-20c3-4c77-b461-9b82dadd5c4f",
+            "Value": {
+                "id": "5db236e8-5346-4d75-a8fa-8b9520c12c31",
+                "resourcePath": "objects\\obj_OfficeCabinetItem2\\obj_OfficeCabinetItem2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8880403c-5544-426f-86f8-6b9c8539b093",
             "Value": {
                 "id": "a40126b8-b808-4283-a9f6-5558476fefbd",
@@ -1324,6 +1356,14 @@
                 "id": "155197a2-b397-494a-b007-a4f731a8da85",
                 "resourcePath": "views\\8cdad02f-5aec-4bdb-ae98-f46decb938c3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8dc0b1b0-7d55-4c6b-b896-1c4965be53de",
+            "Value": {
+                "id": "d31429a5-3c65-4cc9-8b27-de74576c04f8",
+                "resourcePath": "objects\\obj_Note1\\obj_Note1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1655,6 +1695,14 @@
             }
         },
         {
+            "Key": "b1e7ca5c-bdc7-443d-8658-16d2413c64ef",
+            "Value": {
+                "id": "2fbe8ad3-a4cf-4e59-9d8b-83075f2aeadf",
+                "resourcePath": "objects\\obj_OfficeCabinetItem3\\obj_OfficeCabinetItem3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b2be2ce1-0ac5-4270-845e-bbd28ad36c25",
             "Value": {
                 "id": "73df08b1-c6f2-45e4-9c5e-0f0a35878730",
@@ -1779,6 +1827,14 @@
             "Value": {
                 "id": "8de518fb-8d11-4a4c-8079-24b11ccf7b3c",
                 "resourcePath": "objects\\obj_OfficeTableRight\\obj_OfficeTableRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "be0c4daa-60f7-4d8a-a9a7-d7c361e5e8cd",
+            "Value": {
+                "id": "bd5d28d1-f9d8-447d-bfdf-c756c013cdb6",
+                "resourcePath": "objects\\obj_OfficeCabinetItem4\\obj_OfficeCabinetItem4.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2091,6 +2147,14 @@
             "Value": {
                 "id": "b0004b2c-20f7-4efc-93cf-2313c217e7ff",
                 "resourcePath": "sprites\\spr_roomTable\\spr_roomTable.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2a9e0b7-a195-4823-83c1-eab39b741e94",
+            "Value": {
+                "id": "5525350a-d21a-4595-a700-fc5ecf5bfc5e",
+                "resourcePath": "sprites\\spr_OfficeCabinetPhoto\\spr_OfficeCabinetPhoto.yy",
                 "resourceType": "GMSprite"
             }
         },

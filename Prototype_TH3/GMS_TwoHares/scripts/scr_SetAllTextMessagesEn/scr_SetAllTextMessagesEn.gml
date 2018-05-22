@@ -5,12 +5,13 @@ global.TransitionMessage2 = "HOME. 07:00";
 global.TransitionMessage3 = "WORK. 08:00";
 global.TransitionMessage4 = "КАБИНЕТ БОССА";
 
+//---------------------------------cut scene 1------------------------------------
 global.textCutScene1_1 = "BARTENDER: \nYou say you've never seen a dream? You're a strange. It can't be ... You probably just don't remember them.";
 global.textCutScene1_2 = "BARTENDER: \nDon't lose your sleep over it. Money is paid and that's it, the main thing - to stay afloat. Personally, I'm tend to the conclusion that the world is ruled not by a secret lodge, but by an obvious crap.";
 global.textCutScene1_3 = "BARTENDER: \nYou know, life is very strange. To get out of the well, you need to fall into it first. Hmm .. Another beer?";
 global.textCutScene1_4 = "BARTENDER: \nHey! Can you hear me?! Stop with all this shit, or you'll come to a head ...";
 
-
+//---------------------------------level 1------------------------------------
 global.textFirstLevelWakeUp1 = "ТОМ: \nOhh,my head hurts.";
 global.textFirstLevelWakeUp2 = "ТОМ: \nSo, I need to get ready for work, the main thing is not to forget anything.";
 
@@ -46,9 +47,11 @@ global.textFirstLevelDoor2 = "ТОМ:\nAnd where am I going like this, even with
 global.textFirstLevelDoor3 = "ТОМ:\nThat message from the Organization: '' I think you are aware of the latest news ... '' 'What is this about? I think there is information on the Internet. Need to check.";
 global.textFirstLevelDoor4 = "ТОМ:\nWithout a phone, I'll just die of boredom on my way to work ...";
 	
-
+//---------------------------------level 2------------------------------------
 global.textSecondLevelDoor1 = "ТОМ:\nLost cause.";
 global.textSecondLevelDoor2 = "ТОМ:\nHow can I not say hello to her? .. She's as cold as an iceberg in the ocean ...";
+
+global.textSecondLevelExit = "ТОМ:\nНе время отлынивать.";
 
 global.textOfficeItem1 = "ТОМ:\nЖамкаю компьютер.";
 global.textOfficeItem2_1 = "ЛАДИСЛАВА:\nHey! Where are you going?";
@@ -60,6 +63,10 @@ global.textOfficeItem4_3 = "ТОМ:\nC'mon...";
 global.textOfficeItem5 = "ТОМ:\nAnd why did people come up with time? To constantly hurry somewhere?";
 global.textOfficeItem6 = "ТОМ:\nЖамкаю картинку.";
 global.textOfficeItem7 = "ТОМ:\nЖамкаю Записки.";
+global.textOfficeItemNote1_1 = "ПОДОЗРИТЕЛЬНАЯ РАСПЕЧАТКА:\nНаука - это новая религия со своими догмами, в которые предлагается слепо верить, жречеством и даже инквизицией.";
+global.textOfficeItemNote1_2 = "ПОДОЗРИТЕЛЬНАЯ РАСПЕЧАТКА:\nВозможно именно это превращает нас в никуда не годный проект высших сил, и только прогрессивные ученые с нестандартными идеями способны вывести нас из тупикового пути самоуничтожения..."
+global.textOfficeItemNote1_3 = "ТОМ:\nХмм... Интересно, кто же подбросил мне это. Я ни с кем здесь не общался так открыто на подобные темы... Боюсь прослыть сумасшедшим.";
+
 
 global.textDialogueChoiceHeader = "YOUR ANSWER:";
 global.textSecondLevelGirl_1 = "VLADA:\nGood morning, Tom. You look extremely lousy, like a ***** dog.";
@@ -85,13 +92,17 @@ global.textSecondLevelBossChoice[5] = "BOSS:\nDon't be ridiculous, I have a whol
 global.textSecondLevelBossChoice[3] = "ТОМ:\n...";
 global.textSecondLevelBossChoice[6] = "BOSS:\n...";
 
-
 global.textSecondLevelProtAnswer2[1] = "- Report of soda sales success";
 global.textSecondLevelProtAnswer2[2] = "- Tell about atmospheric electricity";
 global.textSecondLevelProtAnswer2[3] = "- End the dialog";
 
+//---------------------------------level 3------------------------------------
+global.textThirdLevelItem1 = "ТОМ:\nСтранные пирамиды, я их не видел... Хотя, говорят, они по всему свету есть.";
+global.textThirdLevelItem2 = "ТОМ:\nВидимо Виктор чтит свои корни. А я даже не знаю, кем был мой прадед...";
+global.textThirdLevelItem3 = "ТОМ:\nНадо же, сколько счастья. Никогда не видел столько эмоций в глазах Виктора.";
+global.textThirdLevelItem4 = "ОТКРЫТКА:\nОт чистого сердца поздравляю Вас с серебряной свадьбой... 26.06.2011";
 
-global.textThirdLevelItem1 = "ТОМ:\nЧто-то меня воротит. Время изменить отношение к алкоголю ВКонтакте&&& на отрицательное.";
+global.textThirdLevelAlcohol = "ТОМ:\nЧто-то меня воротит. Время изменить отношение к алкоголю ВКонтакте&&& на отрицательное.";
 global.textOfficeSafeFirstClick = "ТОМ:\nХм, как-то странно она выглядит.";
 
 global.textOfficeSafeError_1 = "ТОМ:\nDoesn't match. С'mon, get smart.";

@@ -5,7 +5,7 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.visible = true;
 		global.objDialogue.messageCount = 1;
 		global.objDialogue.printText = "";
-		global.objDialogue.message[1] = global.textThirdLevelItem1;
+		global.objDialogue.message[1] = global.textThirdLevelAlcohol;
 		instance_destroy(self,true);
 	}
 }

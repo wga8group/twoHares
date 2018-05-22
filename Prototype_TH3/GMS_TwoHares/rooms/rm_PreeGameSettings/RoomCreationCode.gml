@@ -36,6 +36,7 @@ global.objInventoryButtonOpen = obj_InventoryButton_open;
 global.objInventorryButtonClose = obj_InventorryButton_close;
 global.objInventoryPhone = obj_InventoryPhone;
 global.objInventoryAlcohol = obj_InventoryAlcohol;
+global.objInventoryNote1 = obj_InventoryNote1;
 global.objSafeCode = obj_SafeCode;
 
 //Название стилей текста
@@ -61,8 +62,9 @@ global.StateBlockHeroAction = false;
 global.IsClickOnObject = false;
 global.TransitionDuration = 160;
 global.PhoneInInventory = false;
-global.BossSafePass = "260686";
 global.AlcoholInInventory = false;
+global.NoteFirstInInventory = false;
+global.BossSafePass = "260686";
 global.OfficeSafeOpen = false;
 global.IsRussLang = true;
 
