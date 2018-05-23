@@ -6,6 +6,8 @@ cursor_sprite = spr_CursorMain;
 
 //Активация чекпоинтов
 switch(global.CurrentCheckpointsAvailable){
+	case 4:
+		obj_ButtonCheckpoint4.visible = true;	
 	case 3:
 		obj_ButtonCheckpoint3.visible = true;
 	case 2:

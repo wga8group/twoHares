@@ -4,7 +4,9 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.message[1] = global.textThirdLevelDoor_1;
 		if	global.AlcoholInInventory {
 			if global.OfficeSafeOpen {
-				room_goto(global.rmMainMenu);
+				cursor_sprite = spr_CursorMain;
+				global.CurrentLevel = GameLevels.Level_4;
+				room_goto(global.rmTransition);
 				exit;
 			}
 		global.objDialogue.message[1] = global.textThirdLevelDoor_2;			

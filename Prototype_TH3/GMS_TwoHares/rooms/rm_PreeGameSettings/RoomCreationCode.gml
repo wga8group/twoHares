@@ -20,6 +20,7 @@ global.rmCutScene1 = rm_BarCutScene1;
 global.rmHomeLevel1 = rm_HomeLevel1;
 global.rmOfficeLevel2 = rm_OfficeLevel2;
 global.rmOfficeLevel3 = rm_OfficeCabinetLevel3;
+global.rmOfficeLevel4 = rm_OfficeLevel4;
 
 //Название объектов
 global.objProtagonist = obj_Prot;
@@ -30,6 +31,7 @@ global.objButtonChoice2 = obj_ButtonChoice2;
 global.objButtonChoice3 = obj_ButtonChoice3;
 global.objFirstLevelLogic = obj_FirstLevelLogic;
 global.objLogicLevel2 = obj_LogicLevel2;
+global.objLogicLevel4 = obj_LogicLevel4;
 global.objBlackout = obj_Blackout;
 global.objInventoryTable = obj_InventoryTable;
 global.objInventoryButtonOpen = obj_InventoryButton_open;
@@ -38,6 +40,7 @@ global.objInventoryPhone = obj_InventoryPhone;
 global.objInventoryAlcohol = obj_InventoryAlcohol;
 global.objInventoryNote1 = obj_InventoryNote1;
 global.objSafeCode = obj_SafeCode;
+global.objNpcCourier = obj_NpcCourier;
 
 //Название стилей текста
 global.fontStyle1 = font0;
@@ -72,7 +75,8 @@ enum GameLevels{
 	CutScene_1,
 	Level_1,
 	Level_2,
-	Level_3
+	Level_3,
+	Level_4
 }
 
 //переменные стадий
@@ -83,7 +87,8 @@ enum characterStates{
 	DressingUp,
 	DressedWalk,
 	GirlDialogue,
-	BossDialogue	
+	BossDialogue,
+	SomeDialogue
 }
 
 global.CurrentLevel = GameLevels.CutScene_1;
@@ -97,7 +102,7 @@ global.ChangeCursorThink = 0;
 global.BlockFirstStep = true;
 
 //чек-поинты
-global.CurrentCheckpointsAvailable = 3;
+global.CurrentCheckpointsAvailable = 4;
 
 //Звук
 global.VolumeSound = 0.5;
