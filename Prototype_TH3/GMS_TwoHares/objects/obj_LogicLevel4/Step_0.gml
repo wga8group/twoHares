@@ -32,11 +32,20 @@ switch(currentState){
 		global.objNpcCourier.NewPath = true;
 		global.objNpcCourier.NewX = 16;
 		global.objNpcCourier.NewY = 121;
+		
+		global.objInventoryPhone.message[1] = global.textOffice4PhoneMessage1;
+		global.objInventoryPhone.message[2] = global.textOffice4PhoneMessage2;	
+		global.objInventoryPhone.message[3] = global.textOffice4PhoneMessage3;	
+		global.objInventoryPhone.message[4] = global.textOffice4PhoneMessage4;			
+		global.objInventoryPhone.messageCount = 4;				
+		global.objInventoryPhone.HasMessage = true;	
+		global.objInventoryPhone.PlaySound = true;
+		show_debug_message("-----------------------SomeDialogue-------------------------");
 		currentState = characterStates.DressedWalk;
 	break;
 
 	case characterStates.DressedWalk:
-		
+		global.objInventoryPhone.PlaySound = true;
 	break;
 	
 	case characterStates.GirlDialogue:
@@ -44,7 +53,7 @@ switch(currentState){
 	break;	
 
 	case characterStates.BossDialogue:
-		
+		scr_BossLogicLevel4(self);
 	break;
 
 	default:

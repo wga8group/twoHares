@@ -46,11 +46,11 @@ with (argument0)
 			}
             if (argument0.direction >= 90 && argument0.direction < 270)
             {
-                argument0.sprite_index = argument0.AnimIdleLeft;
+                argument0.sprite_index = argument0.AnimIdleRight;
             }
             else
             {
-                argument0.sprite_index = argument0.AnimIdleRight;
+                argument0.sprite_index = argument0.AnimIdleLeft;
             }	
         }
         else

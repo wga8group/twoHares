@@ -57,7 +57,11 @@ if visible {
 				global.objDialogue.messageCount = 1;
 				global.objDialogue.printText = "";
 				global.objDialogue.visible = true;
+				
+				global.objInventoryPhone.message[1] = global.textOfficePhoneMessage;	
+				global.objInventoryPhone.messageCount = 1;				
 				global.objInventoryPhone.HasMessage = true;
+				global.objInventoryPhone.PlaySound = true;
 			break;
 			
 			default:

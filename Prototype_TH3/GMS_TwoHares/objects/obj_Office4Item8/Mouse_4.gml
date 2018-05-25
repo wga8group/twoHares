@@ -9,6 +9,7 @@ if not global.StateBlockHeroAction {
 			exit;
 		}
 		global.objLogicLevel4.wasDialogueWithCourier = true;
+		global.StoneInInventory = true;
 		global.objDialogue.messageCount = 7;
 		global.objDialogue.message[1] = global.textFourthLevelCourier_1;
 		global.objDialogue.message[2] = global.textFourthLevelCourier_2;

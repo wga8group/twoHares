@@ -18,3 +18,6 @@ global.objBlackout.image_alpha = 1;
 //переменные уровня
 currentState = characterStates.startRoom;
 wasDialogueWithCourier = false;
+wasDialogueWithBoss = false;
+dialogueState = 0;
+clickCount = 0;
