@@ -10,7 +10,8 @@
         "8dc5156a-7a89-4ff2-9e49-515ecb5d939a",
         "0cb6faee-e095-4d3b-b8f7-c80661701809",
         "3b458822-929a-4107-89e6-909f2e3b97dc",
-        "e2a9e0b7-a195-4823-83c1-eab39b741e94"
+        "e2a9e0b7-a195-4823-83c1-eab39b741e94",
+        "2326bcd3-5359-4ed7-91ab-158cbc1a8b7b"
     ],
     "filterType": "GMSprite",
     "folderName": "OfficeCabinetBackground",
