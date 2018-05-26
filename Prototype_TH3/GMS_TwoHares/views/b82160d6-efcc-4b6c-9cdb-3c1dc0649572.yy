@@ -22,7 +22,8 @@
         "33eff429-28ec-4843-a71c-2723080fd863",
         "bb16b88d-84c8-465a-9359-ef1b25fab044",
         "002dfa47-4b72-4008-85f2-35d25c56d5bf",
-        "ad80ddbb-db69-4a86-9d98-4013b9d0df66"
+        "ad80ddbb-db69-4a86-9d98-4013b9d0df66",
+        "76d4f85f-b0bf-4a13-9d7c-d44b18ccf8a5"
     ],
     "filterType": "GMObject",
     "folderName": "SafeCode",

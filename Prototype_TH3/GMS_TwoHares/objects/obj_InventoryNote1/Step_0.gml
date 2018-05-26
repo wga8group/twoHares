@@ -2,8 +2,10 @@
 if global.objInventoryTable.visible {
 	if global.NoteFirstInInventory {
 		global.objInventoryNote1.visible = true;
-	}	
+		exit;
+	}
+	self.visible = false;
 }
 else {
-	visible = false;
+	self.visible = false;
 }

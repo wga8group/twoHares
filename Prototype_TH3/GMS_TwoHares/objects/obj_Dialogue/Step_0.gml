@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if visible {
+	//закрываем инвентарь
+	global.objInventoryTable.visible = false;
 	
 	//курсор
 	if global.BlockFirstStep {

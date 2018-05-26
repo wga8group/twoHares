@@ -6,7 +6,18 @@ scr_WorkHotKeys();
 scr_WorkCursorClickAnim();
 scr_WorkBlockHeroAction(currentState);
 
+
+
 //Логика уровня
+
+//Для вывода верной фразы компьютера, когда примемся чинить
+if	global.BrushInInventory 
+	and global.ScrewdriverInInventory 
+	and global.PasteInInventory {
+		self.canRepairPC = true;
+	}
+
+//Стадии уровня
 switch(currentState){
 	
 	case characterStates.startRoom:
@@ -40,21 +51,43 @@ switch(currentState){
 		global.objInventoryPhone.messageCount = 4;				
 		global.objInventoryPhone.HasMessage = true;	
 		global.objInventoryPhone.PlaySound = true;
-		show_debug_message("-----------------------SomeDialogue-------------------------");
-		currentState = characterStates.DressedWalk;
+		
+		self.currentState = characterStates.DressedWalk;
 	break;
 
 	case characterStates.DressedWalk:
-		global.objInventoryPhone.PlaySound = true;
-	break;
+		if global.objBlackout.visible {
+			global.objBlackout.image_alpha = clamp(global.objBlackout.image_alpha - 0.01, 0, 1);
+			if global.objBlackout.image_alpha <= 0 {
+				global.objBlackout.image_alpha = 0;
+				global.objBlackout.visible = false;
+				
+				global.objDialogue.message[1] = global.textOffice4EndOfDay;
+				global.objDialogue.messageCount = 1;				
+				global.objDialogue.printText = "";
+				global.objDialogue.visible = true;
+			}		
+		}	
+	break;	
 	
 	case characterStates.GirlDialogue:
-		
+		scr_GirlLogicLevel4(self);
 	break;	
 
 	case characterStates.BossDialogue:
 		scr_BossLogicLevel4(self);
 	break;
+
+	case characterStates.DressingUp:
+		global.objBlackout.visible = true;
+		global.objBlackout.image_alpha = clamp(global.objBlackout.image_alpha + 0.01, 0, 1);
+		if global.objBlackout.image_alpha >= 1 {
+			instance_destroy(global.objOffice4Boss,true);
+			instance_destroy(global.objNpcCourier,true);
+			instance_destroy(global.objNpcCourierActive,true);
+			self.currentState = characterStates.DressedWalk;
+		}		
+	break;	
 
 	default:
 	break;

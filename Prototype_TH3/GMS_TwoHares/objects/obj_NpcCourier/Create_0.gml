@@ -4,12 +4,13 @@
 //mp_grid_add_instances(grid, obj_wall, true);
 //path = noone;
 NewPath = false;
+path = undefined;
 MoveToExit = false;
 WalkSoundID = undefined;
-AnimIdleLeft =  spr_ProtIdleLeft;
-AnimIdleRight = spr_ProtIdleRight;
-AnimWalkLeft =  spr_ProtWalkLeft;
-AnimWalkRight =  spr_ProtWalkRight;
+AnimIdleLeft =  spr_CourierIdleLeft;
+AnimIdleRight = spr_CourierIdleRight;
+AnimWalkLeft =  spr_CourierWalkLeft;
+AnimWalkRight =  spr_CourierWalkRight;
 SoundWalk = RoomSteps;
 NewX = self.x;
 NewY = self.y;

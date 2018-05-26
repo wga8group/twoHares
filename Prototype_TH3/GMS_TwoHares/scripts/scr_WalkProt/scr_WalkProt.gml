@@ -4,12 +4,7 @@ with (argument0)
 {
     // handle pathfinding
     if mouse_check_button_pressed(mb_left)
-    {
-		//if instance_nearest(mouse_x, mouse_y, obj_Item1) != noone {
-		//	global.IsClickOnObject = true;
-		//	show_debug_message("true");
-		//}		
-		
+    {	
         path = path_add();
         if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, mouse_y, 1)
         {
@@ -17,28 +12,29 @@ with (argument0)
         }
         else 
         {
-            var i;
-            for (i = mouse_y; i <= 135; i += 1)
-            {
-                if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, 0+i, 1)
-                {
-                    path_start(path, 0.7, path_action_stop, 1);
-                    break;
-                }
-            }
-            for (i = mouse_y; i > 0; i -= 1)
-            {
-                if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, 0+i, 1)
-                {
-                    path_start(path, 0.7, path_action_stop, 1);
-                    break;
-                }
-            }
+	        var i;
+	        for (i = mouse_y; i <= 135; i += 1)
+	        {
+	            if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, 0+i, 1)
+	            {
+	                path_start(path, 0.7, path_action_stop, 1);
+	                break;
+	            }
+	        }
+	        for (i = mouse_y; i > 0; i -= 1)
+	        {
+	            if mp_grid_path(grid, path, argument0.x, argument0.y, mouse_x, 0+i, 1)
+	            {
+	                path_start(path, 0.7, path_action_stop, 1);
+	                break;
+	            }
+	        }
         }
     }
     
+
      // handle animation
-    if (path_exists(path))
+    if path and (path_exists(path))
     {
 		var targetx, targety;
         targetx = path_get_x(path, 1);
@@ -74,5 +70,5 @@ with (argument0)
                 argument0.sprite_index = argument4;
             }
         }
-    }
+    }	
 }

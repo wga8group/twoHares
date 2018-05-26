@@ -3,8 +3,10 @@
 if global.objInventoryTable.visible {
 	if global.StoneInInventory {
 		global.objInventoryStone.visible = true;
-	}	
+		exit;
+	}
+	self.visible = false;
 }
 else {
-	visible = false;
+	self.visible = false;
 }

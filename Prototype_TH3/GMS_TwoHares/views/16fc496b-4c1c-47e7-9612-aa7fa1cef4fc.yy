@@ -21,7 +21,8 @@
         "ddd8d6bb-6202-46e2-8a5c-974460f4f027",
         "5c6812c1-736e-4813-8a33-5aafbcae15b5",
         "91bef8da-c926-4237-b8bd-48853dac2222",
-        "b7650dd0-b342-43bb-85f7-5fa420626ae8"
+        "b7650dd0-b342-43bb-85f7-5fa420626ae8",
+        "0998c8b3-578c-4e45-874e-4e459c4fdd25"
     ],
     "filterType": "GMSprite",
     "folderName": "Safe",

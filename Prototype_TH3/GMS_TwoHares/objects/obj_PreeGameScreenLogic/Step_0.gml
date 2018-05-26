@@ -10,6 +10,7 @@ if mouse_check_button_pressed(mb_left) {
 
 
 if not pauseBeforeStart{
+	/*
 	image_speed = 1;
 	//Включаем звук
 	if not splashScreenSoundID && (image_index >= 1){ 
@@ -21,4 +22,6 @@ if not pauseBeforeStart{
 	if (image_index >= sprite_get_number(sprite_index) - 0.6){ 
 		room_goto(global.rmMainMenu);
 	}
+	*/
+	room_goto(global.rmMainMenu);
 }

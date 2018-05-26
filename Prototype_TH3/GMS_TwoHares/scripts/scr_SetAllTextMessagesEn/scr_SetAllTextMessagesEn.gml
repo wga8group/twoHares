@@ -1,9 +1,12 @@
 global.textDefaultMessage = "ТОМ:\nWell, how the fuck have you managed to do this? That's it! You broke the game!";	
+global.textStartTiles = "Esc - выход в главное меню.\n\nAlt + Enter - fullscreen\/window.\n\nКнопка инвентаря внизу экрана.\n\nСохранения в игре автоматические.";
+global.textEndTiles = "Менеджер:\nАлександр Козлов\n\nГеймдизайн:\nАнтон Рогов\nКристина Карасева\n\nПрограммирование:\nИлья Гаража\nВладимир Семёнов\n\nАрт:\nАнтон Рогов\nСемен Горбунов\nАлександр Козлов\nКристина Карасева\n\nАнимация:\nАлександр Козлов\nАнтон Рогов\n\nUX/UI дизайн:\nСемен Горбунов\n\nСценарий и саунд дизайн:\nКристина Карасева";
 
 global.TransitionMessage1 = "BAR. 22:00";
 global.TransitionMessage2 = "HOME. 07:00";
 global.TransitionMessage3 = "WORK. 08:00";
 global.TransitionMessage4 = "КАБИНЕТ БОССА";
+global.TransitionMessageEnd = "ПРОДОЛЖЕНИЯ НЕ БУДЕТ";
 
 //---------------------------------cut scene 1------------------------------------
 global.textCutScene1_1 = "BARTENDER: \nYou say you've never seen a dream? You're a strange. It can't be ... You probably just don't remember them.";
@@ -127,6 +130,8 @@ global.textFourthLevelItem4_2 = "ТОМ:\nНу давай же.. ";
 global.textFourthLevelItem5 = "ТОМ:\nВремя так медленно идет... Как будто его нет.";
 global.textFourthLevelItem6 = "ТОМ:\nПросто мечта! Когда-нибудь накоплю на такой. ";
 global.textFourthLevelItem7 = "ТОМ:\nЗапись на маникюр, бухгалтерия... Ну очень интересно.";
+global.textFourthLevelItem9 = "АЛЕША:\nСначала со всеми улажу дела, а после примусь за работу.";
+global.textFourthLevelItem10 = "АЛЕША:\nРабочий день еще не закончен.";
 
 global.textFourthLevelSomeDialogue_1 = "БОСС:\nДа твоей головой только песок тромбовать!";
 global.textFourthLevelSomeDialogue_2 = "КУРЬЕР:\nИзвините, начальник.";
@@ -158,3 +163,39 @@ global.textOffice4PhoneMessage4 = "ТОМ:\nМда уж, приплыли.. Ка
 
 global.textTakeScrewdriverMessage = "ТОМ:\nОпа, отвертка.";	
 global.textTakePasteMessage = "ТОМ:\nОпа, термо-паста.";	
+
+global.textFourthLevelGirl_1 = "ЛАДА:\nПоможешь мне с компьютером? Он вдруг заревел так громко... Я думала, взорвется. Я его выключила и теперь боюсь включать...";
+global.textFourthLevelGirl_2 = "ЛАДА:\nУзнай, что с компьютером. Я вообще не разбираюсь...";
+global.textFourthLevelGirl_3 = "АЛЕША:\nУ тебя есть что-нибудь, чем можно почистить пыль в компьютере?";
+global.textFourthLevelGirl_4 = "ЛАДА:\nВот, держи. Думаю, и это сойдет.";
+global.textFourthLevelGirl_5 = "ЛАДА:\nДавай позже поговорим, мне нужно уладить кое-какие дела...";
+
+global.textFourthLevelGirlChoice[1] = "- Само собой.";
+global.textFourthLevelGirlChoice[4] = "ЛАДА:\nКакой послушный мальчик. Ну приступай.";
+global.textFourthLevelGirlChoice[2] = "- Конечно. Грех отказывать такой мадам.";
+global.textFourthLevelGirlChoice[5] = "ЛАДА:\nХи-хи. Засмущал... Спасибо за помощь.";
+global.textFourthLevelGirlChoice[3] = "- Ну а разве у меня есть выбор?";
+global.textFourthLevelGirlChoice[6] = "ЛАДА:\nКакой-то ты странный сегодня, что-то случилось?";
+global.textFourthLevelGirlChoice[7] = "АЛЕША:\nНе хочу об этом говорить...";
+global.textFourthLevelGirlChoice[8] = "ЛАДА:\nКак хочешь... Ну, помоги уж тогда, раз тебе все равно.";
+
+global.textFourthLevelGirlPC_1 = "ЛАДА:\nЭй! Прежде, чем ковыряться в чужих вещах, надо разрешение спрашивать вообще-то.";
+global.textFourthLevelGirlPC_2 = "АЛЕША:\nТак-так, что тут у нас...";
+global.textFourthLevelGirlPC_3 = "АЛЕША:\nФу, ну и пылища. Аж наружу уже сочится. Похоже, он просто напросто перегрелся. Мне понадобится отвертка, термопаста и что-то, чем можно убрать эту грязь. Может быть, стоит спросить чего у Лады?!";
+global.textFourthLevelGirlPC_4 = "АЛЕША:\nМне все еще не хватает инструментов.";
+global.textFourthLevelGirlPC_5 = "АЛЕША:\nТеперь нужно подумать, что пустить в ход.";
+global.textFourthLevelGirlPC_6 = "АЛЕША:\nАпчхи!";
+global.textFourthLevelGirlPC_7 = "АЛЕША:\nПохоже, осталось только смазать чип...";
+
+global.textFourthLevelGirlPC_8 = "АЛЕША:\nНу, вот и все...";
+global.textFourthLevelGirlPC_9 = "ЛАДА:\nДа ты прямо-таки программист. Спасибо, выручил.";
+
+global.textFourthLevelGirlPC_10 = "АЛЕША:\nНаверное, сначала следует вскрыть корпус отверткой...";
+global.textFourthLevelGirlPC_11 = "АЛЕША:\nУжас, сколько пыли, она уже выглядит как живое существо... надо бы от нее избавиться.";
+global.textFourthLevelGirlPC_12 = "АЛЕША:\nВроде все работает.";
+
+global.textUseScrewdriverMessage = "АЛЕША:\nГде-нибудь да пригодится.";	
+global.textUsePasteMessage = "АЛЕША:\nЛишней не будет.";	
+global.textUseBrushMessage = "АЛЕША:\nПротереть пыль сойдет, другого все равно нет.";
+
+global.textOffice4EndOfDay = "АЛЕША:\nНу наконец-то можно отдохнуть от всего этого.";

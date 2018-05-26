@@ -33,7 +33,7 @@ with (argument0)
 	}
 
      // handle animation
-    if (path_exists(path))
+    if path and (path_exists(path))
     {
 		var targetx, targety;
         targetx = path_get_x(path, 1);

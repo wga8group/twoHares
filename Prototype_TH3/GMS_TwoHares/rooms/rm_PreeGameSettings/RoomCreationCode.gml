@@ -21,6 +21,7 @@ global.rmHomeLevel1 = rm_HomeLevel1;
 global.rmOfficeLevel2 = rm_OfficeLevel2;
 global.rmOfficeLevel3 = rm_OfficeCabinetLevel3;
 global.rmOfficeLevel4 = rm_OfficeLevel4;
+global.rmEndTitles = rm_EndTitles;
 
 //Название объектов
 global.objProtagonist = obj_Prot;
@@ -42,8 +43,14 @@ global.objInventoryNote1 = obj_InventoryNote1;
 global.objInventoryStone = obj_InventoryStone;
 global.objInventoryScrewdriver = obj_InventoryScrewdriver;
 global.objInventoryPaste = obj_InventoryPaste;
+global.objInventoryBrush = obj_InventoryBrush;
 global.objSafeCode = obj_SafeCode;
 global.objNpcCourier = obj_NpcCourier;
+global.objNpcCourierActive = obj_Office4Item8;
+global.objOffice4GirlPC = obj_Office4GirlPC;
+global.objOffice4Boss = obj_Office4Boss;
+global.objOffice4Girl = obj_Office4Girl;
+
 
 //Название стилей текста
 global.fontStyle1 = font0;
@@ -61,7 +68,7 @@ global.sprInventoryTable = spr_InventoryTable;
 global.sprInventoryButton = spr_InventoryButton;
 global.sprInventoryPhone = spr_InventoryPhone;
 global.sprSafeHidden = spr_OfficeCabinetPicSnake;
-global.sprSafe = spr_Empty;
+global.sprSafe = spr_Safe;
 
 //глобальные переменные логики
 global.StateBlockHeroAction = false;
@@ -73,6 +80,7 @@ global.NoteFirstInInventory = false;
 global.StoneInInventory = false;
 global.ScrewdriverInInventory = false;
 global.PasteInInventory = false;
+global.BrushInInventory = false;
 global.BossSafePass = "260686";
 global.OfficeSafeOpen = false;
 global.IsRussLang = true;
@@ -82,7 +90,8 @@ enum GameLevels{
 	Level_1,
 	Level_2,
 	Level_3,
-	Level_4
+	Level_4,
+	Level_End
 }
 
 //переменные стадий
@@ -116,4 +125,4 @@ global.VolumeMusic = 0.5;
 
 
 //Запуск меню
-room_goto(global.rmMainMenu);
+//room_goto(global.rmMainMenu);
