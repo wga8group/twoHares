@@ -26,7 +26,7 @@ if mouse_check_button_pressed(mb_left) {
 
 		}
 		
-		audio_stop_all();
+		//audio_stop_all();
 		barBackgroundSoundID = undefined; 
 		bartenderSoundID = undefined;		
 		blackoutEnable = true;
@@ -66,6 +66,7 @@ if (blackoutTime <= 0){
 
 
 //фоновый звук
+/*
 if (currentState != cutSceneStates.Four){
 	if not barBackgroundSoundID {
 		barBackgroundSoundID = audio_play_sound(soundBarBackgroundNoise, 1, false);
@@ -73,6 +74,6 @@ if (currentState != cutSceneStates.Four){
 		audio_sound_gain(barBackgroundSoundID, global.VolumeSound, 0);
 	}
 }
-
+*/
 
 

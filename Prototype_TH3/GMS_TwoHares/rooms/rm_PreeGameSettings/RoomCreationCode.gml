@@ -117,7 +117,19 @@ global.ChangeCursorThink = 0;
 global.BlockFirstStep = true;
 
 //чек-поинты
-global.CurrentCheckpointsAvailable = 4;
+show_debug_message(working_directory)
+show_debug_message(program_directory)
+if !directory_exists("Saves")
+   {
+   directory_create("Saves");
+   }
+global.CurrentCheckpointsAvailable = 0;
+global.SavesFile = file_text_open_read("Saves" + "GameSaves.txt");
+if global.SavesFile {
+	global.CurrentCheckpointsAvailable = file_text_read_real(global.SavesFile);
+}
+
+
 
 //Звук
 global.VolumeSound = 0.5;

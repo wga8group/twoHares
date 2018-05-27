@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if mouse_check_button_pressed(mb_left){
-	room_goto(global.rmMenuVolume);
-	//room_goto(room0);
-}
+
+var soundID = audio_play_sound(sou_MenuBatton, 1, false);
+audio_sound_gain(soundID , global.VolumeSound, 0);
+
+room_goto(global.rmMenuVolume);

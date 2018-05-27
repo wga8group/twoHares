@@ -3,10 +3,10 @@ if (blackoutEnable == false){
 	{
 		case cutSceneStates.First:
 			scr_PingPongAnimation(argument0);
-			if not bartenderSoundID {
-				bartenderSoundID = audio_play_sound_at(soundWipeGlass, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
-				audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
-			}
+			//if not bartenderSoundID {
+			//	bartenderSoundID = audio_play_sound_at(soundWipeGlass, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
+			//	audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
+			//}
 		break;
 	
 		case cutSceneStates.Second:
@@ -20,10 +20,10 @@ if (blackoutEnable == false){
 			}
 			else{
 				scr_PingPongAnimation(argument0);
-				if not bartenderSoundID {
-					bartenderSoundID = audio_play_sound_at(soundWipeGlass, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
-					audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
-				}
+				//if not bartenderSoundID {
+				//	bartenderSoundID = audio_play_sound_at(soundWipeGlass, argument0.x, argument0.y, 0, 100, 300, 1, true, 1);
+				//	audio_sound_gain(bartenderSoundID, global.VolumeSound, 0);
+				//}
 			}
 		break;	
 

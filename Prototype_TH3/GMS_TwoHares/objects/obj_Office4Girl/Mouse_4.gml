@@ -14,6 +14,8 @@ if not global.StateBlockHeroAction {
 		if global.objLogicLevel4.wasDialogueWithPC 
 		and not global.BrushInInventory
 		and not global.objLogicLevel4.wasUsedBrush {
+			var soundID = audio_play_sound(sou_PickUpItem, 1, false);
+			audio_sound_gain(soundID , global.VolumeSound, 0);
 			global.BrushInInventory = true;
 			global.objDialogue.messageCount = 2;
 			global.objDialogue.message[1] = global.textFourthLevelGirl_3;

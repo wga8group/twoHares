@@ -3,6 +3,7 @@
 
 audio_stop_all();
 
+		
 //Смена курсора. Необходимо для его нормальной отработки.
 cursor_sprite = spr_CursorMain;
 
@@ -54,4 +55,9 @@ strings[cutSceneStates.Second] = global.textCutScene1_2;
 strings[cutSceneStates.Third] = global.textCutScene1_3;
 strings[cutSceneStates.Four] = global.textCutScene1_4;
 
+//фоновый звук
+barBackgroundSoundID = audio_play_sound(soundBarBackgroundNoise, 1, false);
+audio_sound_gain(barBackgroundSoundID, global.VolumeSound, 0);
+barBackgroundSoundID = audio_play_sound(sou_BarMusic, 1, false);
+audio_sound_gain(barBackgroundSoundID, global.VolumeMusic, 0);
 

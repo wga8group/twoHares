@@ -8,3 +8,6 @@ y = 0;
 visible = true;
 
 self.pauseBeforeEnd = true;
+
+var soundID = audio_play_sound(VibroAlarmPhone, 1, false);
+audio_sound_gain(soundID , global.VolumeSound, 0);

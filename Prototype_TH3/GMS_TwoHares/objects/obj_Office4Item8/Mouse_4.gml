@@ -19,6 +19,8 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.message[6] = global.textFourthLevelCourier_6;
 		global.objDialogue.message[7] = global.textFourthLevelCourier_7;			
 		global.objDialogue.printText = "";
-		global.objDialogue.visible = true;		
+		global.objDialogue.visible = true;	
+		var soundID = audio_play_sound(sou_PickUpItem, 1, false);
+		audio_sound_gain(soundID , global.VolumeSound, 0);
 	}
 }

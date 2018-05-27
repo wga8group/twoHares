@@ -10,6 +10,8 @@ if not global.StateBlockHeroAction {
 		global.objDialogue.message[2] = global.textFirstLevelItem1_2;
 		global.objDialogue.message[3] =	global.textFirstLevelItem1_3;
 		audio_stop_sound(PhoneSoundID);
+		var soundID = audio_play_sound(sou_PickUpItem, 1, false);
+		audio_sound_gain(soundID , global.VolumeSound, 0);
 		instance_destroy(self,true);
 	}
 }

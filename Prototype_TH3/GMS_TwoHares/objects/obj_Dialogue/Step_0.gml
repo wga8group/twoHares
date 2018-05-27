@@ -31,4 +31,3 @@ if visible {
 	charactersNumber += 1;
 	printText = string_copy(message[clickCount], 1, charactersNumber);	
 }
-
