@@ -7,7 +7,7 @@ global.TransitionMessage2 = "ДОМ. 07:00";
 global.TransitionMessage3 = "РАБОТА. 08:00";
 global.TransitionMessage4 = "КАБИНЕТ БОССА";
 global.TransitionMessage5 = "РАБОТА. 08:30";
-global.TransitionMessageEnd = "ПРОДОЛЖЕНИЯ НЕ БУДЕТ";
+global.TransitionMessageEnd = "";
 
 //---------------------------------cut scene 1------------------------------------
 global.textCutScene1_1 = "БАРМЕН: \nГоворишь, никогда не видел снов? Странный ты тип. Быть такого не может... Наверное, ты просто их не запоминаешь.";

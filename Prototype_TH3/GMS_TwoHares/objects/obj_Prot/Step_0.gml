@@ -5,7 +5,7 @@ switch(global.objFirstLevelLogic.currentState)
 		if not global.StateBlockHeroAction {
 			scr_WalkProt(obj_Prot, spr_ProtIdleNakedLeft, spr_ProtIdleNakedRight, spr_ProtWalkNakedLeft, spr_ProtWalkNakedRight, RoomSteps);
 		}
-		else{
+		else{			
 			//отключаем звук ходьбы
 			if WalkSoundID {
 				audio_stop_sound(WalkSoundID);
@@ -25,7 +25,7 @@ switch(global.objFirstLevelLogic.currentState)
 				path = path_add();
 				mp_grid_path(grid, path, x, y, x, y, 1)
 				path_start(path, 0.7, path_action_stop, 1);
-			}			
+			}
 		}
 	break;	
 
@@ -53,7 +53,7 @@ switch(global.objFirstLevelLogic.currentState)
 		if not global.StateBlockHeroAction {
 			scr_WalkProt(obj_Prot, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight, RoomSteps);
 		}
-		else{
+		else{	
 			//отключаем звук ходьбы
 			if WalkSoundID {
 				audio_stop_sound(WalkSoundID);
@@ -73,7 +73,7 @@ switch(global.objFirstLevelLogic.currentState)
 				path = path_add();
 				mp_grid_path(grid, path, x, y, x, y, 1)
 				path_start(path, 0.7, path_action_stop, 1);
-			}			
+			}				
 		}
 	break;
 	

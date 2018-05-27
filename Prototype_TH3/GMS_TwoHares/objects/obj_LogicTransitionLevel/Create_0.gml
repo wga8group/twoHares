@@ -3,6 +3,11 @@
 
 audio_stop_all();
 cursor_sprite = spr_CursorMain;
+obj_BossShoot.visible = false;
+obj_ProtDead.visible = false;
+bossShoot = false;
+global.TransitionDuration = 160;
+
 var file;
 
 switch(global.CurrentLevel){
@@ -59,19 +64,14 @@ switch(global.CurrentLevel){
 
 	case GameLevels.Level_End:
 		global.TransitionDuration = 500;
+		obj_BossShoot.visible = true;
+		obj_ProtDead.image_speed = 0;
+		obj_ProtDead.visible = true;
+		
+		
 		var soundID = audio_play_sound(sou_TitleMusic, 1, false);
 		audio_sound_gain(soundID , global.VolumeMusic, 0);
-		soundID = audio_play_sound(sou_PistolShoot, 1, false);
-		audio_sound_gain(soundID , global.VolumeSound, 0);
-		soundID = audio_play_sound(sou_Laugh, 1, false);
-		audio_sound_gain(soundID , global.VolumeSound, 1000);
-		
-		if global.CurrentCheckpointsAvailable <= 4 {
-			global.CurrentCheckpointsAvailable += 1;
-			file = file_text_open_write("Saves" + "GameSaves.txt");
-			file_text_write_real(file, global.CurrentCheckpointsAvailable);
-			file_text_close(file);
-		}
+
 		transitionToLevel = global.rmEndTitles;
 		transitionMessage = global.TransitionMessageEnd;
 	break;

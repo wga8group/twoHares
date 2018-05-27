@@ -5,4 +5,3 @@ mp_grid_add_instances(grid, obj_wall, true);
 path = noone;
 WalkSoundID = undefined;
 
-

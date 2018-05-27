@@ -3,6 +3,7 @@ if not global.StateBlockHeroAction {
 	scr_WalkProt(obj_ProtDressed, spr_ProtIdleLeft, spr_ProtIdleRight, spr_ProtWalkLeft, spr_ProtWalkRight, RoomSteps);
 }
 else{
+	
 	//отключаем звук ходьбы
 	if WalkSoundID {
 		audio_stop_sound(WalkSoundID);

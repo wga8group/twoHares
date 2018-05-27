@@ -84,6 +84,7 @@ global.BrushInInventory = false;
 global.BossSafePass = "260686";
 global.OfficeSafeOpen = false;
 global.IsRussLang = true;
+global.ClickAfterInventory = false;
 
 enum GameLevels{
 	CutScene_1,
@@ -128,7 +129,9 @@ global.SavesFile = file_text_open_read("Saves" + "GameSaves.txt");
 if global.SavesFile {
 	global.CurrentCheckpointsAvailable = file_text_read_real(global.SavesFile);
 }
-
+if global.CurrentCheckpointsAvailable > 4 {
+	global.CurrentCheckpointsAvailable = 4;
+}
 
 
 //Звук
